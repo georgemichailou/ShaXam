@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"       
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             BackgroundColor="White"
+             x:Class="ShaXam.Views.RecentView">
+    <ContentView.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            
+            <Grid Grid.Row="0">
+                <Label Margin="16,0,0,0" VerticalOptions="Center" FontSize="Large" Text="&#xf013;" TextColor="Gray" FontFamily="{StaticResource FontAwesomeSolid}" />   
+                <Label Text="Library" FontSize="Default" TextColor="Black" VerticalOptions="Center" HorizontalOptions="Center" FontAttributes="Bold"/>
+            <BoxView HeightRequest="1" VerticalOptions="End" BackgroundColor="Silver"/>
+            </Grid>
+                
+        <CollectionView Grid.Row="1" x:Name="RecentList" Margin="10,0,10,10">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" VerticalItemSpacing="10" HorizontalItemSpacing="10" Span="2"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.Header>
+                    <Grid HeightRequest="360">
+                            <ffimageloading:CachedImage
+                                DownsampleToViewSize="true"
+                                Aspect="AspectFill"
+                                LoadingPlaceholder="placeholder.png"
+                                Source = "https://m.media-amazon.com/images/I/81JJCZm-2AL._SS500_.jpg">
+                            </ffimageloading:CachedImage>   
+                            <yummy:PancakeView
+                                BackgroundGradientAngle="180"
+                                BackgroundGradientStartColor="{StaticResource White}"
+                                BackgroundGradientEndColor="Transparent"/>   
+                        
+                        <StackLayout Margin="0,0,0,15" VerticalOptions="End" HorizontalOptions="Center">
+                            <Label Text="My Life Is Going On" LineBreakMode="WordWrap" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold" LineHeight="0.8" TextColor="Black"/>
+                            <Label Text="Cecilia Krull" FontSize="Default" HorizontalTextAlignment="Center" TextColor="Gray"/>
+                            <StackLayout HorizontalOptions="Center" Orientation="Horizontal">
+                                <Frame Padding="10" CornerRadius="20" HasShadow="false" BackgroundColor="Black">
+                                    <StackLayout Spacing="0" Orientation="Horizontal">
+                                        <Label Margin="6,3,0,6" Text="OPEN IN" FontSize="Default" TextColor="White"/>
+                                        <Label Margin="6,5,6,6" FontSize="Default" Text="&#xf179;" TextColor="White" FontFamily="{StaticResource FontAwesomeBrands}" />   
+                                        <Label Margin="0,3,6,6" Text="Music" FontSize="Default" TextColor="White"/>
+                                    </StackLayout>
+                                </Frame>  
+                                <Frame Padding="10" CornerRadius="20" HasShadow="false" BackgroundColor="Black">
+                                    <StackLayout Spacing="0" Orientation="Horizontal">
+                                        <Label Margin="6,5,6,6" FontSize="Default" Text="&#xf142;" TextColor="White" FontFamily="{StaticResource FontAwesomeSolid}" />   
+                                    </StackLayout>
+                                </Frame>   
+                            </StackLayout>
+                        </StackLayout>
+
+                    </Grid>
+                </CollectionView.Header>
+                <CollectionView.Footer>
+                    <Grid>
+                        <Button Margin="0,20,0,0" BackgroundColor="{StaticResource DarkBlue}" TextColor="White" Text="SEE ALL"/>
+                    </Grid>
+                </CollectionView.Footer>
+                <CollectionView.ItemTemplate>
+                <DataTemplate>
+                <Frame Padding="2,2,2,2" OutlineColor="Silver" HasShadow="false" CornerRadius="6" Grid.Column="1">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="200"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0">
+                            <ffimageloading:CachedImage
+                                DownsampleToViewSize="true"
+                                Aspect="AspectFill"
+                                LoadingPlaceholder="placeholder.png"
+                                Source = "{Binding songImg}">
+                            </ffimageloading:CachedImage>                        
+                        </Grid>
+                        <Grid Grid.Row="1" BackgroundColor="White">
+                            <StackLayout Margin="12">
+                                <Label Text="{Binding songTitle}" FontSize="Default" FontAttributes="Bold" LineHeight="0.8" TextColor="Black"/>
+                                <Label Text="{Binding singerName}" FontSize="Small" TextColor="Gray"/>
+                                
+                                <Frame Padding="0" CornerRadius="12" Margin="0,20,0,0" HasShadow="false" HeightRequest="25" HorizontalOptions="Start" BackgroundColor="Black">
+                                    <StackLayout Spacing="0" Orientation="Horizontal">
+                                        <Label Margin="6,5,6,6" FontSize="Small" Text="&#xf179;" TextColor="White" FontFamily="{StaticResource FontAwesomeBrands}" />   
+                                        <Label Margin="0,3,6,6" Text="Music" FontSize="Small" TextColor="White"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Grid>
+                    </Grid>
+                </Frame>   
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        </Grid>
+    </ContentView.Content>
+</ContentView>
