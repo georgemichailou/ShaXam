@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
 using Foundation;
 using Lottie.Forms.iOS.Renderers;
 using UIKit;
@@ -29,7 +28,7 @@ namespace ShaXam.iOS
 
             global::Xamarin.Forms.Forms.Init();
 
-            //AnimationViewRenderer.Init();
+            AnimationViewRenderer.Init();
 
             LoadApplication(new App());
 

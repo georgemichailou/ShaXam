@@ -7,13 +7,13 @@
              x:Class="ShaXam.MainPage">
     
         <ContentPage.Resources>
-        <ResourceDictionary>
-            <carouselStuff:CustomViewSelector x:Key="mySelector"/>
-        </ResourceDictionary>
-    </ContentPage.Resources>
-    
+            <ResourceDictionary>
+                <carouselStuff:CustomViewSelector x:Key="mySelector"/>
+            </ResourceDictionary>
+        </ContentPage.Resources>
    
-        <CarouselView ItemsSource="{Binding AvaiableViews}"
+        <CarouselView x:Name="MainCarousel" 
+                      ItemsSource="{Binding AvaiableViews}"
                       ItemTemplate="{StaticResource mySelector}">
             <CarouselView.ItemsLayout>
                 <GridItemsLayout 

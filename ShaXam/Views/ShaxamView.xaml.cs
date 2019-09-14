@@ -9,6 +9,21 @@ namespace ShaXam.Views
         public ShaxamView()
         {
             InitializeComponent();
+
+            TapGestureRecognizer libraryTapGestureRecognizer = new TapGestureRecognizer();
+            libraryTapGestureRecognizer.Tapped+= (sender, e) =>
+            {
+                MessagingCenter.Send("0", "ChangeCarouselPosition");
+            };
+            LibrarySL.GestureRecognizers.Add(libraryTapGestureRecognizer);
+
+            TapGestureRecognizer discoverTapGestureRecognizer = new TapGestureRecognizer();
+            discoverTapGestureRecognizer.Tapped += (sender, e) =>
+            {
+                MessagingCenter.Send("2", "ChangeCarouselPosition");
+            };
+            DiscoverSL.GestureRecognizers.Add(discoverTapGestureRecognizer);
+
         }
     }
 }

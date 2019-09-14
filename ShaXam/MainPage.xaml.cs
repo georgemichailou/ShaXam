@@ -30,6 +30,14 @@ namespace ShaXam
 
             BindingContext = this;
 
+            MainCarousel.Position = 1;
+
+            MessagingCenter.Subscribe<string>(this,"ChangeCarouselPosition", (sender) =>
+            {
+                MainCarousel.Position = Convert.ToInt16(sender);
+            });
+            
         }
+
     }
 }

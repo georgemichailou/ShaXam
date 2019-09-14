@@ -5,6 +5,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Lottie.Forms.Droid;
 
 namespace ShaXam.Droid
 {
@@ -23,7 +24,9 @@ namespace ShaXam.Droid
             global::Xamarin.Forms.Forms.SetFlags("CollectionView_Experimental");
 
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
-            
+
+            AnimationViewRenderer.Init();
+
             LoadApplication(new App());
         }
     }

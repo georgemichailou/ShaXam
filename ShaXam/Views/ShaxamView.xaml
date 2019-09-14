@@ -18,27 +18,25 @@
             BackgroundGradientEndColor="Transparent"/>
             
             <Grid Grid.Row="0">
-                <StackLayout Margin="22,22,0,0" HorizontalOptions="Start" VerticalOptions="Center">
-                    <Label FontSize="Large" HorizontalOptions="Center" Text="&#xf51f;" TextColor="White" FontFamily="{StaticResource FontAwesomeSolid}" /> 
+                <StackLayout x:Name="LibrarySL" Margin="22,22,0,0" HorizontalOptions="Start" VerticalOptions="Center">
+                    <Label FontSize="24" HorizontalOptions="Center" Text="&#xf51f;" TextColor="White" FontFamily="{StaticResource FontAwesomeSolid}" /> 
                     <Label FontSize="Small" Text="Library" TextColor="White" FontFamily="{StaticResource FontAwesomeSolid}" /> 
                 </StackLayout>
-                <StackLayout Margin="0,22,22,0" HorizontalOptions="End" VerticalOptions="Center">
-                    <Label FontSize="Large" HorizontalOptions="Center" Text="&#xf02b;" TextColor="White" FontFamily="{StaticResource FontAwesomeSolid}" /> 
+                <StackLayout x:Name="DiscoverSL" Margin="0,22,22,0" HorizontalOptions="End" VerticalOptions="Center">
+                    <Label FontSize="24" HorizontalOptions="Center" Text="&#xf02b;" TextColor="White" FontFamily="{StaticResource FontAwesomeSolid}" /> 
                     <Label FontSize="Small" Text="Discover" TextColor="White" FontFamily="{StaticResource FontAwesomeSolid}" /> 
                 </StackLayout>
             </Grid>
             
-            <Image Source="icon.png"/>
-            
-<!--                <forms:AnimationView x:Name="AnimationView"
-                                     Grid.Row="1"
-                         Animation="animation.json"
-                         Loop="True"
-                         AutoPlay="True"
-                         HeightRequest="250"
-                         WidthRequest="250"
-                         VerticalOptions="Center"
-                         HorizontalOptions="Center" />-->
+            <forms:AnimationView x:Name="AnimationView"
+                     Grid.Row="0" Grid.RowSpan="2"
+                     Animation="animation.json"
+                     Loop="True"
+                     AutoPlay="True"
+                     HeightRequest="220"
+                     WidthRequest="220"
+                     VerticalOptions="Center"
+                     HorizontalOptions="Center" />
             
             </Grid>
     </ContentView.Content>
