@@ -16,7 +16,7 @@
                       ItemsSource="{Binding AvaiableViews}"
                       ItemTemplate="{StaticResource mySelector}">
             <CarouselView.ItemsLayout>
-                <GridItemsLayout 
+                <LinearItemsLayout 
                     Orientation="Horizontal" 
                     SnapPointsAlignment="Center" 
                     SnapPointsType="Mandatory"/>
