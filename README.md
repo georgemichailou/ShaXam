@@ -1,2 +1,10 @@
 # ShaXam
-Shazam Clone using Xamarin Forms
+Shazam UI Clone using Xamarin Forms
+
+## Tools used
+- Lottie
+– FFImageLoading
+- PancakeView
+
+
+
