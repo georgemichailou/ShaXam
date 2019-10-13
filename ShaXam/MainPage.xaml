@@ -15,12 +15,12 @@
         <CarouselView x:Name="MainCarousel" 
                       ItemsSource="{Binding AvaiableViews}"
                       ItemTemplate="{StaticResource mySelector}">
-            <CarouselView.ItemsLayout>
+<!--            <CarouselView.ItemsLayout>
                 <LinearItemsLayout 
                     Orientation="Horizontal" 
                     SnapPointsAlignment="Center" 
                     SnapPointsType="Mandatory"/>
-            </CarouselView.ItemsLayout>
+            </CarouselView.ItemsLayout>-->
         </CarouselView>
    
 </ContentPage>

@@ -17,8 +17,6 @@ namespace ShaXam
     {
 
         public List<Type> AvaiableViews { get; set; } // Must have default value or be set before the BindingContext is set.
-        private int _position;
-        public int Position { get { return _position; } set { _position = value; OnPropertyChanged(); } }
 
         public MainPage()
         {

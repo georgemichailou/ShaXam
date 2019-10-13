@@ -9,10 +9,12 @@
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="60"/>
+                <RowDefinition Height="80"/>
+                <RowDefinition Height="2*"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             
-            <yummy:PancakeView Grid.Row="0" Grid.RowSpan="2"
+            <yummy:PancakeView Grid.Row="0" Grid.RowSpan="4"
             BackgroundGradientAngle="180"
             BackgroundGradientStartColor="{StaticResource DarkBlue}"
             BackgroundGradientEndColor="Transparent"/>
@@ -20,24 +22,48 @@
             <Grid Grid.Row="0">
                 <StackLayout x:Name="LibrarySL" Margin="22,22,0,0" HorizontalOptions="Start" VerticalOptions="Center">
                     <Label FontSize="24" HorizontalOptions="Center" Text="&#xf51f;" TextColor="White" FontFamily="{StaticResource FontAwesomeSolid}" /> 
-                    <Label FontSize="Small" Text="Library" TextColor="White" FontFamily="{StaticResource FontAwesomeSolid}" /> 
+                    <Label FontAttributes="Bold" FontSize="Small" Text="Library" TextColor="White"/> 
                 </StackLayout>
                 <StackLayout x:Name="DiscoverSL" Margin="0,22,22,0" HorizontalOptions="End" VerticalOptions="Center">
                     <Label FontSize="24" HorizontalOptions="Center" Text="&#xf02b;" TextColor="White" FontFamily="{StaticResource FontAwesomeSolid}" /> 
-                    <Label FontSize="Small" Text="Discover" TextColor="White" FontFamily="{StaticResource FontAwesomeSolid}" /> 
+                    <Label FontAttributes="Bold" FontSize="Small" Text="Discover" TextColor="White"/> 
                 </StackLayout>
             </Grid>
             
-            <forms:AnimationView x:Name="AnimationView"
-                     Grid.Row="0" Grid.RowSpan="2"
-                     Animation="animation.json"
-                     Loop="True"
-                     AutoPlay="True"
-                     HeightRequest="220"
-                     WidthRequest="220"
-                     VerticalOptions="Center"
-                     HorizontalOptions="Center" />
+            <Label  Grid.Row="1"
+                    Text="Tap to ShaXam" 
+                    TextColor="White" 
+                    FontSize="Large" 
+                    HorizontalOptions="Center" 
+                    VerticalOptions="End"/>
             
+            <Grid Grid.Row="2">
+                <forms:AnimationView x:Name="AnimationView"
+                    Margin="0,40,0,0"
+                    Animation="animation.json"
+                    Loop="True"
+                    AutoPlay="True"
+                    HeightRequest="220"
+                    WidthRequest="220"
+                    VerticalOptions="Start"
+                    HorizontalOptions="Center" />
+            </Grid>
+            
+            <Grid Grid.Row="3">
+                <Button
+                    Text="&#xf030;" 
+                    FontSize="32" 
+                    TextColor="#2196F3" 
+                    FontFamily="{StaticResource FontAwesomeSolid}"
+                    WidthRequest="60"
+                    HeightRequest="60"
+                    CornerRadius="30"
+                    VerticalOptions="Start"
+                    HorizontalOptions="Center"
+                    BackgroundColor="White"/>
+            </Grid>
+
+                        
             </Grid>
     </ContentView.Content>
 </ContentView>
