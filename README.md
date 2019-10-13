@@ -3,7 +3,7 @@ Shazam UI Clone using Xamarin Forms
 
 ## Tools used
 - Lottie
-– FFImageLoading
+- FFImageLoading
 - PancakeView
 
 
