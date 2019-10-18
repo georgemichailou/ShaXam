@@ -34,6 +34,8 @@
             
     <Color x:Key="DarkBlue">#1180ff</Color>
     <Color x:Key="White">#ffffff</Color>
+    <Color x:Key="Blue">#2196F3</Color>
+            
             
   </ResourceDictionary>
 </Application.Resources>

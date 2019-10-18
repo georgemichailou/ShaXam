@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"       
              xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
-             BackgroundColor="#2196F3"
+             BackgroundColor="{StaticResource Blue}"
              x:Class="ShaXam.Views.ShaxamView">
     <ContentView.Content>
         <Grid>
@@ -15,9 +15,9 @@
             </Grid.RowDefinitions>
             
             <yummy:PancakeView Grid.Row="0" Grid.RowSpan="4"
-            BackgroundGradientAngle="180"
-            BackgroundGradientStartColor="{StaticResource DarkBlue}"
-            BackgroundGradientEndColor="Transparent"/>
+                BackgroundGradientAngle="180"
+                BackgroundGradientStartColor="{StaticResource DarkBlue}"
+                BackgroundGradientEndColor="Transparent"/>
             
             <Grid Grid.Row="0">
                 <StackLayout x:Name="LibrarySL" Margin="22,22,0,0" HorizontalOptions="Start" VerticalOptions="Center">
@@ -39,14 +39,12 @@
             
             <Grid Grid.Row="2">
                 <forms:AnimationView x:Name="AnimationView"
-                    Margin="0,40,0,0"
+                    Margin="40"
                     Animation="animation.json"
                     Loop="True"
                     AutoPlay="True"
-                    HeightRequest="220"
-                    WidthRequest="220"
-                    VerticalOptions="Start"
-                    HorizontalOptions="Center" />
+                    VerticalOptions="FillAndExpand"
+                    HorizontalOptions="FillAndExpand" />
             </Grid>
             
             <Grid Grid.Row="3">

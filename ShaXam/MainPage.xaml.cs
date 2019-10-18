@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using ShaXam.DependencyServices;
 using ShaXam.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
@@ -21,21 +19,37 @@ namespace ShaXam
         public MainPage()
         {
             InitializeComponent();
-
+            
             On<Xamarin.Forms.PlatformConfiguration.iOS>().SetUseSafeArea(true);
 
             AvaiableViews = new List<Type>() { typeof(RecentView), typeof(ShaxamView), typeof(DiscoverView) };
 
             BindingContext = this;
 
-            MainCarousel.Position = 1;
-
-            MessagingCenter.Subscribe<string>(this,"ChangeCarouselPosition", (sender) =>
+            MessagingCenter.Subscribe<string>(this, "ChangeCarouselPosition", (sender) =>
             {
                 MainCarousel.Position = Convert.ToInt16(sender);
             });
-            
-        }
+             
+            MainCarousel.PositionChanged += (sender, e) =>
+            {
+                switch (e.CurrentPosition)
+                {
+                    case 1:
+                        DependencyService.Get<IStatusBarStyleManager>().SetColoredStatusBar("#2196F3");
+                        MainBG.BackgroundColor = (Color)Xamarin.Forms.Application.Current.Resources["DarkBlue"];
+                        break;
+                    case 0:
+                    case 2:
+                        DependencyService.Get<IStatusBarStyleManager>().SetWhiteStatusBar();
+                        MainBG.BackgroundColor = Color.White;
+                        break;
+                    default:
+                        break;
+                }
+            };
 
+            MainCarousel.Position = 1;
+        }
     }
 }

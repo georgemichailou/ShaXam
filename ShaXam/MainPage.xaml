@@ -4,7 +4,9 @@
              xmlns:local="clr-namespace:ShaXam" 
              xmlns:carouselStuff="clr-namespace:ShaXam.UIHelper"
              xmlns:views="clr-namespace:ShaXam.Views" 
-             x:Class="ShaXam.MainPage">
+             x:Class="ShaXam.MainPage"
+             x:Name="MainBG"
+             BackgroundColor="Red">
     
         <ContentPage.Resources>
             <ResourceDictionary>
@@ -15,12 +17,12 @@
         <CarouselView x:Name="MainCarousel" 
                       ItemsSource="{Binding AvaiableViews}"
                       ItemTemplate="{StaticResource mySelector}">
-<!--            <CarouselView.ItemsLayout>
+           <CarouselView.ItemsLayout>
                 <LinearItemsLayout 
                     Orientation="Horizontal" 
                     SnapPointsAlignment="Center" 
                     SnapPointsType="Mandatory"/>
-            </CarouselView.ItemsLayout>-->
+            </CarouselView.ItemsLayout>
         </CarouselView>
    
 </ContentPage>
