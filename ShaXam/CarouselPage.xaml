@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:viewModels="clr-namespace:ShaXam.ViewModels"
              xmlns:cards="clr-namespace:PanCardView;assembly=PanCardView"
              xmlns:controls="clr-namespace:PanCardView.Controls;assembly=PanCardView"
@@ -7,13 +7,13 @@
              xmlns:proc="clr-namespace:PanCardView.Processors;assembly=PanCardView"
              xmlns:ffimage="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-             x:Class="ShaXam.Views.DiscoverView">
+             x:Class="ShaXam.CarouselPage">
     
-    <ContentView.BindingContext>
+    <ContentPage.BindingContext>
         <viewModels:CardsSampleViewModel/>
-    </ContentView.BindingContext>
+    </ContentPage.BindingContext>
     
-    <ContentView.Content>
+    <ContentPage.Content>
         <StackLayout VerticalOptions="Center">
             <cards:CoverFlowView 
                 IsHorizontalOrientation="false"
@@ -45,5 +45,5 @@
 
             </cards:CoverFlowView>
         </StackLayout>
-    </ContentView.Content>
-</ContentView>
+    </ContentPage.Content>
+</ContentPage>

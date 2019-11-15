@@ -15,12 +15,14 @@
     <PackageReference Include="Xamarin.FFImageLoading.Forms" Version="2.4.11.982" />
     <PackageReference Include="Xamarin.Forms.PancakeView" Version="1.1.8" />
     <PackageReference Include="Com.Airbnb.Xamarin.Forms.Lottie" Version="3.0.2" />
-    <PackageReference Include="Xamarin.Forms" Version="4.3.0.851321-pre3" />
+    <PackageReference Include="Xamarin.Forms" Version="4.4.0.991210-pre2" />
+    <PackageReference Include="CardsView" Version="2.3.7" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
     <Folder Include="Views\" />
     <Folder Include="UI Helper\" />
     <Folder Include="DependencyServices\" />
+    <Folder Include="ViewModels\" />
   </ItemGroup>
 </Project>

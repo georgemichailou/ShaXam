@@ -7,6 +7,7 @@ using Android.Widget;
 using Android.OS;
 using Lottie.Forms.Droid;
 using Plugin.CurrentActivity;
+using PanCardView.Droid;
 
 namespace ShaXam.Droid
 {
@@ -27,6 +28,8 @@ namespace ShaXam.Droid
             CrossCurrentActivity.Current.Init(this, savedInstanceState);
 
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+
+            CardsViewRenderer.Preserve();
 
             AnimationViewRenderer.Init();
 

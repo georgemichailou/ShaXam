@@ -2636,6 +2636,2906 @@ namespace ShaXam.Droid
 			global::Lottie.Forms.Resource.Styleable.View_paddingEnd = global::ShaXam.Droid.Resource.Styleable.View_paddingEnd;
 			global::Lottie.Forms.Resource.Styleable.View_paddingStart = global::ShaXam.Droid.Resource.Styleable.View_paddingStart;
 			global::Lottie.Forms.Resource.Styleable.View_theme = global::ShaXam.Droid.Resource.Styleable.View_theme;
+			global::PanCardView.Droid.Resource.Animation.abc_fade_in = global::ShaXam.Droid.Resource.Animation.abc_fade_in;
+			global::PanCardView.Droid.Resource.Animation.abc_fade_out = global::ShaXam.Droid.Resource.Animation.abc_fade_out;
+			global::PanCardView.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::ShaXam.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::PanCardView.Droid.Resource.Animation.abc_popup_enter = global::ShaXam.Droid.Resource.Animation.abc_popup_enter;
+			global::PanCardView.Droid.Resource.Animation.abc_popup_exit = global::ShaXam.Droid.Resource.Animation.abc_popup_exit;
+			global::PanCardView.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::ShaXam.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::PanCardView.Droid.Resource.Animation.abc_slide_in_bottom = global::ShaXam.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::PanCardView.Droid.Resource.Animation.abc_slide_in_top = global::ShaXam.Droid.Resource.Animation.abc_slide_in_top;
+			global::PanCardView.Droid.Resource.Animation.abc_slide_out_bottom = global::ShaXam.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::PanCardView.Droid.Resource.Animation.abc_slide_out_top = global::ShaXam.Droid.Resource.Animation.abc_slide_out_top;
+			global::PanCardView.Droid.Resource.Animation.abc_tooltip_enter = global::ShaXam.Droid.Resource.Animation.abc_tooltip_enter;
+			global::PanCardView.Droid.Resource.Animation.abc_tooltip_exit = global::ShaXam.Droid.Resource.Animation.abc_tooltip_exit;
+			global::PanCardView.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::ShaXam.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::PanCardView.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::ShaXam.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::PanCardView.Droid.Resource.Animation.design_snackbar_in = global::ShaXam.Droid.Resource.Animation.design_snackbar_in;
+			global::PanCardView.Droid.Resource.Animation.design_snackbar_out = global::ShaXam.Droid.Resource.Animation.design_snackbar_out;
+			global::PanCardView.Droid.Resource.Animation.EnterFromLeft = global::ShaXam.Droid.Resource.Animation.EnterFromLeft;
+			global::PanCardView.Droid.Resource.Animation.EnterFromRight = global::ShaXam.Droid.Resource.Animation.EnterFromRight;
+			global::PanCardView.Droid.Resource.Animation.ExitToLeft = global::ShaXam.Droid.Resource.Animation.ExitToLeft;
+			global::PanCardView.Droid.Resource.Animation.ExitToRight = global::ShaXam.Droid.Resource.Animation.ExitToRight;
+			global::PanCardView.Droid.Resource.Animator.design_appbar_state_list_animator = global::ShaXam.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::PanCardView.Droid.Resource.Animator.design_fab_hide_motion_spec = global::ShaXam.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::PanCardView.Droid.Resource.Animator.design_fab_show_motion_spec = global::ShaXam.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::PanCardView.Droid.Resource.Animator.mtrl_btn_state_list_anim = global::ShaXam.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::PanCardView.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::ShaXam.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::PanCardView.Droid.Resource.Animator.mtrl_chip_state_list_anim = global::ShaXam.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::PanCardView.Droid.Resource.Animator.mtrl_fab_hide_motion_spec = global::ShaXam.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::PanCardView.Droid.Resource.Animator.mtrl_fab_show_motion_spec = global::ShaXam.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::PanCardView.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::ShaXam.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::PanCardView.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::ShaXam.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::PanCardView.Droid.Resource.Attribute.actionBarDivider = global::ShaXam.Droid.Resource.Attribute.actionBarDivider;
+			global::PanCardView.Droid.Resource.Attribute.actionBarItemBackground = global::ShaXam.Droid.Resource.Attribute.actionBarItemBackground;
+			global::PanCardView.Droid.Resource.Attribute.actionBarPopupTheme = global::ShaXam.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::PanCardView.Droid.Resource.Attribute.actionBarSize = global::ShaXam.Droid.Resource.Attribute.actionBarSize;
+			global::PanCardView.Droid.Resource.Attribute.actionBarSplitStyle = global::ShaXam.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::PanCardView.Droid.Resource.Attribute.actionBarStyle = global::ShaXam.Droid.Resource.Attribute.actionBarStyle;
+			global::PanCardView.Droid.Resource.Attribute.actionBarTabBarStyle = global::ShaXam.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::PanCardView.Droid.Resource.Attribute.actionBarTabStyle = global::ShaXam.Droid.Resource.Attribute.actionBarTabStyle;
+			global::PanCardView.Droid.Resource.Attribute.actionBarTabTextStyle = global::ShaXam.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::PanCardView.Droid.Resource.Attribute.actionBarTheme = global::ShaXam.Droid.Resource.Attribute.actionBarTheme;
+			global::PanCardView.Droid.Resource.Attribute.actionBarWidgetTheme = global::ShaXam.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::PanCardView.Droid.Resource.Attribute.actionButtonStyle = global::ShaXam.Droid.Resource.Attribute.actionButtonStyle;
+			global::PanCardView.Droid.Resource.Attribute.actionDropDownStyle = global::ShaXam.Droid.Resource.Attribute.actionDropDownStyle;
+			global::PanCardView.Droid.Resource.Attribute.actionLayout = global::ShaXam.Droid.Resource.Attribute.actionLayout;
+			global::PanCardView.Droid.Resource.Attribute.actionMenuTextAppearance = global::ShaXam.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::PanCardView.Droid.Resource.Attribute.actionMenuTextColor = global::ShaXam.Droid.Resource.Attribute.actionMenuTextColor;
+			global::PanCardView.Droid.Resource.Attribute.actionModeBackground = global::ShaXam.Droid.Resource.Attribute.actionModeBackground;
+			global::PanCardView.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::ShaXam.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::PanCardView.Droid.Resource.Attribute.actionModeCloseDrawable = global::ShaXam.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::PanCardView.Droid.Resource.Attribute.actionModeCopyDrawable = global::ShaXam.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::PanCardView.Droid.Resource.Attribute.actionModeCutDrawable = global::ShaXam.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::PanCardView.Droid.Resource.Attribute.actionModeFindDrawable = global::ShaXam.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::PanCardView.Droid.Resource.Attribute.actionModePasteDrawable = global::ShaXam.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::PanCardView.Droid.Resource.Attribute.actionModePopupWindowStyle = global::ShaXam.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::PanCardView.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::ShaXam.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::PanCardView.Droid.Resource.Attribute.actionModeShareDrawable = global::ShaXam.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::PanCardView.Droid.Resource.Attribute.actionModeSplitBackground = global::ShaXam.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::PanCardView.Droid.Resource.Attribute.actionModeStyle = global::ShaXam.Droid.Resource.Attribute.actionModeStyle;
+			global::PanCardView.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::ShaXam.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::PanCardView.Droid.Resource.Attribute.actionOverflowButtonStyle = global::ShaXam.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::PanCardView.Droid.Resource.Attribute.actionOverflowMenuStyle = global::ShaXam.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::PanCardView.Droid.Resource.Attribute.actionProviderClass = global::ShaXam.Droid.Resource.Attribute.actionProviderClass;
+			global::PanCardView.Droid.Resource.Attribute.actionViewClass = global::ShaXam.Droid.Resource.Attribute.actionViewClass;
+			global::PanCardView.Droid.Resource.Attribute.activityChooserViewStyle = global::ShaXam.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::PanCardView.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::ShaXam.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::PanCardView.Droid.Resource.Attribute.alertDialogCenterButtons = global::ShaXam.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::PanCardView.Droid.Resource.Attribute.alertDialogStyle = global::ShaXam.Droid.Resource.Attribute.alertDialogStyle;
+			global::PanCardView.Droid.Resource.Attribute.alertDialogTheme = global::ShaXam.Droid.Resource.Attribute.alertDialogTheme;
+			global::PanCardView.Droid.Resource.Attribute.allowStacking = global::ShaXam.Droid.Resource.Attribute.allowStacking;
+			global::PanCardView.Droid.Resource.Attribute.alpha = global::ShaXam.Droid.Resource.Attribute.alpha;
+			global::PanCardView.Droid.Resource.Attribute.alphabeticModifiers = global::ShaXam.Droid.Resource.Attribute.alphabeticModifiers;
+			global::PanCardView.Droid.Resource.Attribute.arrowHeadLength = global::ShaXam.Droid.Resource.Attribute.arrowHeadLength;
+			global::PanCardView.Droid.Resource.Attribute.arrowShaftLength = global::ShaXam.Droid.Resource.Attribute.arrowShaftLength;
+			global::PanCardView.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::ShaXam.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::PanCardView.Droid.Resource.Attribute.autoSizeMaxTextSize = global::ShaXam.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::PanCardView.Droid.Resource.Attribute.autoSizeMinTextSize = global::ShaXam.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::PanCardView.Droid.Resource.Attribute.autoSizePresetSizes = global::ShaXam.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::PanCardView.Droid.Resource.Attribute.autoSizeStepGranularity = global::ShaXam.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::PanCardView.Droid.Resource.Attribute.autoSizeTextType = global::ShaXam.Droid.Resource.Attribute.autoSizeTextType;
+			global::PanCardView.Droid.Resource.Attribute.background = global::ShaXam.Droid.Resource.Attribute.background;
+			global::PanCardView.Droid.Resource.Attribute.backgroundSplit = global::ShaXam.Droid.Resource.Attribute.backgroundSplit;
+			global::PanCardView.Droid.Resource.Attribute.backgroundStacked = global::ShaXam.Droid.Resource.Attribute.backgroundStacked;
+			global::PanCardView.Droid.Resource.Attribute.backgroundTint = global::ShaXam.Droid.Resource.Attribute.backgroundTint;
+			global::PanCardView.Droid.Resource.Attribute.backgroundTintMode = global::ShaXam.Droid.Resource.Attribute.backgroundTintMode;
+			global::PanCardView.Droid.Resource.Attribute.barLength = global::ShaXam.Droid.Resource.Attribute.barLength;
+			global::PanCardView.Droid.Resource.Attribute.behavior_autoHide = global::ShaXam.Droid.Resource.Attribute.behavior_autoHide;
+			global::PanCardView.Droid.Resource.Attribute.behavior_fitToContents = global::ShaXam.Droid.Resource.Attribute.behavior_fitToContents;
+			global::PanCardView.Droid.Resource.Attribute.behavior_hideable = global::ShaXam.Droid.Resource.Attribute.behavior_hideable;
+			global::PanCardView.Droid.Resource.Attribute.behavior_overlapTop = global::ShaXam.Droid.Resource.Attribute.behavior_overlapTop;
+			global::PanCardView.Droid.Resource.Attribute.behavior_peekHeight = global::ShaXam.Droid.Resource.Attribute.behavior_peekHeight;
+			global::PanCardView.Droid.Resource.Attribute.behavior_skipCollapsed = global::ShaXam.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::PanCardView.Droid.Resource.Attribute.borderlessButtonStyle = global::ShaXam.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::PanCardView.Droid.Resource.Attribute.borderWidth = global::ShaXam.Droid.Resource.Attribute.borderWidth;
+			global::PanCardView.Droid.Resource.Attribute.bottomAppBarStyle = global::ShaXam.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::PanCardView.Droid.Resource.Attribute.bottomNavigationStyle = global::ShaXam.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::PanCardView.Droid.Resource.Attribute.bottomSheetDialogTheme = global::ShaXam.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::PanCardView.Droid.Resource.Attribute.bottomSheetStyle = global::ShaXam.Droid.Resource.Attribute.bottomSheetStyle;
+			global::PanCardView.Droid.Resource.Attribute.boxBackgroundColor = global::ShaXam.Droid.Resource.Attribute.boxBackgroundColor;
+			global::PanCardView.Droid.Resource.Attribute.boxBackgroundMode = global::ShaXam.Droid.Resource.Attribute.boxBackgroundMode;
+			global::PanCardView.Droid.Resource.Attribute.boxCollapsedPaddingTop = global::ShaXam.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::PanCardView.Droid.Resource.Attribute.boxCornerRadiusBottomEnd = global::ShaXam.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::PanCardView.Droid.Resource.Attribute.boxCornerRadiusBottomStart = global::ShaXam.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::PanCardView.Droid.Resource.Attribute.boxCornerRadiusTopEnd = global::ShaXam.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::PanCardView.Droid.Resource.Attribute.boxCornerRadiusTopStart = global::ShaXam.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::PanCardView.Droid.Resource.Attribute.boxStrokeColor = global::ShaXam.Droid.Resource.Attribute.boxStrokeColor;
+			global::PanCardView.Droid.Resource.Attribute.boxStrokeWidth = global::ShaXam.Droid.Resource.Attribute.boxStrokeWidth;
+			global::PanCardView.Droid.Resource.Attribute.buttonBarButtonStyle = global::ShaXam.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::PanCardView.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::ShaXam.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::PanCardView.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::ShaXam.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::PanCardView.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::ShaXam.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::PanCardView.Droid.Resource.Attribute.buttonBarStyle = global::ShaXam.Droid.Resource.Attribute.buttonBarStyle;
+			global::PanCardView.Droid.Resource.Attribute.buttonGravity = global::ShaXam.Droid.Resource.Attribute.buttonGravity;
+			global::PanCardView.Droid.Resource.Attribute.buttonIconDimen = global::ShaXam.Droid.Resource.Attribute.buttonIconDimen;
+			global::PanCardView.Droid.Resource.Attribute.buttonPanelSideLayout = global::ShaXam.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::PanCardView.Droid.Resource.Attribute.buttonStyle = global::ShaXam.Droid.Resource.Attribute.buttonStyle;
+			global::PanCardView.Droid.Resource.Attribute.buttonStyleSmall = global::ShaXam.Droid.Resource.Attribute.buttonStyleSmall;
+			global::PanCardView.Droid.Resource.Attribute.buttonTint = global::ShaXam.Droid.Resource.Attribute.buttonTint;
+			global::PanCardView.Droid.Resource.Attribute.buttonTintMode = global::ShaXam.Droid.Resource.Attribute.buttonTintMode;
+			global::PanCardView.Droid.Resource.Attribute.cardBackgroundColor = global::ShaXam.Droid.Resource.Attribute.cardBackgroundColor;
+			global::PanCardView.Droid.Resource.Attribute.cardCornerRadius = global::ShaXam.Droid.Resource.Attribute.cardCornerRadius;
+			global::PanCardView.Droid.Resource.Attribute.cardElevation = global::ShaXam.Droid.Resource.Attribute.cardElevation;
+			global::PanCardView.Droid.Resource.Attribute.cardMaxElevation = global::ShaXam.Droid.Resource.Attribute.cardMaxElevation;
+			global::PanCardView.Droid.Resource.Attribute.cardPreventCornerOverlap = global::ShaXam.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::PanCardView.Droid.Resource.Attribute.cardUseCompatPadding = global::ShaXam.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::PanCardView.Droid.Resource.Attribute.cardViewStyle = global::ShaXam.Droid.Resource.Attribute.cardViewStyle;
+			global::PanCardView.Droid.Resource.Attribute.checkboxStyle = global::ShaXam.Droid.Resource.Attribute.checkboxStyle;
+			global::PanCardView.Droid.Resource.Attribute.checkedChip = global::ShaXam.Droid.Resource.Attribute.checkedChip;
+			global::PanCardView.Droid.Resource.Attribute.checkedIcon = global::ShaXam.Droid.Resource.Attribute.checkedIcon;
+			global::PanCardView.Droid.Resource.Attribute.checkedIconEnabled = global::ShaXam.Droid.Resource.Attribute.checkedIconEnabled;
+			global::PanCardView.Droid.Resource.Attribute.checkedIconVisible = global::ShaXam.Droid.Resource.Attribute.checkedIconVisible;
+			global::PanCardView.Droid.Resource.Attribute.checkedTextViewStyle = global::ShaXam.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::PanCardView.Droid.Resource.Attribute.chipBackgroundColor = global::ShaXam.Droid.Resource.Attribute.chipBackgroundColor;
+			global::PanCardView.Droid.Resource.Attribute.chipCornerRadius = global::ShaXam.Droid.Resource.Attribute.chipCornerRadius;
+			global::PanCardView.Droid.Resource.Attribute.chipEndPadding = global::ShaXam.Droid.Resource.Attribute.chipEndPadding;
+			global::PanCardView.Droid.Resource.Attribute.chipGroupStyle = global::ShaXam.Droid.Resource.Attribute.chipGroupStyle;
+			global::PanCardView.Droid.Resource.Attribute.chipIcon = global::ShaXam.Droid.Resource.Attribute.chipIcon;
+			global::PanCardView.Droid.Resource.Attribute.chipIconEnabled = global::ShaXam.Droid.Resource.Attribute.chipIconEnabled;
+			global::PanCardView.Droid.Resource.Attribute.chipIconSize = global::ShaXam.Droid.Resource.Attribute.chipIconSize;
+			global::PanCardView.Droid.Resource.Attribute.chipIconTint = global::ShaXam.Droid.Resource.Attribute.chipIconTint;
+			global::PanCardView.Droid.Resource.Attribute.chipIconVisible = global::ShaXam.Droid.Resource.Attribute.chipIconVisible;
+			global::PanCardView.Droid.Resource.Attribute.chipMinHeight = global::ShaXam.Droid.Resource.Attribute.chipMinHeight;
+			global::PanCardView.Droid.Resource.Attribute.chipSpacing = global::ShaXam.Droid.Resource.Attribute.chipSpacing;
+			global::PanCardView.Droid.Resource.Attribute.chipSpacingHorizontal = global::ShaXam.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::PanCardView.Droid.Resource.Attribute.chipSpacingVertical = global::ShaXam.Droid.Resource.Attribute.chipSpacingVertical;
+			global::PanCardView.Droid.Resource.Attribute.chipStandaloneStyle = global::ShaXam.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::PanCardView.Droid.Resource.Attribute.chipStartPadding = global::ShaXam.Droid.Resource.Attribute.chipStartPadding;
+			global::PanCardView.Droid.Resource.Attribute.chipStrokeColor = global::ShaXam.Droid.Resource.Attribute.chipStrokeColor;
+			global::PanCardView.Droid.Resource.Attribute.chipStrokeWidth = global::ShaXam.Droid.Resource.Attribute.chipStrokeWidth;
+			global::PanCardView.Droid.Resource.Attribute.chipStyle = global::ShaXam.Droid.Resource.Attribute.chipStyle;
+			global::PanCardView.Droid.Resource.Attribute.closeIcon = global::ShaXam.Droid.Resource.Attribute.closeIcon;
+			global::PanCardView.Droid.Resource.Attribute.closeIconEnabled = global::ShaXam.Droid.Resource.Attribute.closeIconEnabled;
+			global::PanCardView.Droid.Resource.Attribute.closeIconEndPadding = global::ShaXam.Droid.Resource.Attribute.closeIconEndPadding;
+			global::PanCardView.Droid.Resource.Attribute.closeIconSize = global::ShaXam.Droid.Resource.Attribute.closeIconSize;
+			global::PanCardView.Droid.Resource.Attribute.closeIconStartPadding = global::ShaXam.Droid.Resource.Attribute.closeIconStartPadding;
+			global::PanCardView.Droid.Resource.Attribute.closeIconTint = global::ShaXam.Droid.Resource.Attribute.closeIconTint;
+			global::PanCardView.Droid.Resource.Attribute.closeIconVisible = global::ShaXam.Droid.Resource.Attribute.closeIconVisible;
+			global::PanCardView.Droid.Resource.Attribute.closeItemLayout = global::ShaXam.Droid.Resource.Attribute.closeItemLayout;
+			global::PanCardView.Droid.Resource.Attribute.collapseContentDescription = global::ShaXam.Droid.Resource.Attribute.collapseContentDescription;
+			global::PanCardView.Droid.Resource.Attribute.collapsedTitleGravity = global::ShaXam.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::PanCardView.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::ShaXam.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::PanCardView.Droid.Resource.Attribute.collapseIcon = global::ShaXam.Droid.Resource.Attribute.collapseIcon;
+			global::PanCardView.Droid.Resource.Attribute.color = global::ShaXam.Droid.Resource.Attribute.color;
+			global::PanCardView.Droid.Resource.Attribute.colorAccent = global::ShaXam.Droid.Resource.Attribute.colorAccent;
+			global::PanCardView.Droid.Resource.Attribute.colorBackgroundFloating = global::ShaXam.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::PanCardView.Droid.Resource.Attribute.colorButtonNormal = global::ShaXam.Droid.Resource.Attribute.colorButtonNormal;
+			global::PanCardView.Droid.Resource.Attribute.colorControlActivated = global::ShaXam.Droid.Resource.Attribute.colorControlActivated;
+			global::PanCardView.Droid.Resource.Attribute.colorControlHighlight = global::ShaXam.Droid.Resource.Attribute.colorControlHighlight;
+			global::PanCardView.Droid.Resource.Attribute.colorControlNormal = global::ShaXam.Droid.Resource.Attribute.colorControlNormal;
+			global::PanCardView.Droid.Resource.Attribute.colorError = global::ShaXam.Droid.Resource.Attribute.colorError;
+			global::PanCardView.Droid.Resource.Attribute.colorPrimary = global::ShaXam.Droid.Resource.Attribute.colorPrimary;
+			global::PanCardView.Droid.Resource.Attribute.colorPrimaryDark = global::ShaXam.Droid.Resource.Attribute.colorPrimaryDark;
+			global::PanCardView.Droid.Resource.Attribute.colorSecondary = global::ShaXam.Droid.Resource.Attribute.colorSecondary;
+			global::PanCardView.Droid.Resource.Attribute.colorSwitchThumbNormal = global::ShaXam.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::PanCardView.Droid.Resource.Attribute.commitIcon = global::ShaXam.Droid.Resource.Attribute.commitIcon;
+			global::PanCardView.Droid.Resource.Attribute.contentDescription = global::ShaXam.Droid.Resource.Attribute.contentDescription;
+			global::PanCardView.Droid.Resource.Attribute.contentInsetEnd = global::ShaXam.Droid.Resource.Attribute.contentInsetEnd;
+			global::PanCardView.Droid.Resource.Attribute.contentInsetEndWithActions = global::ShaXam.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::PanCardView.Droid.Resource.Attribute.contentInsetLeft = global::ShaXam.Droid.Resource.Attribute.contentInsetLeft;
+			global::PanCardView.Droid.Resource.Attribute.contentInsetRight = global::ShaXam.Droid.Resource.Attribute.contentInsetRight;
+			global::PanCardView.Droid.Resource.Attribute.contentInsetStart = global::ShaXam.Droid.Resource.Attribute.contentInsetStart;
+			global::PanCardView.Droid.Resource.Attribute.contentInsetStartWithNavigation = global::ShaXam.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::PanCardView.Droid.Resource.Attribute.contentPadding = global::ShaXam.Droid.Resource.Attribute.contentPadding;
+			global::PanCardView.Droid.Resource.Attribute.contentPaddingBottom = global::ShaXam.Droid.Resource.Attribute.contentPaddingBottom;
+			global::PanCardView.Droid.Resource.Attribute.contentPaddingLeft = global::ShaXam.Droid.Resource.Attribute.contentPaddingLeft;
+			global::PanCardView.Droid.Resource.Attribute.contentPaddingRight = global::ShaXam.Droid.Resource.Attribute.contentPaddingRight;
+			global::PanCardView.Droid.Resource.Attribute.contentPaddingTop = global::ShaXam.Droid.Resource.Attribute.contentPaddingTop;
+			global::PanCardView.Droid.Resource.Attribute.contentScrim = global::ShaXam.Droid.Resource.Attribute.contentScrim;
+			global::PanCardView.Droid.Resource.Attribute.controlBackground = global::ShaXam.Droid.Resource.Attribute.controlBackground;
+			global::PanCardView.Droid.Resource.Attribute.coordinatorLayoutStyle = global::ShaXam.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::PanCardView.Droid.Resource.Attribute.cornerRadius = global::ShaXam.Droid.Resource.Attribute.cornerRadius;
+			global::PanCardView.Droid.Resource.Attribute.counterEnabled = global::ShaXam.Droid.Resource.Attribute.counterEnabled;
+			global::PanCardView.Droid.Resource.Attribute.counterMaxLength = global::ShaXam.Droid.Resource.Attribute.counterMaxLength;
+			global::PanCardView.Droid.Resource.Attribute.counterOverflowTextAppearance = global::ShaXam.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::PanCardView.Droid.Resource.Attribute.counterTextAppearance = global::ShaXam.Droid.Resource.Attribute.counterTextAppearance;
+			global::PanCardView.Droid.Resource.Attribute.customNavigationLayout = global::ShaXam.Droid.Resource.Attribute.customNavigationLayout;
+			global::PanCardView.Droid.Resource.Attribute.defaultQueryHint = global::ShaXam.Droid.Resource.Attribute.defaultQueryHint;
+			global::PanCardView.Droid.Resource.Attribute.dialogCornerRadius = global::ShaXam.Droid.Resource.Attribute.dialogCornerRadius;
+			global::PanCardView.Droid.Resource.Attribute.dialogPreferredPadding = global::ShaXam.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::PanCardView.Droid.Resource.Attribute.dialogTheme = global::ShaXam.Droid.Resource.Attribute.dialogTheme;
+			global::PanCardView.Droid.Resource.Attribute.displayOptions = global::ShaXam.Droid.Resource.Attribute.displayOptions;
+			global::PanCardView.Droid.Resource.Attribute.divider = global::ShaXam.Droid.Resource.Attribute.divider;
+			global::PanCardView.Droid.Resource.Attribute.dividerHorizontal = global::ShaXam.Droid.Resource.Attribute.dividerHorizontal;
+			global::PanCardView.Droid.Resource.Attribute.dividerPadding = global::ShaXam.Droid.Resource.Attribute.dividerPadding;
+			global::PanCardView.Droid.Resource.Attribute.dividerVertical = global::ShaXam.Droid.Resource.Attribute.dividerVertical;
+			global::PanCardView.Droid.Resource.Attribute.drawableSize = global::ShaXam.Droid.Resource.Attribute.drawableSize;
+			global::PanCardView.Droid.Resource.Attribute.drawerArrowStyle = global::ShaXam.Droid.Resource.Attribute.drawerArrowStyle;
+			global::PanCardView.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::ShaXam.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::PanCardView.Droid.Resource.Attribute.dropDownListViewStyle = global::ShaXam.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::PanCardView.Droid.Resource.Attribute.editTextBackground = global::ShaXam.Droid.Resource.Attribute.editTextBackground;
+			global::PanCardView.Droid.Resource.Attribute.editTextColor = global::ShaXam.Droid.Resource.Attribute.editTextColor;
+			global::PanCardView.Droid.Resource.Attribute.editTextStyle = global::ShaXam.Droid.Resource.Attribute.editTextStyle;
+			global::PanCardView.Droid.Resource.Attribute.elevation = global::ShaXam.Droid.Resource.Attribute.elevation;
+			global::PanCardView.Droid.Resource.Attribute.enforceMaterialTheme = global::ShaXam.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::PanCardView.Droid.Resource.Attribute.enforceTextAppearance = global::ShaXam.Droid.Resource.Attribute.enforceTextAppearance;
+			global::PanCardView.Droid.Resource.Attribute.errorEnabled = global::ShaXam.Droid.Resource.Attribute.errorEnabled;
+			global::PanCardView.Droid.Resource.Attribute.errorTextAppearance = global::ShaXam.Droid.Resource.Attribute.errorTextAppearance;
+			global::PanCardView.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::ShaXam.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::PanCardView.Droid.Resource.Attribute.expanded = global::ShaXam.Droid.Resource.Attribute.expanded;
+			global::PanCardView.Droid.Resource.Attribute.expandedTitleGravity = global::ShaXam.Droid.Resource.Attribute.expandedTitleGravity;
+			global::PanCardView.Droid.Resource.Attribute.expandedTitleMargin = global::ShaXam.Droid.Resource.Attribute.expandedTitleMargin;
+			global::PanCardView.Droid.Resource.Attribute.expandedTitleMarginBottom = global::ShaXam.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::PanCardView.Droid.Resource.Attribute.expandedTitleMarginEnd = global::ShaXam.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::PanCardView.Droid.Resource.Attribute.expandedTitleMarginStart = global::ShaXam.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::PanCardView.Droid.Resource.Attribute.expandedTitleMarginTop = global::ShaXam.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::PanCardView.Droid.Resource.Attribute.expandedTitleTextAppearance = global::ShaXam.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::PanCardView.Droid.Resource.Attribute.externalRouteEnabledDrawable = global::ShaXam.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::PanCardView.Droid.Resource.Attribute.fabAlignmentMode = global::ShaXam.Droid.Resource.Attribute.fabAlignmentMode;
+			global::PanCardView.Droid.Resource.Attribute.fabCradleMargin = global::ShaXam.Droid.Resource.Attribute.fabCradleMargin;
+			global::PanCardView.Droid.Resource.Attribute.fabCradleRoundedCornerRadius = global::ShaXam.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::PanCardView.Droid.Resource.Attribute.fabCradleVerticalOffset = global::ShaXam.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::PanCardView.Droid.Resource.Attribute.fabCustomSize = global::ShaXam.Droid.Resource.Attribute.fabCustomSize;
+			global::PanCardView.Droid.Resource.Attribute.fabSize = global::ShaXam.Droid.Resource.Attribute.fabSize;
+			global::PanCardView.Droid.Resource.Attribute.fastScrollEnabled = global::ShaXam.Droid.Resource.Attribute.fastScrollEnabled;
+			global::PanCardView.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::ShaXam.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::PanCardView.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::ShaXam.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::PanCardView.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable = global::ShaXam.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::PanCardView.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable = global::ShaXam.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::PanCardView.Droid.Resource.Attribute.firstBaselineToTopHeight = global::ShaXam.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::PanCardView.Droid.Resource.Attribute.floatingActionButtonStyle = global::ShaXam.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::PanCardView.Droid.Resource.Attribute.font = global::ShaXam.Droid.Resource.Attribute.font;
+			global::PanCardView.Droid.Resource.Attribute.fontFamily = global::ShaXam.Droid.Resource.Attribute.fontFamily;
+			global::PanCardView.Droid.Resource.Attribute.fontProviderAuthority = global::ShaXam.Droid.Resource.Attribute.fontProviderAuthority;
+			global::PanCardView.Droid.Resource.Attribute.fontProviderCerts = global::ShaXam.Droid.Resource.Attribute.fontProviderCerts;
+			global::PanCardView.Droid.Resource.Attribute.fontProviderFetchStrategy = global::ShaXam.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::PanCardView.Droid.Resource.Attribute.fontProviderFetchTimeout = global::ShaXam.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::PanCardView.Droid.Resource.Attribute.fontProviderPackage = global::ShaXam.Droid.Resource.Attribute.fontProviderPackage;
+			global::PanCardView.Droid.Resource.Attribute.fontProviderQuery = global::ShaXam.Droid.Resource.Attribute.fontProviderQuery;
+			global::PanCardView.Droid.Resource.Attribute.fontStyle = global::ShaXam.Droid.Resource.Attribute.fontStyle;
+			global::PanCardView.Droid.Resource.Attribute.fontVariationSettings = global::ShaXam.Droid.Resource.Attribute.fontVariationSettings;
+			global::PanCardView.Droid.Resource.Attribute.fontWeight = global::ShaXam.Droid.Resource.Attribute.fontWeight;
+			global::PanCardView.Droid.Resource.Attribute.foregroundInsidePadding = global::ShaXam.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::PanCardView.Droid.Resource.Attribute.gapBetweenBars = global::ShaXam.Droid.Resource.Attribute.gapBetweenBars;
+			global::PanCardView.Droid.Resource.Attribute.goIcon = global::ShaXam.Droid.Resource.Attribute.goIcon;
+			global::PanCardView.Droid.Resource.Attribute.headerLayout = global::ShaXam.Droid.Resource.Attribute.headerLayout;
+			global::PanCardView.Droid.Resource.Attribute.height = global::ShaXam.Droid.Resource.Attribute.height;
+			global::PanCardView.Droid.Resource.Attribute.helperText = global::ShaXam.Droid.Resource.Attribute.helperText;
+			global::PanCardView.Droid.Resource.Attribute.helperTextEnabled = global::ShaXam.Droid.Resource.Attribute.helperTextEnabled;
+			global::PanCardView.Droid.Resource.Attribute.helperTextTextAppearance = global::ShaXam.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::PanCardView.Droid.Resource.Attribute.hideMotionSpec = global::ShaXam.Droid.Resource.Attribute.hideMotionSpec;
+			global::PanCardView.Droid.Resource.Attribute.hideOnContentScroll = global::ShaXam.Droid.Resource.Attribute.hideOnContentScroll;
+			global::PanCardView.Droid.Resource.Attribute.hideOnScroll = global::ShaXam.Droid.Resource.Attribute.hideOnScroll;
+			global::PanCardView.Droid.Resource.Attribute.hintAnimationEnabled = global::ShaXam.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::PanCardView.Droid.Resource.Attribute.hintEnabled = global::ShaXam.Droid.Resource.Attribute.hintEnabled;
+			global::PanCardView.Droid.Resource.Attribute.hintTextAppearance = global::ShaXam.Droid.Resource.Attribute.hintTextAppearance;
+			global::PanCardView.Droid.Resource.Attribute.homeAsUpIndicator = global::ShaXam.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::PanCardView.Droid.Resource.Attribute.homeLayout = global::ShaXam.Droid.Resource.Attribute.homeLayout;
+			global::PanCardView.Droid.Resource.Attribute.hoveredFocusedTranslationZ = global::ShaXam.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::PanCardView.Droid.Resource.Attribute.icon = global::ShaXam.Droid.Resource.Attribute.icon;
+			global::PanCardView.Droid.Resource.Attribute.iconEndPadding = global::ShaXam.Droid.Resource.Attribute.iconEndPadding;
+			global::PanCardView.Droid.Resource.Attribute.iconGravity = global::ShaXam.Droid.Resource.Attribute.iconGravity;
+			global::PanCardView.Droid.Resource.Attribute.iconifiedByDefault = global::ShaXam.Droid.Resource.Attribute.iconifiedByDefault;
+			global::PanCardView.Droid.Resource.Attribute.iconPadding = global::ShaXam.Droid.Resource.Attribute.iconPadding;
+			global::PanCardView.Droid.Resource.Attribute.iconSize = global::ShaXam.Droid.Resource.Attribute.iconSize;
+			global::PanCardView.Droid.Resource.Attribute.iconStartPadding = global::ShaXam.Droid.Resource.Attribute.iconStartPadding;
+			global::PanCardView.Droid.Resource.Attribute.iconTint = global::ShaXam.Droid.Resource.Attribute.iconTint;
+			global::PanCardView.Droid.Resource.Attribute.iconTintMode = global::ShaXam.Droid.Resource.Attribute.iconTintMode;
+			global::PanCardView.Droid.Resource.Attribute.imageButtonStyle = global::ShaXam.Droid.Resource.Attribute.imageButtonStyle;
+			global::PanCardView.Droid.Resource.Attribute.indeterminateProgressStyle = global::ShaXam.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::PanCardView.Droid.Resource.Attribute.initialActivityCount = global::ShaXam.Droid.Resource.Attribute.initialActivityCount;
+			global::PanCardView.Droid.Resource.Attribute.insetForeground = global::ShaXam.Droid.Resource.Attribute.insetForeground;
+			global::PanCardView.Droid.Resource.Attribute.isLightTheme = global::ShaXam.Droid.Resource.Attribute.isLightTheme;
+			global::PanCardView.Droid.Resource.Attribute.itemBackground = global::ShaXam.Droid.Resource.Attribute.itemBackground;
+			global::PanCardView.Droid.Resource.Attribute.itemHorizontalPadding = global::ShaXam.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::PanCardView.Droid.Resource.Attribute.itemHorizontalTranslationEnabled = global::ShaXam.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::PanCardView.Droid.Resource.Attribute.itemIconPadding = global::ShaXam.Droid.Resource.Attribute.itemIconPadding;
+			global::PanCardView.Droid.Resource.Attribute.itemIconSize = global::ShaXam.Droid.Resource.Attribute.itemIconSize;
+			global::PanCardView.Droid.Resource.Attribute.itemIconTint = global::ShaXam.Droid.Resource.Attribute.itemIconTint;
+			global::PanCardView.Droid.Resource.Attribute.itemPadding = global::ShaXam.Droid.Resource.Attribute.itemPadding;
+			global::PanCardView.Droid.Resource.Attribute.itemSpacing = global::ShaXam.Droid.Resource.Attribute.itemSpacing;
+			global::PanCardView.Droid.Resource.Attribute.itemTextAppearance = global::ShaXam.Droid.Resource.Attribute.itemTextAppearance;
+			global::PanCardView.Droid.Resource.Attribute.itemTextAppearanceActive = global::ShaXam.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::PanCardView.Droid.Resource.Attribute.itemTextAppearanceInactive = global::ShaXam.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::PanCardView.Droid.Resource.Attribute.itemTextColor = global::ShaXam.Droid.Resource.Attribute.itemTextColor;
+			global::PanCardView.Droid.Resource.Attribute.keylines = global::ShaXam.Droid.Resource.Attribute.keylines;
+			global::PanCardView.Droid.Resource.Attribute.labelVisibilityMode = global::ShaXam.Droid.Resource.Attribute.labelVisibilityMode;
+			global::PanCardView.Droid.Resource.Attribute.lastBaselineToBottomHeight = global::ShaXam.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::PanCardView.Droid.Resource.Attribute.layout = global::ShaXam.Droid.Resource.Attribute.layout;
+			global::PanCardView.Droid.Resource.Attribute.layoutManager = global::ShaXam.Droid.Resource.Attribute.layoutManager;
+			global::PanCardView.Droid.Resource.Attribute.layout_anchor = global::ShaXam.Droid.Resource.Attribute.layout_anchor;
+			global::PanCardView.Droid.Resource.Attribute.layout_anchorGravity = global::ShaXam.Droid.Resource.Attribute.layout_anchorGravity;
+			global::PanCardView.Droid.Resource.Attribute.layout_behavior = global::ShaXam.Droid.Resource.Attribute.layout_behavior;
+			global::PanCardView.Droid.Resource.Attribute.layout_collapseMode = global::ShaXam.Droid.Resource.Attribute.layout_collapseMode;
+			global::PanCardView.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::ShaXam.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::PanCardView.Droid.Resource.Attribute.layout_dodgeInsetEdges = global::ShaXam.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::PanCardView.Droid.Resource.Attribute.layout_insetEdge = global::ShaXam.Droid.Resource.Attribute.layout_insetEdge;
+			global::PanCardView.Droid.Resource.Attribute.layout_keyline = global::ShaXam.Droid.Resource.Attribute.layout_keyline;
+			global::PanCardView.Droid.Resource.Attribute.layout_scrollFlags = global::ShaXam.Droid.Resource.Attribute.layout_scrollFlags;
+			global::PanCardView.Droid.Resource.Attribute.layout_scrollInterpolator = global::ShaXam.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::PanCardView.Droid.Resource.Attribute.liftOnScroll = global::ShaXam.Droid.Resource.Attribute.liftOnScroll;
+			global::PanCardView.Droid.Resource.Attribute.lineHeight = global::ShaXam.Droid.Resource.Attribute.lineHeight;
+			global::PanCardView.Droid.Resource.Attribute.lineSpacing = global::ShaXam.Droid.Resource.Attribute.lineSpacing;
+			global::PanCardView.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::ShaXam.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::PanCardView.Droid.Resource.Attribute.listDividerAlertDialog = global::ShaXam.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::PanCardView.Droid.Resource.Attribute.listItemLayout = global::ShaXam.Droid.Resource.Attribute.listItemLayout;
+			global::PanCardView.Droid.Resource.Attribute.listLayout = global::ShaXam.Droid.Resource.Attribute.listLayout;
+			global::PanCardView.Droid.Resource.Attribute.listMenuViewStyle = global::ShaXam.Droid.Resource.Attribute.listMenuViewStyle;
+			global::PanCardView.Droid.Resource.Attribute.listPopupWindowStyle = global::ShaXam.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::PanCardView.Droid.Resource.Attribute.listPreferredItemHeight = global::ShaXam.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::PanCardView.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::ShaXam.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::PanCardView.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::ShaXam.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::PanCardView.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::ShaXam.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::PanCardView.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::ShaXam.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::PanCardView.Droid.Resource.Attribute.logo = global::ShaXam.Droid.Resource.Attribute.logo;
+			global::PanCardView.Droid.Resource.Attribute.logoDescription = global::ShaXam.Droid.Resource.Attribute.logoDescription;
+			global::PanCardView.Droid.Resource.Attribute.materialButtonStyle = global::ShaXam.Droid.Resource.Attribute.materialButtonStyle;
+			global::PanCardView.Droid.Resource.Attribute.materialCardViewStyle = global::ShaXam.Droid.Resource.Attribute.materialCardViewStyle;
+			global::PanCardView.Droid.Resource.Attribute.maxActionInlineWidth = global::ShaXam.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::PanCardView.Droid.Resource.Attribute.maxButtonHeight = global::ShaXam.Droid.Resource.Attribute.maxButtonHeight;
+			global::PanCardView.Droid.Resource.Attribute.maxImageSize = global::ShaXam.Droid.Resource.Attribute.maxImageSize;
+			global::PanCardView.Droid.Resource.Attribute.measureWithLargestChild = global::ShaXam.Droid.Resource.Attribute.measureWithLargestChild;
+			global::PanCardView.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable = global::ShaXam.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::PanCardView.Droid.Resource.Attribute.mediaRouteButtonStyle = global::ShaXam.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::PanCardView.Droid.Resource.Attribute.mediaRouteButtonTint = global::ShaXam.Droid.Resource.Attribute.mediaRouteButtonTint;
+			global::PanCardView.Droid.Resource.Attribute.mediaRouteCloseDrawable = global::ShaXam.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::PanCardView.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::ShaXam.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
+			global::PanCardView.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable = global::ShaXam.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::PanCardView.Droid.Resource.Attribute.mediaRoutePauseDrawable = global::ShaXam.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::PanCardView.Droid.Resource.Attribute.mediaRoutePlayDrawable = global::ShaXam.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::PanCardView.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::ShaXam.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::PanCardView.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::ShaXam.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::PanCardView.Droid.Resource.Attribute.mediaRouteStopDrawable = global::ShaXam.Droid.Resource.Attribute.mediaRouteStopDrawable;
+			global::PanCardView.Droid.Resource.Attribute.mediaRouteTheme = global::ShaXam.Droid.Resource.Attribute.mediaRouteTheme;
+			global::PanCardView.Droid.Resource.Attribute.mediaRouteTvIconDrawable = global::ShaXam.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::PanCardView.Droid.Resource.Attribute.menu = global::ShaXam.Droid.Resource.Attribute.menu;
+			global::PanCardView.Droid.Resource.Attribute.multiChoiceItemLayout = global::ShaXam.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::PanCardView.Droid.Resource.Attribute.navigationContentDescription = global::ShaXam.Droid.Resource.Attribute.navigationContentDescription;
+			global::PanCardView.Droid.Resource.Attribute.navigationIcon = global::ShaXam.Droid.Resource.Attribute.navigationIcon;
+			global::PanCardView.Droid.Resource.Attribute.navigationMode = global::ShaXam.Droid.Resource.Attribute.navigationMode;
+			global::PanCardView.Droid.Resource.Attribute.navigationViewStyle = global::ShaXam.Droid.Resource.Attribute.navigationViewStyle;
+			global::PanCardView.Droid.Resource.Attribute.numericModifiers = global::ShaXam.Droid.Resource.Attribute.numericModifiers;
+			global::PanCardView.Droid.Resource.Attribute.overlapAnchor = global::ShaXam.Droid.Resource.Attribute.overlapAnchor;
+			global::PanCardView.Droid.Resource.Attribute.paddingBottomNoButtons = global::ShaXam.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::PanCardView.Droid.Resource.Attribute.paddingEnd = global::ShaXam.Droid.Resource.Attribute.paddingEnd;
+			global::PanCardView.Droid.Resource.Attribute.paddingStart = global::ShaXam.Droid.Resource.Attribute.paddingStart;
+			global::PanCardView.Droid.Resource.Attribute.paddingTopNoTitle = global::ShaXam.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::PanCardView.Droid.Resource.Attribute.panelBackground = global::ShaXam.Droid.Resource.Attribute.panelBackground;
+			global::PanCardView.Droid.Resource.Attribute.panelMenuListTheme = global::ShaXam.Droid.Resource.Attribute.panelMenuListTheme;
+			global::PanCardView.Droid.Resource.Attribute.panelMenuListWidth = global::ShaXam.Droid.Resource.Attribute.panelMenuListWidth;
+			global::PanCardView.Droid.Resource.Attribute.passwordToggleContentDescription = global::ShaXam.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::PanCardView.Droid.Resource.Attribute.passwordToggleDrawable = global::ShaXam.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::PanCardView.Droid.Resource.Attribute.passwordToggleEnabled = global::ShaXam.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::PanCardView.Droid.Resource.Attribute.passwordToggleTint = global::ShaXam.Droid.Resource.Attribute.passwordToggleTint;
+			global::PanCardView.Droid.Resource.Attribute.passwordToggleTintMode = global::ShaXam.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::PanCardView.Droid.Resource.Attribute.popupMenuStyle = global::ShaXam.Droid.Resource.Attribute.popupMenuStyle;
+			global::PanCardView.Droid.Resource.Attribute.popupTheme = global::ShaXam.Droid.Resource.Attribute.popupTheme;
+			global::PanCardView.Droid.Resource.Attribute.popupWindowStyle = global::ShaXam.Droid.Resource.Attribute.popupWindowStyle;
+			global::PanCardView.Droid.Resource.Attribute.preserveIconSpacing = global::ShaXam.Droid.Resource.Attribute.preserveIconSpacing;
+			global::PanCardView.Droid.Resource.Attribute.pressedTranslationZ = global::ShaXam.Droid.Resource.Attribute.pressedTranslationZ;
+			global::PanCardView.Droid.Resource.Attribute.progressBarPadding = global::ShaXam.Droid.Resource.Attribute.progressBarPadding;
+			global::PanCardView.Droid.Resource.Attribute.progressBarStyle = global::ShaXam.Droid.Resource.Attribute.progressBarStyle;
+			global::PanCardView.Droid.Resource.Attribute.queryBackground = global::ShaXam.Droid.Resource.Attribute.queryBackground;
+			global::PanCardView.Droid.Resource.Attribute.queryHint = global::ShaXam.Droid.Resource.Attribute.queryHint;
+			global::PanCardView.Droid.Resource.Attribute.radioButtonStyle = global::ShaXam.Droid.Resource.Attribute.radioButtonStyle;
+			global::PanCardView.Droid.Resource.Attribute.ratingBarStyle = global::ShaXam.Droid.Resource.Attribute.ratingBarStyle;
+			global::PanCardView.Droid.Resource.Attribute.ratingBarStyleIndicator = global::ShaXam.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::PanCardView.Droid.Resource.Attribute.ratingBarStyleSmall = global::ShaXam.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::PanCardView.Droid.Resource.Attribute.reverseLayout = global::ShaXam.Droid.Resource.Attribute.reverseLayout;
+			global::PanCardView.Droid.Resource.Attribute.rippleColor = global::ShaXam.Droid.Resource.Attribute.rippleColor;
+			global::PanCardView.Droid.Resource.Attribute.scrimAnimationDuration = global::ShaXam.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::PanCardView.Droid.Resource.Attribute.scrimBackground = global::ShaXam.Droid.Resource.Attribute.scrimBackground;
+			global::PanCardView.Droid.Resource.Attribute.scrimVisibleHeightTrigger = global::ShaXam.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::PanCardView.Droid.Resource.Attribute.searchHintIcon = global::ShaXam.Droid.Resource.Attribute.searchHintIcon;
+			global::PanCardView.Droid.Resource.Attribute.searchIcon = global::ShaXam.Droid.Resource.Attribute.searchIcon;
+			global::PanCardView.Droid.Resource.Attribute.searchViewStyle = global::ShaXam.Droid.Resource.Attribute.searchViewStyle;
+			global::PanCardView.Droid.Resource.Attribute.seekBarStyle = global::ShaXam.Droid.Resource.Attribute.seekBarStyle;
+			global::PanCardView.Droid.Resource.Attribute.selectableItemBackground = global::ShaXam.Droid.Resource.Attribute.selectableItemBackground;
+			global::PanCardView.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::ShaXam.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::PanCardView.Droid.Resource.Attribute.showAsAction = global::ShaXam.Droid.Resource.Attribute.showAsAction;
+			global::PanCardView.Droid.Resource.Attribute.showDividers = global::ShaXam.Droid.Resource.Attribute.showDividers;
+			global::PanCardView.Droid.Resource.Attribute.showMotionSpec = global::ShaXam.Droid.Resource.Attribute.showMotionSpec;
+			global::PanCardView.Droid.Resource.Attribute.showText = global::ShaXam.Droid.Resource.Attribute.showText;
+			global::PanCardView.Droid.Resource.Attribute.showTitle = global::ShaXam.Droid.Resource.Attribute.showTitle;
+			global::PanCardView.Droid.Resource.Attribute.singleChoiceItemLayout = global::ShaXam.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::PanCardView.Droid.Resource.Attribute.singleLine = global::ShaXam.Droid.Resource.Attribute.singleLine;
+			global::PanCardView.Droid.Resource.Attribute.singleSelection = global::ShaXam.Droid.Resource.Attribute.singleSelection;
+			global::PanCardView.Droid.Resource.Attribute.snackbarButtonStyle = global::ShaXam.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::PanCardView.Droid.Resource.Attribute.snackbarStyle = global::ShaXam.Droid.Resource.Attribute.snackbarStyle;
+			global::PanCardView.Droid.Resource.Attribute.spanCount = global::ShaXam.Droid.Resource.Attribute.spanCount;
+			global::PanCardView.Droid.Resource.Attribute.spinBars = global::ShaXam.Droid.Resource.Attribute.spinBars;
+			global::PanCardView.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::ShaXam.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::PanCardView.Droid.Resource.Attribute.spinnerStyle = global::ShaXam.Droid.Resource.Attribute.spinnerStyle;
+			global::PanCardView.Droid.Resource.Attribute.splitTrack = global::ShaXam.Droid.Resource.Attribute.splitTrack;
+			global::PanCardView.Droid.Resource.Attribute.srcCompat = global::ShaXam.Droid.Resource.Attribute.srcCompat;
+			global::PanCardView.Droid.Resource.Attribute.stackFromEnd = global::ShaXam.Droid.Resource.Attribute.stackFromEnd;
+			global::PanCardView.Droid.Resource.Attribute.state_above_anchor = global::ShaXam.Droid.Resource.Attribute.state_above_anchor;
+			global::PanCardView.Droid.Resource.Attribute.state_collapsed = global::ShaXam.Droid.Resource.Attribute.state_collapsed;
+			global::PanCardView.Droid.Resource.Attribute.state_collapsible = global::ShaXam.Droid.Resource.Attribute.state_collapsible;
+			global::PanCardView.Droid.Resource.Attribute.state_liftable = global::ShaXam.Droid.Resource.Attribute.state_liftable;
+			global::PanCardView.Droid.Resource.Attribute.state_lifted = global::ShaXam.Droid.Resource.Attribute.state_lifted;
+			global::PanCardView.Droid.Resource.Attribute.statusBarBackground = global::ShaXam.Droid.Resource.Attribute.statusBarBackground;
+			global::PanCardView.Droid.Resource.Attribute.statusBarScrim = global::ShaXam.Droid.Resource.Attribute.statusBarScrim;
+			global::PanCardView.Droid.Resource.Attribute.strokeColor = global::ShaXam.Droid.Resource.Attribute.strokeColor;
+			global::PanCardView.Droid.Resource.Attribute.strokeWidth = global::ShaXam.Droid.Resource.Attribute.strokeWidth;
+			global::PanCardView.Droid.Resource.Attribute.subMenuArrow = global::ShaXam.Droid.Resource.Attribute.subMenuArrow;
+			global::PanCardView.Droid.Resource.Attribute.submitBackground = global::ShaXam.Droid.Resource.Attribute.submitBackground;
+			global::PanCardView.Droid.Resource.Attribute.subtitle = global::ShaXam.Droid.Resource.Attribute.subtitle;
+			global::PanCardView.Droid.Resource.Attribute.subtitleTextAppearance = global::ShaXam.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::PanCardView.Droid.Resource.Attribute.subtitleTextColor = global::ShaXam.Droid.Resource.Attribute.subtitleTextColor;
+			global::PanCardView.Droid.Resource.Attribute.subtitleTextStyle = global::ShaXam.Droid.Resource.Attribute.subtitleTextStyle;
+			global::PanCardView.Droid.Resource.Attribute.suggestionRowLayout = global::ShaXam.Droid.Resource.Attribute.suggestionRowLayout;
+			global::PanCardView.Droid.Resource.Attribute.switchMinWidth = global::ShaXam.Droid.Resource.Attribute.switchMinWidth;
+			global::PanCardView.Droid.Resource.Attribute.switchPadding = global::ShaXam.Droid.Resource.Attribute.switchPadding;
+			global::PanCardView.Droid.Resource.Attribute.switchStyle = global::ShaXam.Droid.Resource.Attribute.switchStyle;
+			global::PanCardView.Droid.Resource.Attribute.switchTextAppearance = global::ShaXam.Droid.Resource.Attribute.switchTextAppearance;
+			global::PanCardView.Droid.Resource.Attribute.tabBackground = global::ShaXam.Droid.Resource.Attribute.tabBackground;
+			global::PanCardView.Droid.Resource.Attribute.tabContentStart = global::ShaXam.Droid.Resource.Attribute.tabContentStart;
+			global::PanCardView.Droid.Resource.Attribute.tabGravity = global::ShaXam.Droid.Resource.Attribute.tabGravity;
+			global::PanCardView.Droid.Resource.Attribute.tabIconTint = global::ShaXam.Droid.Resource.Attribute.tabIconTint;
+			global::PanCardView.Droid.Resource.Attribute.tabIconTintMode = global::ShaXam.Droid.Resource.Attribute.tabIconTintMode;
+			global::PanCardView.Droid.Resource.Attribute.tabIndicator = global::ShaXam.Droid.Resource.Attribute.tabIndicator;
+			global::PanCardView.Droid.Resource.Attribute.tabIndicatorAnimationDuration = global::ShaXam.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::PanCardView.Droid.Resource.Attribute.tabIndicatorColor = global::ShaXam.Droid.Resource.Attribute.tabIndicatorColor;
+			global::PanCardView.Droid.Resource.Attribute.tabIndicatorFullWidth = global::ShaXam.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::PanCardView.Droid.Resource.Attribute.tabIndicatorGravity = global::ShaXam.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::PanCardView.Droid.Resource.Attribute.tabIndicatorHeight = global::ShaXam.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::PanCardView.Droid.Resource.Attribute.tabInlineLabel = global::ShaXam.Droid.Resource.Attribute.tabInlineLabel;
+			global::PanCardView.Droid.Resource.Attribute.tabMaxWidth = global::ShaXam.Droid.Resource.Attribute.tabMaxWidth;
+			global::PanCardView.Droid.Resource.Attribute.tabMinWidth = global::ShaXam.Droid.Resource.Attribute.tabMinWidth;
+			global::PanCardView.Droid.Resource.Attribute.tabMode = global::ShaXam.Droid.Resource.Attribute.tabMode;
+			global::PanCardView.Droid.Resource.Attribute.tabPadding = global::ShaXam.Droid.Resource.Attribute.tabPadding;
+			global::PanCardView.Droid.Resource.Attribute.tabPaddingBottom = global::ShaXam.Droid.Resource.Attribute.tabPaddingBottom;
+			global::PanCardView.Droid.Resource.Attribute.tabPaddingEnd = global::ShaXam.Droid.Resource.Attribute.tabPaddingEnd;
+			global::PanCardView.Droid.Resource.Attribute.tabPaddingStart = global::ShaXam.Droid.Resource.Attribute.tabPaddingStart;
+			global::PanCardView.Droid.Resource.Attribute.tabPaddingTop = global::ShaXam.Droid.Resource.Attribute.tabPaddingTop;
+			global::PanCardView.Droid.Resource.Attribute.tabRippleColor = global::ShaXam.Droid.Resource.Attribute.tabRippleColor;
+			global::PanCardView.Droid.Resource.Attribute.tabSelectedTextColor = global::ShaXam.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::PanCardView.Droid.Resource.Attribute.tabStyle = global::ShaXam.Droid.Resource.Attribute.tabStyle;
+			global::PanCardView.Droid.Resource.Attribute.tabTextAppearance = global::ShaXam.Droid.Resource.Attribute.tabTextAppearance;
+			global::PanCardView.Droid.Resource.Attribute.tabTextColor = global::ShaXam.Droid.Resource.Attribute.tabTextColor;
+			global::PanCardView.Droid.Resource.Attribute.tabUnboundedRipple = global::ShaXam.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::PanCardView.Droid.Resource.Attribute.textAllCaps = global::ShaXam.Droid.Resource.Attribute.textAllCaps;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceBody1 = global::ShaXam.Droid.Resource.Attribute.textAppearanceBody1;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceBody2 = global::ShaXam.Droid.Resource.Attribute.textAppearanceBody2;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceButton = global::ShaXam.Droid.Resource.Attribute.textAppearanceButton;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceCaption = global::ShaXam.Droid.Resource.Attribute.textAppearanceCaption;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceHeadline1 = global::ShaXam.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceHeadline2 = global::ShaXam.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceHeadline3 = global::ShaXam.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceHeadline4 = global::ShaXam.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceHeadline5 = global::ShaXam.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceHeadline6 = global::ShaXam.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::ShaXam.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceListItem = global::ShaXam.Droid.Resource.Attribute.textAppearanceListItem;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceListItemSecondary = global::ShaXam.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceListItemSmall = global::ShaXam.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceOverline = global::ShaXam.Droid.Resource.Attribute.textAppearanceOverline;
+			global::PanCardView.Droid.Resource.Attribute.textAppearancePopupMenuHeader = global::ShaXam.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::ShaXam.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::ShaXam.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::ShaXam.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceSubtitle1 = global::ShaXam.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceSubtitle2 = global::ShaXam.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::PanCardView.Droid.Resource.Attribute.textColorAlertDialogListItem = global::ShaXam.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::PanCardView.Droid.Resource.Attribute.textColorSearchUrl = global::ShaXam.Droid.Resource.Attribute.textColorSearchUrl;
+			global::PanCardView.Droid.Resource.Attribute.textEndPadding = global::ShaXam.Droid.Resource.Attribute.textEndPadding;
+			global::PanCardView.Droid.Resource.Attribute.textInputStyle = global::ShaXam.Droid.Resource.Attribute.textInputStyle;
+			global::PanCardView.Droid.Resource.Attribute.textStartPadding = global::ShaXam.Droid.Resource.Attribute.textStartPadding;
+			global::PanCardView.Droid.Resource.Attribute.theme = global::ShaXam.Droid.Resource.Attribute.theme;
+			global::PanCardView.Droid.Resource.Attribute.thickness = global::ShaXam.Droid.Resource.Attribute.thickness;
+			global::PanCardView.Droid.Resource.Attribute.thumbTextPadding = global::ShaXam.Droid.Resource.Attribute.thumbTextPadding;
+			global::PanCardView.Droid.Resource.Attribute.thumbTint = global::ShaXam.Droid.Resource.Attribute.thumbTint;
+			global::PanCardView.Droid.Resource.Attribute.thumbTintMode = global::ShaXam.Droid.Resource.Attribute.thumbTintMode;
+			global::PanCardView.Droid.Resource.Attribute.tickMark = global::ShaXam.Droid.Resource.Attribute.tickMark;
+			global::PanCardView.Droid.Resource.Attribute.tickMarkTint = global::ShaXam.Droid.Resource.Attribute.tickMarkTint;
+			global::PanCardView.Droid.Resource.Attribute.tickMarkTintMode = global::ShaXam.Droid.Resource.Attribute.tickMarkTintMode;
+			global::PanCardView.Droid.Resource.Attribute.tint = global::ShaXam.Droid.Resource.Attribute.tint;
+			global::PanCardView.Droid.Resource.Attribute.tintMode = global::ShaXam.Droid.Resource.Attribute.tintMode;
+			global::PanCardView.Droid.Resource.Attribute.title = global::ShaXam.Droid.Resource.Attribute.title;
+			global::PanCardView.Droid.Resource.Attribute.titleEnabled = global::ShaXam.Droid.Resource.Attribute.titleEnabled;
+			global::PanCardView.Droid.Resource.Attribute.titleMargin = global::ShaXam.Droid.Resource.Attribute.titleMargin;
+			global::PanCardView.Droid.Resource.Attribute.titleMarginBottom = global::ShaXam.Droid.Resource.Attribute.titleMarginBottom;
+			global::PanCardView.Droid.Resource.Attribute.titleMarginEnd = global::ShaXam.Droid.Resource.Attribute.titleMarginEnd;
+			global::PanCardView.Droid.Resource.Attribute.titleMargins = global::ShaXam.Droid.Resource.Attribute.titleMargins;
+			global::PanCardView.Droid.Resource.Attribute.titleMarginStart = global::ShaXam.Droid.Resource.Attribute.titleMarginStart;
+			global::PanCardView.Droid.Resource.Attribute.titleMarginTop = global::ShaXam.Droid.Resource.Attribute.titleMarginTop;
+			global::PanCardView.Droid.Resource.Attribute.titleTextAppearance = global::ShaXam.Droid.Resource.Attribute.titleTextAppearance;
+			global::PanCardView.Droid.Resource.Attribute.titleTextColor = global::ShaXam.Droid.Resource.Attribute.titleTextColor;
+			global::PanCardView.Droid.Resource.Attribute.titleTextStyle = global::ShaXam.Droid.Resource.Attribute.titleTextStyle;
+			global::PanCardView.Droid.Resource.Attribute.toolbarId = global::ShaXam.Droid.Resource.Attribute.toolbarId;
+			global::PanCardView.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::ShaXam.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::PanCardView.Droid.Resource.Attribute.toolbarStyle = global::ShaXam.Droid.Resource.Attribute.toolbarStyle;
+			global::PanCardView.Droid.Resource.Attribute.tooltipForegroundColor = global::ShaXam.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::PanCardView.Droid.Resource.Attribute.tooltipFrameBackground = global::ShaXam.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::PanCardView.Droid.Resource.Attribute.tooltipText = global::ShaXam.Droid.Resource.Attribute.tooltipText;
+			global::PanCardView.Droid.Resource.Attribute.track = global::ShaXam.Droid.Resource.Attribute.track;
+			global::PanCardView.Droid.Resource.Attribute.trackTint = global::ShaXam.Droid.Resource.Attribute.trackTint;
+			global::PanCardView.Droid.Resource.Attribute.trackTintMode = global::ShaXam.Droid.Resource.Attribute.trackTintMode;
+			global::PanCardView.Droid.Resource.Attribute.ttcIndex = global::ShaXam.Droid.Resource.Attribute.ttcIndex;
+			global::PanCardView.Droid.Resource.Attribute.useCompatPadding = global::ShaXam.Droid.Resource.Attribute.useCompatPadding;
+			global::PanCardView.Droid.Resource.Attribute.viewInflaterClass = global::ShaXam.Droid.Resource.Attribute.viewInflaterClass;
+			global::PanCardView.Droid.Resource.Attribute.voiceIcon = global::ShaXam.Droid.Resource.Attribute.voiceIcon;
+			global::PanCardView.Droid.Resource.Attribute.windowActionBar = global::ShaXam.Droid.Resource.Attribute.windowActionBar;
+			global::PanCardView.Droid.Resource.Attribute.windowActionBarOverlay = global::ShaXam.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::PanCardView.Droid.Resource.Attribute.windowActionModeOverlay = global::ShaXam.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::PanCardView.Droid.Resource.Attribute.windowFixedHeightMajor = global::ShaXam.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::PanCardView.Droid.Resource.Attribute.windowFixedHeightMinor = global::ShaXam.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::PanCardView.Droid.Resource.Attribute.windowFixedWidthMajor = global::ShaXam.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::PanCardView.Droid.Resource.Attribute.windowFixedWidthMinor = global::ShaXam.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::PanCardView.Droid.Resource.Attribute.windowMinWidthMajor = global::ShaXam.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::PanCardView.Droid.Resource.Attribute.windowMinWidthMinor = global::ShaXam.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::PanCardView.Droid.Resource.Attribute.windowNoTitle = global::ShaXam.Droid.Resource.Attribute.windowNoTitle;
+			global::PanCardView.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::ShaXam.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::PanCardView.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::ShaXam.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::PanCardView.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::ShaXam.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::PanCardView.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::ShaXam.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::PanCardView.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::ShaXam.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::PanCardView.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::ShaXam.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::PanCardView.Droid.Resource.Color.abc_btn_colored_borderless_text_material = global::ShaXam.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::PanCardView.Droid.Resource.Color.abc_btn_colored_text_material = global::ShaXam.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::PanCardView.Droid.Resource.Color.abc_color_highlight_material = global::ShaXam.Droid.Resource.Color.abc_color_highlight_material;
+			global::PanCardView.Droid.Resource.Color.abc_hint_foreground_material_dark = global::ShaXam.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::PanCardView.Droid.Resource.Color.abc_hint_foreground_material_light = global::ShaXam.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::PanCardView.Droid.Resource.Color.abc_input_method_navigation_guard = global::ShaXam.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::PanCardView.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::ShaXam.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::PanCardView.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::ShaXam.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::PanCardView.Droid.Resource.Color.abc_primary_text_material_dark = global::ShaXam.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::PanCardView.Droid.Resource.Color.abc_primary_text_material_light = global::ShaXam.Droid.Resource.Color.abc_primary_text_material_light;
+			global::PanCardView.Droid.Resource.Color.abc_search_url_text = global::ShaXam.Droid.Resource.Color.abc_search_url_text;
+			global::PanCardView.Droid.Resource.Color.abc_search_url_text_normal = global::ShaXam.Droid.Resource.Color.abc_search_url_text_normal;
+			global::PanCardView.Droid.Resource.Color.abc_search_url_text_pressed = global::ShaXam.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::PanCardView.Droid.Resource.Color.abc_search_url_text_selected = global::ShaXam.Droid.Resource.Color.abc_search_url_text_selected;
+			global::PanCardView.Droid.Resource.Color.abc_secondary_text_material_dark = global::ShaXam.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::PanCardView.Droid.Resource.Color.abc_secondary_text_material_light = global::ShaXam.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::PanCardView.Droid.Resource.Color.abc_tint_btn_checkable = global::ShaXam.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::PanCardView.Droid.Resource.Color.abc_tint_default = global::ShaXam.Droid.Resource.Color.abc_tint_default;
+			global::PanCardView.Droid.Resource.Color.abc_tint_edittext = global::ShaXam.Droid.Resource.Color.abc_tint_edittext;
+			global::PanCardView.Droid.Resource.Color.abc_tint_seek_thumb = global::ShaXam.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::PanCardView.Droid.Resource.Color.abc_tint_spinner = global::ShaXam.Droid.Resource.Color.abc_tint_spinner;
+			global::PanCardView.Droid.Resource.Color.abc_tint_switch_track = global::ShaXam.Droid.Resource.Color.abc_tint_switch_track;
+			global::PanCardView.Droid.Resource.Color.accent_material_dark = global::ShaXam.Droid.Resource.Color.accent_material_dark;
+			global::PanCardView.Droid.Resource.Color.accent_material_light = global::ShaXam.Droid.Resource.Color.accent_material_light;
+			global::PanCardView.Droid.Resource.Color.background_floating_material_dark = global::ShaXam.Droid.Resource.Color.background_floating_material_dark;
+			global::PanCardView.Droid.Resource.Color.background_floating_material_light = global::ShaXam.Droid.Resource.Color.background_floating_material_light;
+			global::PanCardView.Droid.Resource.Color.background_material_dark = global::ShaXam.Droid.Resource.Color.background_material_dark;
+			global::PanCardView.Droid.Resource.Color.background_material_light = global::ShaXam.Droid.Resource.Color.background_material_light;
+			global::PanCardView.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::ShaXam.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::PanCardView.Droid.Resource.Color.bright_foreground_disabled_material_light = global::ShaXam.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::PanCardView.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::ShaXam.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::PanCardView.Droid.Resource.Color.bright_foreground_inverse_material_light = global::ShaXam.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::PanCardView.Droid.Resource.Color.bright_foreground_material_dark = global::ShaXam.Droid.Resource.Color.bright_foreground_material_dark;
+			global::PanCardView.Droid.Resource.Color.bright_foreground_material_light = global::ShaXam.Droid.Resource.Color.bright_foreground_material_light;
+			global::PanCardView.Droid.Resource.Color.browser_actions_bg_grey = global::ShaXam.Droid.Resource.Color.browser_actions_bg_grey;
+			global::PanCardView.Droid.Resource.Color.browser_actions_divider_color = global::ShaXam.Droid.Resource.Color.browser_actions_divider_color;
+			global::PanCardView.Droid.Resource.Color.browser_actions_text_color = global::ShaXam.Droid.Resource.Color.browser_actions_text_color;
+			global::PanCardView.Droid.Resource.Color.browser_actions_title_color = global::ShaXam.Droid.Resource.Color.browser_actions_title_color;
+			global::PanCardView.Droid.Resource.Color.button_material_dark = global::ShaXam.Droid.Resource.Color.button_material_dark;
+			global::PanCardView.Droid.Resource.Color.button_material_light = global::ShaXam.Droid.Resource.Color.button_material_light;
+			global::PanCardView.Droid.Resource.Color.cardview_dark_background = global::ShaXam.Droid.Resource.Color.cardview_dark_background;
+			global::PanCardView.Droid.Resource.Color.cardview_light_background = global::ShaXam.Droid.Resource.Color.cardview_light_background;
+			global::PanCardView.Droid.Resource.Color.cardview_shadow_end_color = global::ShaXam.Droid.Resource.Color.cardview_shadow_end_color;
+			global::PanCardView.Droid.Resource.Color.cardview_shadow_start_color = global::ShaXam.Droid.Resource.Color.cardview_shadow_start_color;
+			global::PanCardView.Droid.Resource.Color.design_bottom_navigation_shadow_color = global::ShaXam.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::PanCardView.Droid.Resource.Color.design_default_color_primary = global::ShaXam.Droid.Resource.Color.design_default_color_primary;
+			global::PanCardView.Droid.Resource.Color.design_default_color_primary_dark = global::ShaXam.Droid.Resource.Color.design_default_color_primary_dark;
+			global::PanCardView.Droid.Resource.Color.design_error = global::ShaXam.Droid.Resource.Color.design_error;
+			global::PanCardView.Droid.Resource.Color.design_fab_shadow_end_color = global::ShaXam.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::PanCardView.Droid.Resource.Color.design_fab_shadow_mid_color = global::ShaXam.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::PanCardView.Droid.Resource.Color.design_fab_shadow_start_color = global::ShaXam.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::PanCardView.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::ShaXam.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::PanCardView.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::ShaXam.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::PanCardView.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::ShaXam.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::PanCardView.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::ShaXam.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::PanCardView.Droid.Resource.Color.design_snackbar_background_color = global::ShaXam.Droid.Resource.Color.design_snackbar_background_color;
+			global::PanCardView.Droid.Resource.Color.design_tint_password_toggle = global::ShaXam.Droid.Resource.Color.design_tint_password_toggle;
+			global::PanCardView.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::ShaXam.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::PanCardView.Droid.Resource.Color.dim_foreground_disabled_material_light = global::ShaXam.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::PanCardView.Droid.Resource.Color.dim_foreground_material_dark = global::ShaXam.Droid.Resource.Color.dim_foreground_material_dark;
+			global::PanCardView.Droid.Resource.Color.dim_foreground_material_light = global::ShaXam.Droid.Resource.Color.dim_foreground_material_light;
+			global::PanCardView.Droid.Resource.Color.error_color_material_dark = global::ShaXam.Droid.Resource.Color.error_color_material_dark;
+			global::PanCardView.Droid.Resource.Color.error_color_material_light = global::ShaXam.Droid.Resource.Color.error_color_material_light;
+			global::PanCardView.Droid.Resource.Color.foreground_material_dark = global::ShaXam.Droid.Resource.Color.foreground_material_dark;
+			global::PanCardView.Droid.Resource.Color.foreground_material_light = global::ShaXam.Droid.Resource.Color.foreground_material_light;
+			global::PanCardView.Droid.Resource.Color.highlighted_text_material_dark = global::ShaXam.Droid.Resource.Color.highlighted_text_material_dark;
+			global::PanCardView.Droid.Resource.Color.highlighted_text_material_light = global::ShaXam.Droid.Resource.Color.highlighted_text_material_light;
+			global::PanCardView.Droid.Resource.Color.material_blue_grey_800 = global::ShaXam.Droid.Resource.Color.material_blue_grey_800;
+			global::PanCardView.Droid.Resource.Color.material_blue_grey_900 = global::ShaXam.Droid.Resource.Color.material_blue_grey_900;
+			global::PanCardView.Droid.Resource.Color.material_blue_grey_950 = global::ShaXam.Droid.Resource.Color.material_blue_grey_950;
+			global::PanCardView.Droid.Resource.Color.material_deep_teal_200 = global::ShaXam.Droid.Resource.Color.material_deep_teal_200;
+			global::PanCardView.Droid.Resource.Color.material_deep_teal_500 = global::ShaXam.Droid.Resource.Color.material_deep_teal_500;
+			global::PanCardView.Droid.Resource.Color.material_grey_100 = global::ShaXam.Droid.Resource.Color.material_grey_100;
+			global::PanCardView.Droid.Resource.Color.material_grey_300 = global::ShaXam.Droid.Resource.Color.material_grey_300;
+			global::PanCardView.Droid.Resource.Color.material_grey_50 = global::ShaXam.Droid.Resource.Color.material_grey_50;
+			global::PanCardView.Droid.Resource.Color.material_grey_600 = global::ShaXam.Droid.Resource.Color.material_grey_600;
+			global::PanCardView.Droid.Resource.Color.material_grey_800 = global::ShaXam.Droid.Resource.Color.material_grey_800;
+			global::PanCardView.Droid.Resource.Color.material_grey_850 = global::ShaXam.Droid.Resource.Color.material_grey_850;
+			global::PanCardView.Droid.Resource.Color.material_grey_900 = global::ShaXam.Droid.Resource.Color.material_grey_900;
+			global::PanCardView.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::ShaXam.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::PanCardView.Droid.Resource.Color.mtrl_bottom_nav_item_tint = global::ShaXam.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::PanCardView.Droid.Resource.Color.mtrl_btn_bg_color_disabled = global::ShaXam.Droid.Resource.Color.mtrl_btn_bg_color_disabled;
+			global::PanCardView.Droid.Resource.Color.mtrl_btn_bg_color_selector = global::ShaXam.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::PanCardView.Droid.Resource.Color.mtrl_btn_ripple_color = global::ShaXam.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_btn_stroke_color_selector = global::ShaXam.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::PanCardView.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color = global::ShaXam.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_btn_text_color_disabled = global::ShaXam.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::PanCardView.Droid.Resource.Color.mtrl_btn_text_color_selector = global::ShaXam.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::PanCardView.Droid.Resource.Color.mtrl_btn_transparent_bg_color = global::ShaXam.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_chip_background_color = global::ShaXam.Droid.Resource.Color.mtrl_chip_background_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_chip_close_icon_tint = global::ShaXam.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::PanCardView.Droid.Resource.Color.mtrl_chip_ripple_color = global::ShaXam.Droid.Resource.Color.mtrl_chip_ripple_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_chip_text_color = global::ShaXam.Droid.Resource.Color.mtrl_chip_text_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_fab_ripple_color = global::ShaXam.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_scrim_color = global::ShaXam.Droid.Resource.Color.mtrl_scrim_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_tabs_colored_ripple_color = global::ShaXam.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_tabs_icon_color_selector = global::ShaXam.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::PanCardView.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::ShaXam.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::PanCardView.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::ShaXam.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::PanCardView.Droid.Resource.Color.mtrl_tabs_ripple_color = global::ShaXam.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color = global::ShaXam.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_textinput_disabled_color = global::ShaXam.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::ShaXam.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::ShaXam.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_text_btn_text_color_selector = global::ShaXam.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::PanCardView.Droid.Resource.Color.notification_action_color_filter = global::ShaXam.Droid.Resource.Color.notification_action_color_filter;
+			global::PanCardView.Droid.Resource.Color.notification_icon_bg_color = global::ShaXam.Droid.Resource.Color.notification_icon_bg_color;
+			global::PanCardView.Droid.Resource.Color.notification_material_background_media_default_color = global::ShaXam.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::PanCardView.Droid.Resource.Color.primary_dark_material_dark = global::ShaXam.Droid.Resource.Color.primary_dark_material_dark;
+			global::PanCardView.Droid.Resource.Color.primary_dark_material_light = global::ShaXam.Droid.Resource.Color.primary_dark_material_light;
+			global::PanCardView.Droid.Resource.Color.primary_material_dark = global::ShaXam.Droid.Resource.Color.primary_material_dark;
+			global::PanCardView.Droid.Resource.Color.primary_material_light = global::ShaXam.Droid.Resource.Color.primary_material_light;
+			global::PanCardView.Droid.Resource.Color.primary_text_default_material_dark = global::ShaXam.Droid.Resource.Color.primary_text_default_material_dark;
+			global::PanCardView.Droid.Resource.Color.primary_text_default_material_light = global::ShaXam.Droid.Resource.Color.primary_text_default_material_light;
+			global::PanCardView.Droid.Resource.Color.primary_text_disabled_material_dark = global::ShaXam.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::PanCardView.Droid.Resource.Color.primary_text_disabled_material_light = global::ShaXam.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::PanCardView.Droid.Resource.Color.ripple_material_dark = global::ShaXam.Droid.Resource.Color.ripple_material_dark;
+			global::PanCardView.Droid.Resource.Color.ripple_material_light = global::ShaXam.Droid.Resource.Color.ripple_material_light;
+			global::PanCardView.Droid.Resource.Color.secondary_text_default_material_dark = global::ShaXam.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::PanCardView.Droid.Resource.Color.secondary_text_default_material_light = global::ShaXam.Droid.Resource.Color.secondary_text_default_material_light;
+			global::PanCardView.Droid.Resource.Color.secondary_text_disabled_material_dark = global::ShaXam.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::PanCardView.Droid.Resource.Color.secondary_text_disabled_material_light = global::ShaXam.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::PanCardView.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::ShaXam.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::PanCardView.Droid.Resource.Color.switch_thumb_disabled_material_light = global::ShaXam.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::PanCardView.Droid.Resource.Color.switch_thumb_material_dark = global::ShaXam.Droid.Resource.Color.switch_thumb_material_dark;
+			global::PanCardView.Droid.Resource.Color.switch_thumb_material_light = global::ShaXam.Droid.Resource.Color.switch_thumb_material_light;
+			global::PanCardView.Droid.Resource.Color.switch_thumb_normal_material_dark = global::ShaXam.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::PanCardView.Droid.Resource.Color.switch_thumb_normal_material_light = global::ShaXam.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::PanCardView.Droid.Resource.Color.tooltip_background_dark = global::ShaXam.Droid.Resource.Color.tooltip_background_dark;
+			global::PanCardView.Droid.Resource.Color.tooltip_background_light = global::ShaXam.Droid.Resource.Color.tooltip_background_light;
+			global::PanCardView.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::ShaXam.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::ShaXam.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::PanCardView.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::ShaXam.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::ShaXam.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::ShaXam.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_action_bar_elevation_material = global::ShaXam.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::ShaXam.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::ShaXam.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::ShaXam.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::ShaXam.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::PanCardView.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::ShaXam.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::PanCardView.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::ShaXam.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::ShaXam.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_action_button_min_height_material = global::ShaXam.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_action_button_min_width_material = global::ShaXam.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::ShaXam.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::ShaXam.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::PanCardView.Droid.Resource.Dimension.abc_alert_dialog_button_dimen = global::ShaXam.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::PanCardView.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::ShaXam.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::ShaXam.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::ShaXam.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::ShaXam.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::ShaXam.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::PanCardView.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::ShaXam.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::PanCardView.Droid.Resource.Dimension.abc_control_corner_material = global::ShaXam.Droid.Resource.Dimension.abc_control_corner_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_control_inset_material = global::ShaXam.Droid.Resource.Dimension.abc_control_inset_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_control_padding_material = global::ShaXam.Droid.Resource.Dimension.abc_control_padding_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_dialog_corner_radius_material = global::ShaXam.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::ShaXam.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::PanCardView.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::ShaXam.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::PanCardView.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::ShaXam.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::PanCardView.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::ShaXam.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::PanCardView.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::ShaXam.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::PanCardView.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::ShaXam.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::PanCardView.Droid.Resource.Dimension.abc_dialog_min_width_major = global::ShaXam.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::PanCardView.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::ShaXam.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::PanCardView.Droid.Resource.Dimension.abc_dialog_padding_material = global::ShaXam.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::ShaXam.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_dialog_title_divider_material = global::ShaXam.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::ShaXam.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::PanCardView.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::ShaXam.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::PanCardView.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::ShaXam.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::PanCardView.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::ShaXam.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::PanCardView.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::ShaXam.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::PanCardView.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::ShaXam.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::ShaXam.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::ShaXam.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_floating_window_z = global::ShaXam.Droid.Resource.Dimension.abc_floating_window_z;
+			global::PanCardView.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::ShaXam.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_panel_menu_list_width = global::ShaXam.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::PanCardView.Droid.Resource.Dimension.abc_progress_bar_height_material = global::ShaXam.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_search_view_preferred_height = global::ShaXam.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::PanCardView.Droid.Resource.Dimension.abc_search_view_preferred_width = global::ShaXam.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::PanCardView.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::ShaXam.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::ShaXam.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::ShaXam.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_switch_padding = global::ShaXam.Droid.Resource.Dimension.abc_switch_padding;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_body_1_material = global::ShaXam.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_body_2_material = global::ShaXam.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_button_material = global::ShaXam.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_caption_material = global::ShaXam.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_display_1_material = global::ShaXam.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_display_2_material = global::ShaXam.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_display_3_material = global::ShaXam.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_display_4_material = global::ShaXam.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_headline_material = global::ShaXam.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_large_material = global::ShaXam.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_medium_material = global::ShaXam.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_menu_header_material = global::ShaXam.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_menu_material = global::ShaXam.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_small_material = global::ShaXam.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_subhead_material = global::ShaXam.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::ShaXam.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_title_material = global::ShaXam.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::ShaXam.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::PanCardView.Droid.Resource.Dimension.browser_actions_context_menu_max_width = global::ShaXam.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::PanCardView.Droid.Resource.Dimension.browser_actions_context_menu_min_padding = global::ShaXam.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::PanCardView.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::ShaXam.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::PanCardView.Droid.Resource.Dimension.cardview_default_elevation = global::ShaXam.Droid.Resource.Dimension.cardview_default_elevation;
+			global::PanCardView.Droid.Resource.Dimension.cardview_default_radius = global::ShaXam.Droid.Resource.Dimension.cardview_default_radius;
+			global::PanCardView.Droid.Resource.Dimension.compat_button_inset_horizontal_material = global::ShaXam.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::PanCardView.Droid.Resource.Dimension.compat_button_inset_vertical_material = global::ShaXam.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::PanCardView.Droid.Resource.Dimension.compat_button_padding_horizontal_material = global::ShaXam.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::PanCardView.Droid.Resource.Dimension.compat_button_padding_vertical_material = global::ShaXam.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::PanCardView.Droid.Resource.Dimension.compat_control_corner_material = global::ShaXam.Droid.Resource.Dimension.compat_control_corner_material;
+			global::PanCardView.Droid.Resource.Dimension.compat_notification_large_icon_max_height = global::ShaXam.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::PanCardView.Droid.Resource.Dimension.compat_notification_large_icon_max_width = global::ShaXam.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::PanCardView.Droid.Resource.Dimension.design_appbar_elevation = global::ShaXam.Droid.Resource.Dimension.design_appbar_elevation;
+			global::PanCardView.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::ShaXam.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::PanCardView.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::ShaXam.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::PanCardView.Droid.Resource.Dimension.design_bottom_navigation_active_text_size = global::ShaXam.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::PanCardView.Droid.Resource.Dimension.design_bottom_navigation_elevation = global::ShaXam.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::PanCardView.Droid.Resource.Dimension.design_bottom_navigation_height = global::ShaXam.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::PanCardView.Droid.Resource.Dimension.design_bottom_navigation_icon_size = global::ShaXam.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::PanCardView.Droid.Resource.Dimension.design_bottom_navigation_item_max_width = global::ShaXam.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::PanCardView.Droid.Resource.Dimension.design_bottom_navigation_item_min_width = global::ShaXam.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::PanCardView.Droid.Resource.Dimension.design_bottom_navigation_margin = global::ShaXam.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::PanCardView.Droid.Resource.Dimension.design_bottom_navigation_shadow_height = global::ShaXam.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::PanCardView.Droid.Resource.Dimension.design_bottom_navigation_text_size = global::ShaXam.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::PanCardView.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::ShaXam.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::PanCardView.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min = global::ShaXam.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::PanCardView.Droid.Resource.Dimension.design_fab_border_width = global::ShaXam.Droid.Resource.Dimension.design_fab_border_width;
+			global::PanCardView.Droid.Resource.Dimension.design_fab_elevation = global::ShaXam.Droid.Resource.Dimension.design_fab_elevation;
+			global::PanCardView.Droid.Resource.Dimension.design_fab_image_size = global::ShaXam.Droid.Resource.Dimension.design_fab_image_size;
+			global::PanCardView.Droid.Resource.Dimension.design_fab_size_mini = global::ShaXam.Droid.Resource.Dimension.design_fab_size_mini;
+			global::PanCardView.Droid.Resource.Dimension.design_fab_size_normal = global::ShaXam.Droid.Resource.Dimension.design_fab_size_normal;
+			global::PanCardView.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused = global::ShaXam.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::PanCardView.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::ShaXam.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::PanCardView.Droid.Resource.Dimension.design_navigation_elevation = global::ShaXam.Droid.Resource.Dimension.design_navigation_elevation;
+			global::PanCardView.Droid.Resource.Dimension.design_navigation_icon_padding = global::ShaXam.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::PanCardView.Droid.Resource.Dimension.design_navigation_icon_size = global::ShaXam.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::PanCardView.Droid.Resource.Dimension.design_navigation_item_horizontal_padding = global::ShaXam.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::PanCardView.Droid.Resource.Dimension.design_navigation_item_icon_padding = global::ShaXam.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::PanCardView.Droid.Resource.Dimension.design_navigation_max_width = global::ShaXam.Droid.Resource.Dimension.design_navigation_max_width;
+			global::PanCardView.Droid.Resource.Dimension.design_navigation_padding_bottom = global::ShaXam.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::PanCardView.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::ShaXam.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::PanCardView.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::ShaXam.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::PanCardView.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::ShaXam.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::PanCardView.Droid.Resource.Dimension.design_snackbar_elevation = global::ShaXam.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::PanCardView.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::ShaXam.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::PanCardView.Droid.Resource.Dimension.design_snackbar_max_width = global::ShaXam.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::PanCardView.Droid.Resource.Dimension.design_snackbar_min_width = global::ShaXam.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::PanCardView.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::ShaXam.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::PanCardView.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::ShaXam.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::PanCardView.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::ShaXam.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::PanCardView.Droid.Resource.Dimension.design_snackbar_text_size = global::ShaXam.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::PanCardView.Droid.Resource.Dimension.design_tab_max_width = global::ShaXam.Droid.Resource.Dimension.design_tab_max_width;
+			global::PanCardView.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::ShaXam.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::PanCardView.Droid.Resource.Dimension.design_tab_text_size = global::ShaXam.Droid.Resource.Dimension.design_tab_text_size;
+			global::PanCardView.Droid.Resource.Dimension.design_tab_text_size_2line = global::ShaXam.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::PanCardView.Droid.Resource.Dimension.design_textinput_caption_translate_y = global::ShaXam.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::PanCardView.Droid.Resource.Dimension.disabled_alpha_material_dark = global::ShaXam.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::PanCardView.Droid.Resource.Dimension.disabled_alpha_material_light = global::ShaXam.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::PanCardView.Droid.Resource.Dimension.fastscroll_default_thickness = global::ShaXam.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::PanCardView.Droid.Resource.Dimension.fastscroll_margin = global::ShaXam.Droid.Resource.Dimension.fastscroll_margin;
+			global::PanCardView.Droid.Resource.Dimension.fastscroll_minimum_range = global::ShaXam.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::PanCardView.Droid.Resource.Dimension.highlight_alpha_material_colored = global::ShaXam.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::PanCardView.Droid.Resource.Dimension.highlight_alpha_material_dark = global::ShaXam.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::PanCardView.Droid.Resource.Dimension.highlight_alpha_material_light = global::ShaXam.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::PanCardView.Droid.Resource.Dimension.hint_alpha_material_dark = global::ShaXam.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::PanCardView.Droid.Resource.Dimension.hint_alpha_material_light = global::ShaXam.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::PanCardView.Droid.Resource.Dimension.hint_pressed_alpha_material_dark = global::ShaXam.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::PanCardView.Droid.Resource.Dimension.hint_pressed_alpha_material_light = global::ShaXam.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::PanCardView.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::ShaXam.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::PanCardView.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::ShaXam.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::PanCardView.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::ShaXam.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::PanCardView.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height = global::ShaXam.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::PanCardView.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::ShaXam.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::PanCardView.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height = global::ShaXam.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::PanCardView.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::ShaXam.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::PanCardView.Droid.Resource.Dimension.mr_dialog_fixed_width_major = global::ShaXam.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::PanCardView.Droid.Resource.Dimension.mr_dialog_fixed_width_minor = global::ShaXam.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::ShaXam.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::ShaXam.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::ShaXam.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::ShaXam.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_bottomappbar_height = global::ShaXam.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_corner_radius = global::ShaXam.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::ShaXam.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_disabled_elevation = global::ShaXam.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_disabled_z = global::ShaXam.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_elevation = global::ShaXam.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_focused_z = global::ShaXam.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_hovered_z = global::ShaXam.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::ShaXam.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_icon_padding = global::ShaXam.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_inset = global::ShaXam.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_letter_spacing = global::ShaXam.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_padding_bottom = global::ShaXam.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_padding_left = global::ShaXam.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_padding_right = global::ShaXam.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_padding_top = global::ShaXam.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_pressed_z = global::ShaXam.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_stroke_size = global::ShaXam.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::ShaXam.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::ShaXam.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::ShaXam.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_text_size = global::ShaXam.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_z = global::ShaXam.Droid.Resource.Dimension.mtrl_btn_z;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_card_elevation = global::ShaXam.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_card_spacing = global::ShaXam.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z = global::ShaXam.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_chip_text_size = global::ShaXam.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_fab_elevation = global::ShaXam.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::ShaXam.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed = global::ShaXam.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_navigation_elevation = global::ShaXam.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::ShaXam.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding = global::ShaXam.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::ShaXam.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_snackbar_margin = global::ShaXam.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::ShaXam.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::ShaXam.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::ShaXam.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::ShaXam.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_textinput_box_padding_end = global::ShaXam.Droid.Resource.Dimension.mtrl_textinput_box_padding_end;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::ShaXam.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::ShaXam.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::ShaXam.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_toolbar_default_height = global::ShaXam.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::PanCardView.Droid.Resource.Dimension.notification_action_icon_size = global::ShaXam.Droid.Resource.Dimension.notification_action_icon_size;
+			global::PanCardView.Droid.Resource.Dimension.notification_action_text_size = global::ShaXam.Droid.Resource.Dimension.notification_action_text_size;
+			global::PanCardView.Droid.Resource.Dimension.notification_big_circle_margin = global::ShaXam.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::PanCardView.Droid.Resource.Dimension.notification_content_margin_start = global::ShaXam.Droid.Resource.Dimension.notification_content_margin_start;
+			global::PanCardView.Droid.Resource.Dimension.notification_large_icon_height = global::ShaXam.Droid.Resource.Dimension.notification_large_icon_height;
+			global::PanCardView.Droid.Resource.Dimension.notification_large_icon_width = global::ShaXam.Droid.Resource.Dimension.notification_large_icon_width;
+			global::PanCardView.Droid.Resource.Dimension.notification_main_column_padding_top = global::ShaXam.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::PanCardView.Droid.Resource.Dimension.notification_media_narrow_margin = global::ShaXam.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::PanCardView.Droid.Resource.Dimension.notification_right_icon_size = global::ShaXam.Droid.Resource.Dimension.notification_right_icon_size;
+			global::PanCardView.Droid.Resource.Dimension.notification_right_side_padding_top = global::ShaXam.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::PanCardView.Droid.Resource.Dimension.notification_small_icon_background_padding = global::ShaXam.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::PanCardView.Droid.Resource.Dimension.notification_small_icon_size_as_large = global::ShaXam.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::PanCardView.Droid.Resource.Dimension.notification_subtext_size = global::ShaXam.Droid.Resource.Dimension.notification_subtext_size;
+			global::PanCardView.Droid.Resource.Dimension.notification_top_pad = global::ShaXam.Droid.Resource.Dimension.notification_top_pad;
+			global::PanCardView.Droid.Resource.Dimension.notification_top_pad_large_text = global::ShaXam.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::PanCardView.Droid.Resource.Dimension.subtitle_corner_radius = global::ShaXam.Droid.Resource.Dimension.subtitle_corner_radius;
+			global::PanCardView.Droid.Resource.Dimension.subtitle_outline_width = global::ShaXam.Droid.Resource.Dimension.subtitle_outline_width;
+			global::PanCardView.Droid.Resource.Dimension.subtitle_shadow_offset = global::ShaXam.Droid.Resource.Dimension.subtitle_shadow_offset;
+			global::PanCardView.Droid.Resource.Dimension.subtitle_shadow_radius = global::ShaXam.Droid.Resource.Dimension.subtitle_shadow_radius;
+			global::PanCardView.Droid.Resource.Dimension.tooltip_corner_radius = global::ShaXam.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::PanCardView.Droid.Resource.Dimension.tooltip_horizontal_padding = global::ShaXam.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::PanCardView.Droid.Resource.Dimension.tooltip_margin = global::ShaXam.Droid.Resource.Dimension.tooltip_margin;
+			global::PanCardView.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::ShaXam.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::PanCardView.Droid.Resource.Dimension.tooltip_precise_anchor_threshold = global::ShaXam.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::PanCardView.Droid.Resource.Dimension.tooltip_vertical_padding = global::ShaXam.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::PanCardView.Droid.Resource.Dimension.tooltip_y_offset_non_touch = global::ShaXam.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::PanCardView.Droid.Resource.Dimension.tooltip_y_offset_touch = global::ShaXam.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::PanCardView.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::ShaXam.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::ShaXam.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_btn_borderless_material = global::ShaXam.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_btn_check_material = global::ShaXam.Droid.Resource.Drawable.abc_btn_check_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::ShaXam.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::PanCardView.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::ShaXam.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::PanCardView.Droid.Resource.Drawable.abc_btn_colored_material = global::ShaXam.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::ShaXam.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::PanCardView.Droid.Resource.Drawable.abc_btn_radio_material = global::ShaXam.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::ShaXam.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::PanCardView.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::ShaXam.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::PanCardView.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::ShaXam.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::PanCardView.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::ShaXam.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::PanCardView.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::ShaXam.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::PanCardView.Droid.Resource.Drawable.abc_cab_background_top_material = global::ShaXam.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::ShaXam.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_control_background_material = global::ShaXam.Droid.Resource.Drawable.abc_control_background_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_dialog_material_background = global::ShaXam.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::PanCardView.Droid.Resource.Drawable.abc_edit_text_material = global::ShaXam.Droid.Resource.Drawable.abc_edit_text_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_ab_back_material = global::ShaXam.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::ShaXam.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_clear_material = global::ShaXam.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::ShaXam.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_go_search_api_material = global::ShaXam.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::ShaXam.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::ShaXam.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_menu_overflow_material = global::ShaXam.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::ShaXam.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::ShaXam.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::ShaXam.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_search_api_material = global::ShaXam.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::ShaXam.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::ShaXam.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_star_black_48dp = global::ShaXam.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::ShaXam.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::ShaXam.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_star_half_black_48dp = global::ShaXam.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::PanCardView.Droid.Resource.Drawable.abc_ic_voice_search_api_material = global::ShaXam.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_item_background_holo_dark = global::ShaXam.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::PanCardView.Droid.Resource.Drawable.abc_item_background_holo_light = global::ShaXam.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::PanCardView.Droid.Resource.Drawable.abc_list_divider_material = global::ShaXam.Droid.Resource.Drawable.abc_list_divider_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::ShaXam.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_list_focused_holo = global::ShaXam.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::PanCardView.Droid.Resource.Drawable.abc_list_longpressed_holo = global::ShaXam.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::PanCardView.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::ShaXam.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::PanCardView.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::ShaXam.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::PanCardView.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::ShaXam.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::PanCardView.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::ShaXam.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::PanCardView.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::ShaXam.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::PanCardView.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::ShaXam.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::PanCardView.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::ShaXam.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::PanCardView.Droid.Resource.Drawable.abc_list_selector_holo_light = global::ShaXam.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::PanCardView.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::ShaXam.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::PanCardView.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::ShaXam.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::PanCardView.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::ShaXam.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_ratingbar_material = global::ShaXam.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_ratingbar_small_material = global::ShaXam.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::ShaXam.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::ShaXam.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::PanCardView.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::ShaXam.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::PanCardView.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::ShaXam.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::ShaXam.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::ShaXam.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_seekbar_tick_mark_material = global::ShaXam.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_seekbar_track_material = global::ShaXam.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::ShaXam.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::ShaXam.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_switch_thumb_material = global::ShaXam.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::ShaXam.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_tab_indicator_material = global::ShaXam.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::ShaXam.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::ShaXam.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::ShaXam.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::ShaXam.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::ShaXam.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::PanCardView.Droid.Resource.Drawable.abc_textfield_search_material = global::ShaXam.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_text_cursor_material = global::ShaXam.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::PanCardView.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::ShaXam.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::PanCardView.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::ShaXam.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::PanCardView.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::ShaXam.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::PanCardView.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::ShaXam.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::PanCardView.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::ShaXam.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::PanCardView.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::ShaXam.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::PanCardView.Droid.Resource.Drawable.abc_vector_test = global::ShaXam.Droid.Resource.Drawable.abc_vector_test;
+			global::PanCardView.Droid.Resource.Drawable.avd_hide_password = global::ShaXam.Droid.Resource.Drawable.avd_hide_password;
+			global::PanCardView.Droid.Resource.Drawable.avd_show_password = global::ShaXam.Droid.Resource.Drawable.avd_show_password;
+			global::PanCardView.Droid.Resource.Drawable.design_bottom_navigation_item_background = global::ShaXam.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::PanCardView.Droid.Resource.Drawable.design_fab_background = global::ShaXam.Droid.Resource.Drawable.design_fab_background;
+			global::PanCardView.Droid.Resource.Drawable.design_ic_visibility = global::ShaXam.Droid.Resource.Drawable.design_ic_visibility;
+			global::PanCardView.Droid.Resource.Drawable.design_ic_visibility_off = global::ShaXam.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::PanCardView.Droid.Resource.Drawable.design_password_eye = global::ShaXam.Droid.Resource.Drawable.design_password_eye;
+			global::PanCardView.Droid.Resource.Drawable.design_snackbar_background = global::ShaXam.Droid.Resource.Drawable.design_snackbar_background;
+			global::PanCardView.Droid.Resource.Drawable.ic_audiotrack_dark = global::ShaXam.Droid.Resource.Drawable.ic_audiotrack_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_audiotrack_light = global::ShaXam.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_dialog_close_dark = global::ShaXam.Droid.Resource.Drawable.ic_dialog_close_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_dialog_close_light = global::ShaXam.Droid.Resource.Drawable.ic_dialog_close_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_collapse_00 = global::ShaXam.Droid.Resource.Drawable.ic_group_collapse_00;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_collapse_01 = global::ShaXam.Droid.Resource.Drawable.ic_group_collapse_01;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_collapse_02 = global::ShaXam.Droid.Resource.Drawable.ic_group_collapse_02;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_collapse_03 = global::ShaXam.Droid.Resource.Drawable.ic_group_collapse_03;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_collapse_04 = global::ShaXam.Droid.Resource.Drawable.ic_group_collapse_04;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_collapse_05 = global::ShaXam.Droid.Resource.Drawable.ic_group_collapse_05;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_collapse_06 = global::ShaXam.Droid.Resource.Drawable.ic_group_collapse_06;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_collapse_07 = global::ShaXam.Droid.Resource.Drawable.ic_group_collapse_07;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_collapse_08 = global::ShaXam.Droid.Resource.Drawable.ic_group_collapse_08;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_collapse_09 = global::ShaXam.Droid.Resource.Drawable.ic_group_collapse_09;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_collapse_10 = global::ShaXam.Droid.Resource.Drawable.ic_group_collapse_10;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_collapse_11 = global::ShaXam.Droid.Resource.Drawable.ic_group_collapse_11;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_collapse_12 = global::ShaXam.Droid.Resource.Drawable.ic_group_collapse_12;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_collapse_13 = global::ShaXam.Droid.Resource.Drawable.ic_group_collapse_13;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_collapse_14 = global::ShaXam.Droid.Resource.Drawable.ic_group_collapse_14;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_collapse_15 = global::ShaXam.Droid.Resource.Drawable.ic_group_collapse_15;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_expand_00 = global::ShaXam.Droid.Resource.Drawable.ic_group_expand_00;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_expand_01 = global::ShaXam.Droid.Resource.Drawable.ic_group_expand_01;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_expand_02 = global::ShaXam.Droid.Resource.Drawable.ic_group_expand_02;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_expand_03 = global::ShaXam.Droid.Resource.Drawable.ic_group_expand_03;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_expand_04 = global::ShaXam.Droid.Resource.Drawable.ic_group_expand_04;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_expand_05 = global::ShaXam.Droid.Resource.Drawable.ic_group_expand_05;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_expand_06 = global::ShaXam.Droid.Resource.Drawable.ic_group_expand_06;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_expand_07 = global::ShaXam.Droid.Resource.Drawable.ic_group_expand_07;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_expand_08 = global::ShaXam.Droid.Resource.Drawable.ic_group_expand_08;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_expand_09 = global::ShaXam.Droid.Resource.Drawable.ic_group_expand_09;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_expand_10 = global::ShaXam.Droid.Resource.Drawable.ic_group_expand_10;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_expand_11 = global::ShaXam.Droid.Resource.Drawable.ic_group_expand_11;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_expand_12 = global::ShaXam.Droid.Resource.Drawable.ic_group_expand_12;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_expand_13 = global::ShaXam.Droid.Resource.Drawable.ic_group_expand_13;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_expand_14 = global::ShaXam.Droid.Resource.Drawable.ic_group_expand_14;
+			global::PanCardView.Droid.Resource.Drawable.ic_group_expand_15 = global::ShaXam.Droid.Resource.Drawable.ic_group_expand_15;
+			global::PanCardView.Droid.Resource.Drawable.ic_media_pause_dark = global::ShaXam.Droid.Resource.Drawable.ic_media_pause_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_media_pause_light = global::ShaXam.Droid.Resource.Drawable.ic_media_pause_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_media_play_dark = global::ShaXam.Droid.Resource.Drawable.ic_media_play_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_media_play_light = global::ShaXam.Droid.Resource.Drawable.ic_media_play_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_media_stop_dark = global::ShaXam.Droid.Resource.Drawable.ic_media_stop_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_media_stop_light = global::ShaXam.Droid.Resource.Drawable.ic_media_stop_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_00_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_00_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_01_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_01_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_02_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_02_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_03_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_03_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_04_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_04_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_05_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_05_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_06_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_06_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_07_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_07_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_08_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_08_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_09_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_09_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_10_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_10_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_11_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_11_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_12_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_12_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_13_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_13_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_14_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_14_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_15_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_15_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_16_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_16_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_17_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_17_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_18_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_18_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_19_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_19_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_20_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_20_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_21_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_21_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_22_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_22_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_23_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_23_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_23_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_23_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_24_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_24_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_24_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_24_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_25_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_25_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_25_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_25_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_26_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_26_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_26_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_26_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_27_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_27_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_27_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_27_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_28_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_28_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_28_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_28_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_29_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_29_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_29_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_29_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_30_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_30_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connected_30_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connected_30_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_00_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_01_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_02_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_03_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_04_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_05_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_06_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_07_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_08_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_09_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_10_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_11_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_12_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_13_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_14_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_15_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_16_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_17_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_18_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_19_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_20_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_21_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_22_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_23_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_23_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_23_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_23_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_24_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_24_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_24_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_24_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_25_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_25_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_25_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_25_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_26_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_26_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_26_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_26_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_27_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_27_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_27_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_27_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_28_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_28_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_28_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_28_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_29_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_29_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_29_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_29_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_30_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_30_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_connecting_30_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_connecting_30_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_disabled_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_disabled_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_disabled_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_disconnected_dark = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_disconnected_light = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_grey = global::ShaXam.Droid.Resource.Drawable.ic_mr_button_grey;
+			global::PanCardView.Droid.Resource.Drawable.ic_mtrl_chip_checked_black = global::ShaXam.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::PanCardView.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle = global::ShaXam.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::PanCardView.Droid.Resource.Drawable.ic_mtrl_chip_close_circle = global::ShaXam.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::PanCardView.Droid.Resource.Drawable.ic_vol_type_speaker_dark = global::ShaXam.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark = global::ShaXam.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_vol_type_speaker_group_light = global::ShaXam.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_vol_type_speaker_light = global::ShaXam.Droid.Resource.Drawable.ic_vol_type_speaker_light;
+			global::PanCardView.Droid.Resource.Drawable.ic_vol_type_tv_dark = global::ShaXam.Droid.Resource.Drawable.ic_vol_type_tv_dark;
+			global::PanCardView.Droid.Resource.Drawable.ic_vol_type_tv_light = global::ShaXam.Droid.Resource.Drawable.ic_vol_type_tv_light;
+			global::PanCardView.Droid.Resource.Drawable.mr_button_connected_dark = global::ShaXam.Droid.Resource.Drawable.mr_button_connected_dark;
+			global::PanCardView.Droid.Resource.Drawable.mr_button_connected_light = global::ShaXam.Droid.Resource.Drawable.mr_button_connected_light;
+			global::PanCardView.Droid.Resource.Drawable.mr_button_connecting_dark = global::ShaXam.Droid.Resource.Drawable.mr_button_connecting_dark;
+			global::PanCardView.Droid.Resource.Drawable.mr_button_connecting_light = global::ShaXam.Droid.Resource.Drawable.mr_button_connecting_light;
+			global::PanCardView.Droid.Resource.Drawable.mr_button_dark = global::ShaXam.Droid.Resource.Drawable.mr_button_dark;
+			global::PanCardView.Droid.Resource.Drawable.mr_button_light = global::ShaXam.Droid.Resource.Drawable.mr_button_light;
+			global::PanCardView.Droid.Resource.Drawable.mr_dialog_close_dark = global::ShaXam.Droid.Resource.Drawable.mr_dialog_close_dark;
+			global::PanCardView.Droid.Resource.Drawable.mr_dialog_close_light = global::ShaXam.Droid.Resource.Drawable.mr_dialog_close_light;
+			global::PanCardView.Droid.Resource.Drawable.mr_dialog_material_background_dark = global::ShaXam.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::PanCardView.Droid.Resource.Drawable.mr_dialog_material_background_light = global::ShaXam.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::PanCardView.Droid.Resource.Drawable.mr_group_collapse = global::ShaXam.Droid.Resource.Drawable.mr_group_collapse;
+			global::PanCardView.Droid.Resource.Drawable.mr_group_expand = global::ShaXam.Droid.Resource.Drawable.mr_group_expand;
+			global::PanCardView.Droid.Resource.Drawable.mr_media_pause_dark = global::ShaXam.Droid.Resource.Drawable.mr_media_pause_dark;
+			global::PanCardView.Droid.Resource.Drawable.mr_media_pause_light = global::ShaXam.Droid.Resource.Drawable.mr_media_pause_light;
+			global::PanCardView.Droid.Resource.Drawable.mr_media_play_dark = global::ShaXam.Droid.Resource.Drawable.mr_media_play_dark;
+			global::PanCardView.Droid.Resource.Drawable.mr_media_play_light = global::ShaXam.Droid.Resource.Drawable.mr_media_play_light;
+			global::PanCardView.Droid.Resource.Drawable.mr_media_stop_dark = global::ShaXam.Droid.Resource.Drawable.mr_media_stop_dark;
+			global::PanCardView.Droid.Resource.Drawable.mr_media_stop_light = global::ShaXam.Droid.Resource.Drawable.mr_media_stop_light;
+			global::PanCardView.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark = global::ShaXam.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
+			global::PanCardView.Droid.Resource.Drawable.mr_vol_type_audiotrack_light = global::ShaXam.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
+			global::PanCardView.Droid.Resource.Drawable.mtrl_snackbar_background = global::ShaXam.Droid.Resource.Drawable.mtrl_snackbar_background;
+			global::PanCardView.Droid.Resource.Drawable.mtrl_tabs_default_indicator = global::ShaXam.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::PanCardView.Droid.Resource.Drawable.navigation_empty_icon = global::ShaXam.Droid.Resource.Drawable.navigation_empty_icon;
+			global::PanCardView.Droid.Resource.Drawable.notification_action_background = global::ShaXam.Droid.Resource.Drawable.notification_action_background;
+			global::PanCardView.Droid.Resource.Drawable.notification_bg = global::ShaXam.Droid.Resource.Drawable.notification_bg;
+			global::PanCardView.Droid.Resource.Drawable.notification_bg_low = global::ShaXam.Droid.Resource.Drawable.notification_bg_low;
+			global::PanCardView.Droid.Resource.Drawable.notification_bg_low_normal = global::ShaXam.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::PanCardView.Droid.Resource.Drawable.notification_bg_low_pressed = global::ShaXam.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::PanCardView.Droid.Resource.Drawable.notification_bg_normal = global::ShaXam.Droid.Resource.Drawable.notification_bg_normal;
+			global::PanCardView.Droid.Resource.Drawable.notification_bg_normal_pressed = global::ShaXam.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::PanCardView.Droid.Resource.Drawable.notification_icon_background = global::ShaXam.Droid.Resource.Drawable.notification_icon_background;
+			global::PanCardView.Droid.Resource.Drawable.notification_template_icon_bg = global::ShaXam.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::PanCardView.Droid.Resource.Drawable.notification_template_icon_low_bg = global::ShaXam.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::PanCardView.Droid.Resource.Drawable.notification_tile_bg = global::ShaXam.Droid.Resource.Drawable.notification_tile_bg;
+			global::PanCardView.Droid.Resource.Drawable.notify_panel_notification_icon_bg = global::ShaXam.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::PanCardView.Droid.Resource.Drawable.tooltip_frame_dark = global::ShaXam.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::PanCardView.Droid.Resource.Drawable.tooltip_frame_light = global::ShaXam.Droid.Resource.Drawable.tooltip_frame_light;
+			global::PanCardView.Droid.Resource.Id.action0 = global::ShaXam.Droid.Resource.Id.action0;
+			global::PanCardView.Droid.Resource.Id.actions = global::ShaXam.Droid.Resource.Id.actions;
+			global::PanCardView.Droid.Resource.Id.action_bar = global::ShaXam.Droid.Resource.Id.action_bar;
+			global::PanCardView.Droid.Resource.Id.action_bar_activity_content = global::ShaXam.Droid.Resource.Id.action_bar_activity_content;
+			global::PanCardView.Droid.Resource.Id.action_bar_container = global::ShaXam.Droid.Resource.Id.action_bar_container;
+			global::PanCardView.Droid.Resource.Id.action_bar_root = global::ShaXam.Droid.Resource.Id.action_bar_root;
+			global::PanCardView.Droid.Resource.Id.action_bar_spinner = global::ShaXam.Droid.Resource.Id.action_bar_spinner;
+			global::PanCardView.Droid.Resource.Id.action_bar_subtitle = global::ShaXam.Droid.Resource.Id.action_bar_subtitle;
+			global::PanCardView.Droid.Resource.Id.action_bar_title = global::ShaXam.Droid.Resource.Id.action_bar_title;
+			global::PanCardView.Droid.Resource.Id.action_container = global::ShaXam.Droid.Resource.Id.action_container;
+			global::PanCardView.Droid.Resource.Id.action_context_bar = global::ShaXam.Droid.Resource.Id.action_context_bar;
+			global::PanCardView.Droid.Resource.Id.action_divider = global::ShaXam.Droid.Resource.Id.action_divider;
+			global::PanCardView.Droid.Resource.Id.action_image = global::ShaXam.Droid.Resource.Id.action_image;
+			global::PanCardView.Droid.Resource.Id.action_menu_divider = global::ShaXam.Droid.Resource.Id.action_menu_divider;
+			global::PanCardView.Droid.Resource.Id.action_menu_presenter = global::ShaXam.Droid.Resource.Id.action_menu_presenter;
+			global::PanCardView.Droid.Resource.Id.action_mode_bar = global::ShaXam.Droid.Resource.Id.action_mode_bar;
+			global::PanCardView.Droid.Resource.Id.action_mode_bar_stub = global::ShaXam.Droid.Resource.Id.action_mode_bar_stub;
+			global::PanCardView.Droid.Resource.Id.action_mode_close_button = global::ShaXam.Droid.Resource.Id.action_mode_close_button;
+			global::PanCardView.Droid.Resource.Id.action_text = global::ShaXam.Droid.Resource.Id.action_text;
+			global::PanCardView.Droid.Resource.Id.activity_chooser_view_content = global::ShaXam.Droid.Resource.Id.activity_chooser_view_content;
+			global::PanCardView.Droid.Resource.Id.add = global::ShaXam.Droid.Resource.Id.add;
+			global::PanCardView.Droid.Resource.Id.alertTitle = global::ShaXam.Droid.Resource.Id.alertTitle;
+			global::PanCardView.Droid.Resource.Id.all = global::ShaXam.Droid.Resource.Id.all;
+			global::PanCardView.Droid.Resource.Id.ALT = global::ShaXam.Droid.Resource.Id.ALT;
+			global::PanCardView.Droid.Resource.Id.always = global::ShaXam.Droid.Resource.Id.always;
+			global::PanCardView.Droid.Resource.Id.async = global::ShaXam.Droid.Resource.Id.async;
+			global::PanCardView.Droid.Resource.Id.auto = global::ShaXam.Droid.Resource.Id.auto;
+			global::PanCardView.Droid.Resource.Id.beginning = global::ShaXam.Droid.Resource.Id.beginning;
+			global::PanCardView.Droid.Resource.Id.blocking = global::ShaXam.Droid.Resource.Id.blocking;
+			global::PanCardView.Droid.Resource.Id.bottom = global::ShaXam.Droid.Resource.Id.bottom;
+			global::PanCardView.Droid.Resource.Id.bottomtab_navarea = global::ShaXam.Droid.Resource.Id.bottomtab_navarea;
+			global::PanCardView.Droid.Resource.Id.bottomtab_tabbar = global::ShaXam.Droid.Resource.Id.bottomtab_tabbar;
+			global::PanCardView.Droid.Resource.Id.browser_actions_header_text = global::ShaXam.Droid.Resource.Id.browser_actions_header_text;
+			global::PanCardView.Droid.Resource.Id.browser_actions_menu_items = global::ShaXam.Droid.Resource.Id.browser_actions_menu_items;
+			global::PanCardView.Droid.Resource.Id.browser_actions_menu_item_icon = global::ShaXam.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::PanCardView.Droid.Resource.Id.browser_actions_menu_item_text = global::ShaXam.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::PanCardView.Droid.Resource.Id.browser_actions_menu_view = global::ShaXam.Droid.Resource.Id.browser_actions_menu_view;
+			global::PanCardView.Droid.Resource.Id.buttonPanel = global::ShaXam.Droid.Resource.Id.buttonPanel;
+			global::PanCardView.Droid.Resource.Id.cancel_action = global::ShaXam.Droid.Resource.Id.cancel_action;
+			global::PanCardView.Droid.Resource.Id.center = global::ShaXam.Droid.Resource.Id.center;
+			global::PanCardView.Droid.Resource.Id.center_horizontal = global::ShaXam.Droid.Resource.Id.center_horizontal;
+			global::PanCardView.Droid.Resource.Id.center_vertical = global::ShaXam.Droid.Resource.Id.center_vertical;
+			global::PanCardView.Droid.Resource.Id.checkbox = global::ShaXam.Droid.Resource.Id.checkbox;
+			global::PanCardView.Droid.Resource.Id.chronometer = global::ShaXam.Droid.Resource.Id.chronometer;
+			global::PanCardView.Droid.Resource.Id.clip_horizontal = global::ShaXam.Droid.Resource.Id.clip_horizontal;
+			global::PanCardView.Droid.Resource.Id.clip_vertical = global::ShaXam.Droid.Resource.Id.clip_vertical;
+			global::PanCardView.Droid.Resource.Id.collapseActionView = global::ShaXam.Droid.Resource.Id.collapseActionView;
+			global::PanCardView.Droid.Resource.Id.container = global::ShaXam.Droid.Resource.Id.container;
+			global::PanCardView.Droid.Resource.Id.content = global::ShaXam.Droid.Resource.Id.content;
+			global::PanCardView.Droid.Resource.Id.contentPanel = global::ShaXam.Droid.Resource.Id.contentPanel;
+			global::PanCardView.Droid.Resource.Id.coordinator = global::ShaXam.Droid.Resource.Id.coordinator;
+			global::PanCardView.Droid.Resource.Id.CTRL = global::ShaXam.Droid.Resource.Id.CTRL;
+			global::PanCardView.Droid.Resource.Id.custom = global::ShaXam.Droid.Resource.Id.custom;
+			global::PanCardView.Droid.Resource.Id.customPanel = global::ShaXam.Droid.Resource.Id.customPanel;
+			global::PanCardView.Droid.Resource.Id.decor_content_parent = global::ShaXam.Droid.Resource.Id.decor_content_parent;
+			global::PanCardView.Droid.Resource.Id.default_activity_button = global::ShaXam.Droid.Resource.Id.default_activity_button;
+			global::PanCardView.Droid.Resource.Id.design_bottom_sheet = global::ShaXam.Droid.Resource.Id.design_bottom_sheet;
+			global::PanCardView.Droid.Resource.Id.design_menu_item_action_area = global::ShaXam.Droid.Resource.Id.design_menu_item_action_area;
+			global::PanCardView.Droid.Resource.Id.design_menu_item_action_area_stub = global::ShaXam.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::PanCardView.Droid.Resource.Id.design_menu_item_text = global::ShaXam.Droid.Resource.Id.design_menu_item_text;
+			global::PanCardView.Droid.Resource.Id.design_navigation_view = global::ShaXam.Droid.Resource.Id.design_navigation_view;
+			global::PanCardView.Droid.Resource.Id.disableHome = global::ShaXam.Droid.Resource.Id.disableHome;
+			global::PanCardView.Droid.Resource.Id.edit_query = global::ShaXam.Droid.Resource.Id.edit_query;
+			global::PanCardView.Droid.Resource.Id.end = global::ShaXam.Droid.Resource.Id.end;
+			global::PanCardView.Droid.Resource.Id.end_padder = global::ShaXam.Droid.Resource.Id.end_padder;
+			global::PanCardView.Droid.Resource.Id.enterAlways = global::ShaXam.Droid.Resource.Id.enterAlways;
+			global::PanCardView.Droid.Resource.Id.enterAlwaysCollapsed = global::ShaXam.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::PanCardView.Droid.Resource.Id.exitUntilCollapsed = global::ShaXam.Droid.Resource.Id.exitUntilCollapsed;
+			global::PanCardView.Droid.Resource.Id.expanded_menu = global::ShaXam.Droid.Resource.Id.expanded_menu;
+			global::PanCardView.Droid.Resource.Id.expand_activities_button = global::ShaXam.Droid.Resource.Id.expand_activities_button;
+			global::PanCardView.Droid.Resource.Id.fill = global::ShaXam.Droid.Resource.Id.fill;
+			global::PanCardView.Droid.Resource.Id.filled = global::ShaXam.Droid.Resource.Id.filled;
+			global::PanCardView.Droid.Resource.Id.fill_horizontal = global::ShaXam.Droid.Resource.Id.fill_horizontal;
+			global::PanCardView.Droid.Resource.Id.fill_vertical = global::ShaXam.Droid.Resource.Id.fill_vertical;
+			global::PanCardView.Droid.Resource.Id.@fixed = global::ShaXam.Droid.Resource.Id.@fixed;
+			global::PanCardView.Droid.Resource.Id.flyoutcontent_appbar = global::ShaXam.Droid.Resource.Id.flyoutcontent_appbar;
+			global::PanCardView.Droid.Resource.Id.flyoutcontent_recycler = global::ShaXam.Droid.Resource.Id.flyoutcontent_recycler;
+			global::PanCardView.Droid.Resource.Id.forever = global::ShaXam.Droid.Resource.Id.forever;
+			global::PanCardView.Droid.Resource.Id.FUNCTION = global::ShaXam.Droid.Resource.Id.FUNCTION;
+			global::PanCardView.Droid.Resource.Id.ghost_view = global::ShaXam.Droid.Resource.Id.ghost_view;
+			global::PanCardView.Droid.Resource.Id.group_divider = global::ShaXam.Droid.Resource.Id.group_divider;
+			global::PanCardView.Droid.Resource.Id.home = global::ShaXam.Droid.Resource.Id.home;
+			global::PanCardView.Droid.Resource.Id.homeAsUp = global::ShaXam.Droid.Resource.Id.homeAsUp;
+			global::PanCardView.Droid.Resource.Id.icon = global::ShaXam.Droid.Resource.Id.icon;
+			global::PanCardView.Droid.Resource.Id.icon_group = global::ShaXam.Droid.Resource.Id.icon_group;
+			global::PanCardView.Droid.Resource.Id.ifRoom = global::ShaXam.Droid.Resource.Id.ifRoom;
+			global::PanCardView.Droid.Resource.Id.image = global::ShaXam.Droid.Resource.Id.image;
+			global::PanCardView.Droid.Resource.Id.info = global::ShaXam.Droid.Resource.Id.info;
+			global::PanCardView.Droid.Resource.Id.italic = global::ShaXam.Droid.Resource.Id.italic;
+			global::PanCardView.Droid.Resource.Id.item_touch_helper_previous_elevation = global::ShaXam.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::PanCardView.Droid.Resource.Id.labeled = global::ShaXam.Droid.Resource.Id.labeled;
+			global::PanCardView.Droid.Resource.Id.largeLabel = global::ShaXam.Droid.Resource.Id.largeLabel;
+			global::PanCardView.Droid.Resource.Id.left = global::ShaXam.Droid.Resource.Id.left;
+			global::PanCardView.Droid.Resource.Id.line1 = global::ShaXam.Droid.Resource.Id.line1;
+			global::PanCardView.Droid.Resource.Id.line3 = global::ShaXam.Droid.Resource.Id.line3;
+			global::PanCardView.Droid.Resource.Id.listMode = global::ShaXam.Droid.Resource.Id.listMode;
+			global::PanCardView.Droid.Resource.Id.list_item = global::ShaXam.Droid.Resource.Id.list_item;
+			global::PanCardView.Droid.Resource.Id.main_appbar = global::ShaXam.Droid.Resource.Id.main_appbar;
+			global::PanCardView.Droid.Resource.Id.main_tablayout = global::ShaXam.Droid.Resource.Id.main_tablayout;
+			global::PanCardView.Droid.Resource.Id.main_toolbar = global::ShaXam.Droid.Resource.Id.main_toolbar;
+			global::PanCardView.Droid.Resource.Id.main_viewpager = global::ShaXam.Droid.Resource.Id.main_viewpager;
+			global::PanCardView.Droid.Resource.Id.masked = global::ShaXam.Droid.Resource.Id.masked;
+			global::PanCardView.Droid.Resource.Id.media_actions = global::ShaXam.Droid.Resource.Id.media_actions;
+			global::PanCardView.Droid.Resource.Id.message = global::ShaXam.Droid.Resource.Id.message;
+			global::PanCardView.Droid.Resource.Id.META = global::ShaXam.Droid.Resource.Id.META;
+			global::PanCardView.Droid.Resource.Id.middle = global::ShaXam.Droid.Resource.Id.middle;
+			global::PanCardView.Droid.Resource.Id.mini = global::ShaXam.Droid.Resource.Id.mini;
+			global::PanCardView.Droid.Resource.Id.mr_art = global::ShaXam.Droid.Resource.Id.mr_art;
+			global::PanCardView.Droid.Resource.Id.mr_cast_checkbox = global::ShaXam.Droid.Resource.Id.mr_cast_checkbox;
+			global::PanCardView.Droid.Resource.Id.mr_cast_close_button = global::ShaXam.Droid.Resource.Id.mr_cast_close_button;
+			global::PanCardView.Droid.Resource.Id.mr_cast_group_icon = global::ShaXam.Droid.Resource.Id.mr_cast_group_icon;
+			global::PanCardView.Droid.Resource.Id.mr_cast_group_name = global::ShaXam.Droid.Resource.Id.mr_cast_group_name;
+			global::PanCardView.Droid.Resource.Id.mr_cast_list = global::ShaXam.Droid.Resource.Id.mr_cast_list;
+			global::PanCardView.Droid.Resource.Id.mr_cast_meta = global::ShaXam.Droid.Resource.Id.mr_cast_meta;
+			global::PanCardView.Droid.Resource.Id.mr_cast_meta_art = global::ShaXam.Droid.Resource.Id.mr_cast_meta_art;
+			global::PanCardView.Droid.Resource.Id.mr_cast_meta_subtitle = global::ShaXam.Droid.Resource.Id.mr_cast_meta_subtitle;
+			global::PanCardView.Droid.Resource.Id.mr_cast_meta_title = global::ShaXam.Droid.Resource.Id.mr_cast_meta_title;
+			global::PanCardView.Droid.Resource.Id.mr_cast_route_icon = global::ShaXam.Droid.Resource.Id.mr_cast_route_icon;
+			global::PanCardView.Droid.Resource.Id.mr_cast_route_name = global::ShaXam.Droid.Resource.Id.mr_cast_route_name;
+			global::PanCardView.Droid.Resource.Id.mr_cast_stop_button = global::ShaXam.Droid.Resource.Id.mr_cast_stop_button;
+			global::PanCardView.Droid.Resource.Id.mr_cast_volume_layout = global::ShaXam.Droid.Resource.Id.mr_cast_volume_layout;
+			global::PanCardView.Droid.Resource.Id.mr_cast_volume_slider = global::ShaXam.Droid.Resource.Id.mr_cast_volume_slider;
+			global::PanCardView.Droid.Resource.Id.mr_chooser_list = global::ShaXam.Droid.Resource.Id.mr_chooser_list;
+			global::PanCardView.Droid.Resource.Id.mr_chooser_route_desc = global::ShaXam.Droid.Resource.Id.mr_chooser_route_desc;
+			global::PanCardView.Droid.Resource.Id.mr_chooser_route_icon = global::ShaXam.Droid.Resource.Id.mr_chooser_route_icon;
+			global::PanCardView.Droid.Resource.Id.mr_chooser_route_name = global::ShaXam.Droid.Resource.Id.mr_chooser_route_name;
+			global::PanCardView.Droid.Resource.Id.mr_chooser_title = global::ShaXam.Droid.Resource.Id.mr_chooser_title;
+			global::PanCardView.Droid.Resource.Id.mr_close = global::ShaXam.Droid.Resource.Id.mr_close;
+			global::PanCardView.Droid.Resource.Id.mr_control_divider = global::ShaXam.Droid.Resource.Id.mr_control_divider;
+			global::PanCardView.Droid.Resource.Id.mr_control_playback_ctrl = global::ShaXam.Droid.Resource.Id.mr_control_playback_ctrl;
+			global::PanCardView.Droid.Resource.Id.mr_control_subtitle = global::ShaXam.Droid.Resource.Id.mr_control_subtitle;
+			global::PanCardView.Droid.Resource.Id.mr_control_title = global::ShaXam.Droid.Resource.Id.mr_control_title;
+			global::PanCardView.Droid.Resource.Id.mr_control_title_container = global::ShaXam.Droid.Resource.Id.mr_control_title_container;
+			global::PanCardView.Droid.Resource.Id.mr_custom_control = global::ShaXam.Droid.Resource.Id.mr_custom_control;
+			global::PanCardView.Droid.Resource.Id.mr_default_control = global::ShaXam.Droid.Resource.Id.mr_default_control;
+			global::PanCardView.Droid.Resource.Id.mr_dialog_area = global::ShaXam.Droid.Resource.Id.mr_dialog_area;
+			global::PanCardView.Droid.Resource.Id.mr_dialog_header_name = global::ShaXam.Droid.Resource.Id.mr_dialog_header_name;
+			global::PanCardView.Droid.Resource.Id.mr_expandable_area = global::ShaXam.Droid.Resource.Id.mr_expandable_area;
+			global::PanCardView.Droid.Resource.Id.mr_group_expand_collapse = global::ShaXam.Droid.Resource.Id.mr_group_expand_collapse;
+			global::PanCardView.Droid.Resource.Id.mr_group_volume_route_name = global::ShaXam.Droid.Resource.Id.mr_group_volume_route_name;
+			global::PanCardView.Droid.Resource.Id.mr_group_volume_slider = global::ShaXam.Droid.Resource.Id.mr_group_volume_slider;
+			global::PanCardView.Droid.Resource.Id.mr_media_main_control = global::ShaXam.Droid.Resource.Id.mr_media_main_control;
+			global::PanCardView.Droid.Resource.Id.mr_name = global::ShaXam.Droid.Resource.Id.mr_name;
+			global::PanCardView.Droid.Resource.Id.mr_picker_close_button = global::ShaXam.Droid.Resource.Id.mr_picker_close_button;
+			global::PanCardView.Droid.Resource.Id.mr_picker_list = global::ShaXam.Droid.Resource.Id.mr_picker_list;
+			global::PanCardView.Droid.Resource.Id.mr_picker_route_icon = global::ShaXam.Droid.Resource.Id.mr_picker_route_icon;
+			global::PanCardView.Droid.Resource.Id.mr_picker_route_name = global::ShaXam.Droid.Resource.Id.mr_picker_route_name;
+			global::PanCardView.Droid.Resource.Id.mr_playback_control = global::ShaXam.Droid.Resource.Id.mr_playback_control;
+			global::PanCardView.Droid.Resource.Id.mr_title_bar = global::ShaXam.Droid.Resource.Id.mr_title_bar;
+			global::PanCardView.Droid.Resource.Id.mr_volume_control = global::ShaXam.Droid.Resource.Id.mr_volume_control;
+			global::PanCardView.Droid.Resource.Id.mr_volume_group_list = global::ShaXam.Droid.Resource.Id.mr_volume_group_list;
+			global::PanCardView.Droid.Resource.Id.mr_volume_item_icon = global::ShaXam.Droid.Resource.Id.mr_volume_item_icon;
+			global::PanCardView.Droid.Resource.Id.mr_volume_slider = global::ShaXam.Droid.Resource.Id.mr_volume_slider;
+			global::PanCardView.Droid.Resource.Id.mtrl_child_content_container = global::ShaXam.Droid.Resource.Id.mtrl_child_content_container;
+			global::PanCardView.Droid.Resource.Id.mtrl_internal_children_alpha_tag = global::ShaXam.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::PanCardView.Droid.Resource.Id.multiply = global::ShaXam.Droid.Resource.Id.multiply;
+			global::PanCardView.Droid.Resource.Id.navigation_header_container = global::ShaXam.Droid.Resource.Id.navigation_header_container;
+			global::PanCardView.Droid.Resource.Id.never = global::ShaXam.Droid.Resource.Id.never;
+			global::PanCardView.Droid.Resource.Id.none = global::ShaXam.Droid.Resource.Id.none;
+			global::PanCardView.Droid.Resource.Id.normal = global::ShaXam.Droid.Resource.Id.normal;
+			global::PanCardView.Droid.Resource.Id.notification_background = global::ShaXam.Droid.Resource.Id.notification_background;
+			global::PanCardView.Droid.Resource.Id.notification_main_column = global::ShaXam.Droid.Resource.Id.notification_main_column;
+			global::PanCardView.Droid.Resource.Id.notification_main_column_container = global::ShaXam.Droid.Resource.Id.notification_main_column_container;
+			global::PanCardView.Droid.Resource.Id.outline = global::ShaXam.Droid.Resource.Id.outline;
+			global::PanCardView.Droid.Resource.Id.parallax = global::ShaXam.Droid.Resource.Id.parallax;
+			global::PanCardView.Droid.Resource.Id.parentPanel = global::ShaXam.Droid.Resource.Id.parentPanel;
+			global::PanCardView.Droid.Resource.Id.parent_matrix = global::ShaXam.Droid.Resource.Id.parent_matrix;
+			global::PanCardView.Droid.Resource.Id.pin = global::ShaXam.Droid.Resource.Id.pin;
+			global::PanCardView.Droid.Resource.Id.progress_circular = global::ShaXam.Droid.Resource.Id.progress_circular;
+			global::PanCardView.Droid.Resource.Id.progress_horizontal = global::ShaXam.Droid.Resource.Id.progress_horizontal;
+			global::PanCardView.Droid.Resource.Id.radio = global::ShaXam.Droid.Resource.Id.radio;
+			global::PanCardView.Droid.Resource.Id.right = global::ShaXam.Droid.Resource.Id.right;
+			global::PanCardView.Droid.Resource.Id.right_icon = global::ShaXam.Droid.Resource.Id.right_icon;
+			global::PanCardView.Droid.Resource.Id.right_side = global::ShaXam.Droid.Resource.Id.right_side;
+			global::PanCardView.Droid.Resource.Id.save_image_matrix = global::ShaXam.Droid.Resource.Id.save_image_matrix;
+			global::PanCardView.Droid.Resource.Id.save_non_transition_alpha = global::ShaXam.Droid.Resource.Id.save_non_transition_alpha;
+			global::PanCardView.Droid.Resource.Id.save_scale_type = global::ShaXam.Droid.Resource.Id.save_scale_type;
+			global::PanCardView.Droid.Resource.Id.screen = global::ShaXam.Droid.Resource.Id.screen;
+			global::PanCardView.Droid.Resource.Id.scroll = global::ShaXam.Droid.Resource.Id.scroll;
+			global::PanCardView.Droid.Resource.Id.scrollable = global::ShaXam.Droid.Resource.Id.scrollable;
+			global::PanCardView.Droid.Resource.Id.scrollIndicatorDown = global::ShaXam.Droid.Resource.Id.scrollIndicatorDown;
+			global::PanCardView.Droid.Resource.Id.scrollIndicatorUp = global::ShaXam.Droid.Resource.Id.scrollIndicatorUp;
+			global::PanCardView.Droid.Resource.Id.scrollView = global::ShaXam.Droid.Resource.Id.scrollView;
+			global::PanCardView.Droid.Resource.Id.search_badge = global::ShaXam.Droid.Resource.Id.search_badge;
+			global::PanCardView.Droid.Resource.Id.search_bar = global::ShaXam.Droid.Resource.Id.search_bar;
+			global::PanCardView.Droid.Resource.Id.search_button = global::ShaXam.Droid.Resource.Id.search_button;
+			global::PanCardView.Droid.Resource.Id.search_close_btn = global::ShaXam.Droid.Resource.Id.search_close_btn;
+			global::PanCardView.Droid.Resource.Id.search_edit_frame = global::ShaXam.Droid.Resource.Id.search_edit_frame;
+			global::PanCardView.Droid.Resource.Id.search_go_btn = global::ShaXam.Droid.Resource.Id.search_go_btn;
+			global::PanCardView.Droid.Resource.Id.search_mag_icon = global::ShaXam.Droid.Resource.Id.search_mag_icon;
+			global::PanCardView.Droid.Resource.Id.search_plate = global::ShaXam.Droid.Resource.Id.search_plate;
+			global::PanCardView.Droid.Resource.Id.search_src_text = global::ShaXam.Droid.Resource.Id.search_src_text;
+			global::PanCardView.Droid.Resource.Id.search_voice_btn = global::ShaXam.Droid.Resource.Id.search_voice_btn;
+			global::PanCardView.Droid.Resource.Id.selected = global::ShaXam.Droid.Resource.Id.selected;
+			global::PanCardView.Droid.Resource.Id.select_dialog_listview = global::ShaXam.Droid.Resource.Id.select_dialog_listview;
+			global::PanCardView.Droid.Resource.Id.shellcontent_appbar = global::ShaXam.Droid.Resource.Id.shellcontent_appbar;
+			global::PanCardView.Droid.Resource.Id.shellcontent_toolbar = global::ShaXam.Droid.Resource.Id.shellcontent_toolbar;
+			global::PanCardView.Droid.Resource.Id.SHIFT = global::ShaXam.Droid.Resource.Id.SHIFT;
+			global::PanCardView.Droid.Resource.Id.shortcut = global::ShaXam.Droid.Resource.Id.shortcut;
+			global::PanCardView.Droid.Resource.Id.showCustom = global::ShaXam.Droid.Resource.Id.showCustom;
+			global::PanCardView.Droid.Resource.Id.showHome = global::ShaXam.Droid.Resource.Id.showHome;
+			global::PanCardView.Droid.Resource.Id.showTitle = global::ShaXam.Droid.Resource.Id.showTitle;
+			global::PanCardView.Droid.Resource.Id.smallLabel = global::ShaXam.Droid.Resource.Id.smallLabel;
+			global::PanCardView.Droid.Resource.Id.snackbar_action = global::ShaXam.Droid.Resource.Id.snackbar_action;
+			global::PanCardView.Droid.Resource.Id.snackbar_text = global::ShaXam.Droid.Resource.Id.snackbar_text;
+			global::PanCardView.Droid.Resource.Id.snap = global::ShaXam.Droid.Resource.Id.snap;
+			global::PanCardView.Droid.Resource.Id.snapMargins = global::ShaXam.Droid.Resource.Id.snapMargins;
+			global::PanCardView.Droid.Resource.Id.spacer = global::ShaXam.Droid.Resource.Id.spacer;
+			global::PanCardView.Droid.Resource.Id.split_action_bar = global::ShaXam.Droid.Resource.Id.split_action_bar;
+			global::PanCardView.Droid.Resource.Id.src_atop = global::ShaXam.Droid.Resource.Id.src_atop;
+			global::PanCardView.Droid.Resource.Id.src_in = global::ShaXam.Droid.Resource.Id.src_in;
+			global::PanCardView.Droid.Resource.Id.src_over = global::ShaXam.Droid.Resource.Id.src_over;
+			global::PanCardView.Droid.Resource.Id.start = global::ShaXam.Droid.Resource.Id.start;
+			global::PanCardView.Droid.Resource.Id.status_bar_latest_event_content = global::ShaXam.Droid.Resource.Id.status_bar_latest_event_content;
+			global::PanCardView.Droid.Resource.Id.stretch = global::ShaXam.Droid.Resource.Id.stretch;
+			global::PanCardView.Droid.Resource.Id.submenuarrow = global::ShaXam.Droid.Resource.Id.submenuarrow;
+			global::PanCardView.Droid.Resource.Id.submit_area = global::ShaXam.Droid.Resource.Id.submit_area;
+			global::PanCardView.Droid.Resource.Id.SYM = global::ShaXam.Droid.Resource.Id.SYM;
+			global::PanCardView.Droid.Resource.Id.tabMode = global::ShaXam.Droid.Resource.Id.tabMode;
+			global::PanCardView.Droid.Resource.Id.tag_transition_group = global::ShaXam.Droid.Resource.Id.tag_transition_group;
+			global::PanCardView.Droid.Resource.Id.tag_unhandled_key_event_manager = global::ShaXam.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::PanCardView.Droid.Resource.Id.tag_unhandled_key_listeners = global::ShaXam.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::PanCardView.Droid.Resource.Id.text = global::ShaXam.Droid.Resource.Id.text;
+			global::PanCardView.Droid.Resource.Id.text2 = global::ShaXam.Droid.Resource.Id.text2;
+			global::PanCardView.Droid.Resource.Id.textinput_counter = global::ShaXam.Droid.Resource.Id.textinput_counter;
+			global::PanCardView.Droid.Resource.Id.textinput_error = global::ShaXam.Droid.Resource.Id.textinput_error;
+			global::PanCardView.Droid.Resource.Id.textinput_helper_text = global::ShaXam.Droid.Resource.Id.textinput_helper_text;
+			global::PanCardView.Droid.Resource.Id.textSpacerNoButtons = global::ShaXam.Droid.Resource.Id.textSpacerNoButtons;
+			global::PanCardView.Droid.Resource.Id.textSpacerNoTitle = global::ShaXam.Droid.Resource.Id.textSpacerNoTitle;
+			global::PanCardView.Droid.Resource.Id.textStart = global::ShaXam.Droid.Resource.Id.textStart;
+			global::PanCardView.Droid.Resource.Id.text_input_password_toggle = global::ShaXam.Droid.Resource.Id.text_input_password_toggle;
+			global::PanCardView.Droid.Resource.Id.time = global::ShaXam.Droid.Resource.Id.time;
+			global::PanCardView.Droid.Resource.Id.title = global::ShaXam.Droid.Resource.Id.title;
+			global::PanCardView.Droid.Resource.Id.titleDividerNoCustom = global::ShaXam.Droid.Resource.Id.titleDividerNoCustom;
+			global::PanCardView.Droid.Resource.Id.title_template = global::ShaXam.Droid.Resource.Id.title_template;
+			global::PanCardView.Droid.Resource.Id.top = global::ShaXam.Droid.Resource.Id.top;
+			global::PanCardView.Droid.Resource.Id.topPanel = global::ShaXam.Droid.Resource.Id.topPanel;
+			global::PanCardView.Droid.Resource.Id.touch_outside = global::ShaXam.Droid.Resource.Id.touch_outside;
+			global::PanCardView.Droid.Resource.Id.transition_current_scene = global::ShaXam.Droid.Resource.Id.transition_current_scene;
+			global::PanCardView.Droid.Resource.Id.transition_layout_save = global::ShaXam.Droid.Resource.Id.transition_layout_save;
+			global::PanCardView.Droid.Resource.Id.transition_position = global::ShaXam.Droid.Resource.Id.transition_position;
+			global::PanCardView.Droid.Resource.Id.transition_scene_layoutid_cache = global::ShaXam.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::PanCardView.Droid.Resource.Id.transition_transform = global::ShaXam.Droid.Resource.Id.transition_transform;
+			global::PanCardView.Droid.Resource.Id.uniform = global::ShaXam.Droid.Resource.Id.uniform;
+			global::PanCardView.Droid.Resource.Id.unlabeled = global::ShaXam.Droid.Resource.Id.unlabeled;
+			global::PanCardView.Droid.Resource.Id.up = global::ShaXam.Droid.Resource.Id.up;
+			global::PanCardView.Droid.Resource.Id.useLogo = global::ShaXam.Droid.Resource.Id.useLogo;
+			global::PanCardView.Droid.Resource.Id.view_offset_helper = global::ShaXam.Droid.Resource.Id.view_offset_helper;
+			global::PanCardView.Droid.Resource.Id.visible = global::ShaXam.Droid.Resource.Id.visible;
+			global::PanCardView.Droid.Resource.Id.volume_item_container = global::ShaXam.Droid.Resource.Id.volume_item_container;
+			global::PanCardView.Droid.Resource.Id.withText = global::ShaXam.Droid.Resource.Id.withText;
+			global::PanCardView.Droid.Resource.Id.wrap_content = global::ShaXam.Droid.Resource.Id.wrap_content;
+			global::PanCardView.Droid.Resource.Integer.abc_config_activityDefaultDur = global::ShaXam.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::PanCardView.Droid.Resource.Integer.abc_config_activityShortDur = global::ShaXam.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::PanCardView.Droid.Resource.Integer.app_bar_elevation_anim_duration = global::ShaXam.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::PanCardView.Droid.Resource.Integer.bottom_sheet_slide_duration = global::ShaXam.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::PanCardView.Droid.Resource.Integer.cancel_button_image_alpha = global::ShaXam.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::PanCardView.Droid.Resource.Integer.config_tooltipAnimTime = global::ShaXam.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::PanCardView.Droid.Resource.Integer.design_snackbar_text_max_lines = global::ShaXam.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::PanCardView.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms = global::ShaXam.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::PanCardView.Droid.Resource.Integer.hide_password_duration = global::ShaXam.Droid.Resource.Integer.hide_password_duration;
+			global::PanCardView.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::ShaXam.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::PanCardView.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::ShaXam.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::PanCardView.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::ShaXam.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::PanCardView.Droid.Resource.Integer.mr_update_routes_delay_ms = global::ShaXam.Droid.Resource.Integer.mr_update_routes_delay_ms;
+			global::PanCardView.Droid.Resource.Integer.mtrl_btn_anim_delay_ms = global::ShaXam.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::PanCardView.Droid.Resource.Integer.mtrl_btn_anim_duration_ms = global::ShaXam.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::PanCardView.Droid.Resource.Integer.mtrl_chip_anim_duration = global::ShaXam.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::PanCardView.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::ShaXam.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::PanCardView.Droid.Resource.Integer.show_password_duration = global::ShaXam.Droid.Resource.Integer.show_password_duration;
+			global::PanCardView.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::ShaXam.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::PanCardView.Droid.Resource.Interpolator.mr_fast_out_slow_in = global::ShaXam.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::PanCardView.Droid.Resource.Interpolator.mr_linear_out_slow_in = global::ShaXam.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::PanCardView.Droid.Resource.Interpolator.mtrl_fast_out_linear_in = global::ShaXam.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::PanCardView.Droid.Resource.Interpolator.mtrl_fast_out_slow_in = global::ShaXam.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::PanCardView.Droid.Resource.Interpolator.mtrl_linear = global::ShaXam.Droid.Resource.Interpolator.mtrl_linear;
+			global::PanCardView.Droid.Resource.Interpolator.mtrl_linear_out_slow_in = global::ShaXam.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::PanCardView.Droid.Resource.Layout.abc_action_bar_title_item = global::ShaXam.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::PanCardView.Droid.Resource.Layout.abc_action_bar_up_container = global::ShaXam.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::PanCardView.Droid.Resource.Layout.abc_action_menu_item_layout = global::ShaXam.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::PanCardView.Droid.Resource.Layout.abc_action_menu_layout = global::ShaXam.Droid.Resource.Layout.abc_action_menu_layout;
+			global::PanCardView.Droid.Resource.Layout.abc_action_mode_bar = global::ShaXam.Droid.Resource.Layout.abc_action_mode_bar;
+			global::PanCardView.Droid.Resource.Layout.abc_action_mode_close_item_material = global::ShaXam.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::PanCardView.Droid.Resource.Layout.abc_activity_chooser_view = global::ShaXam.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::PanCardView.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::ShaXam.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::PanCardView.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::ShaXam.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::PanCardView.Droid.Resource.Layout.abc_alert_dialog_material = global::ShaXam.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::PanCardView.Droid.Resource.Layout.abc_alert_dialog_title_material = global::ShaXam.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::PanCardView.Droid.Resource.Layout.abc_cascading_menu_item_layout = global::ShaXam.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::PanCardView.Droid.Resource.Layout.abc_dialog_title_material = global::ShaXam.Droid.Resource.Layout.abc_dialog_title_material;
+			global::PanCardView.Droid.Resource.Layout.abc_expanded_menu_layout = global::ShaXam.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::PanCardView.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::ShaXam.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::PanCardView.Droid.Resource.Layout.abc_list_menu_item_icon = global::ShaXam.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::PanCardView.Droid.Resource.Layout.abc_list_menu_item_layout = global::ShaXam.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::PanCardView.Droid.Resource.Layout.abc_list_menu_item_radio = global::ShaXam.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::PanCardView.Droid.Resource.Layout.abc_popup_menu_header_item_layout = global::ShaXam.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::PanCardView.Droid.Resource.Layout.abc_popup_menu_item_layout = global::ShaXam.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::PanCardView.Droid.Resource.Layout.abc_screen_content_include = global::ShaXam.Droid.Resource.Layout.abc_screen_content_include;
+			global::PanCardView.Droid.Resource.Layout.abc_screen_simple = global::ShaXam.Droid.Resource.Layout.abc_screen_simple;
+			global::PanCardView.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::ShaXam.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::PanCardView.Droid.Resource.Layout.abc_screen_toolbar = global::ShaXam.Droid.Resource.Layout.abc_screen_toolbar;
+			global::PanCardView.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::ShaXam.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::PanCardView.Droid.Resource.Layout.abc_search_view = global::ShaXam.Droid.Resource.Layout.abc_search_view;
+			global::PanCardView.Droid.Resource.Layout.abc_select_dialog_material = global::ShaXam.Droid.Resource.Layout.abc_select_dialog_material;
+			global::PanCardView.Droid.Resource.Layout.abc_tooltip = global::ShaXam.Droid.Resource.Layout.abc_tooltip;
+			global::PanCardView.Droid.Resource.Layout.BottomTabLayout = global::ShaXam.Droid.Resource.Layout.BottomTabLayout;
+			global::PanCardView.Droid.Resource.Layout.browser_actions_context_menu_page = global::ShaXam.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::PanCardView.Droid.Resource.Layout.browser_actions_context_menu_row = global::ShaXam.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::PanCardView.Droid.Resource.Layout.design_bottom_navigation_item = global::ShaXam.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::PanCardView.Droid.Resource.Layout.design_bottom_sheet_dialog = global::ShaXam.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::PanCardView.Droid.Resource.Layout.design_layout_snackbar = global::ShaXam.Droid.Resource.Layout.design_layout_snackbar;
+			global::PanCardView.Droid.Resource.Layout.design_layout_snackbar_include = global::ShaXam.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::PanCardView.Droid.Resource.Layout.design_layout_tab_icon = global::ShaXam.Droid.Resource.Layout.design_layout_tab_icon;
+			global::PanCardView.Droid.Resource.Layout.design_layout_tab_text = global::ShaXam.Droid.Resource.Layout.design_layout_tab_text;
+			global::PanCardView.Droid.Resource.Layout.design_menu_item_action_area = global::ShaXam.Droid.Resource.Layout.design_menu_item_action_area;
+			global::PanCardView.Droid.Resource.Layout.design_navigation_item = global::ShaXam.Droid.Resource.Layout.design_navigation_item;
+			global::PanCardView.Droid.Resource.Layout.design_navigation_item_header = global::ShaXam.Droid.Resource.Layout.design_navigation_item_header;
+			global::PanCardView.Droid.Resource.Layout.design_navigation_item_separator = global::ShaXam.Droid.Resource.Layout.design_navigation_item_separator;
+			global::PanCardView.Droid.Resource.Layout.design_navigation_item_subheader = global::ShaXam.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::PanCardView.Droid.Resource.Layout.design_navigation_menu = global::ShaXam.Droid.Resource.Layout.design_navigation_menu;
+			global::PanCardView.Droid.Resource.Layout.design_navigation_menu_item = global::ShaXam.Droid.Resource.Layout.design_navigation_menu_item;
+			global::PanCardView.Droid.Resource.Layout.design_text_input_password_icon = global::ShaXam.Droid.Resource.Layout.design_text_input_password_icon;
+			global::PanCardView.Droid.Resource.Layout.FlyoutContent = global::ShaXam.Droid.Resource.Layout.FlyoutContent;
+			global::PanCardView.Droid.Resource.Layout.mr_cast_dialog = global::ShaXam.Droid.Resource.Layout.mr_cast_dialog;
+			global::PanCardView.Droid.Resource.Layout.mr_cast_group_item = global::ShaXam.Droid.Resource.Layout.mr_cast_group_item;
+			global::PanCardView.Droid.Resource.Layout.mr_cast_group_volume_item = global::ShaXam.Droid.Resource.Layout.mr_cast_group_volume_item;
+			global::PanCardView.Droid.Resource.Layout.mr_cast_media_metadata = global::ShaXam.Droid.Resource.Layout.mr_cast_media_metadata;
+			global::PanCardView.Droid.Resource.Layout.mr_cast_route_item = global::ShaXam.Droid.Resource.Layout.mr_cast_route_item;
+			global::PanCardView.Droid.Resource.Layout.mr_chooser_dialog = global::ShaXam.Droid.Resource.Layout.mr_chooser_dialog;
+			global::PanCardView.Droid.Resource.Layout.mr_chooser_list_item = global::ShaXam.Droid.Resource.Layout.mr_chooser_list_item;
+			global::PanCardView.Droid.Resource.Layout.mr_controller_material_dialog_b = global::ShaXam.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::PanCardView.Droid.Resource.Layout.mr_controller_volume_item = global::ShaXam.Droid.Resource.Layout.mr_controller_volume_item;
+			global::PanCardView.Droid.Resource.Layout.mr_dialog_header_item = global::ShaXam.Droid.Resource.Layout.mr_dialog_header_item;
+			global::PanCardView.Droid.Resource.Layout.mr_picker_dialog = global::ShaXam.Droid.Resource.Layout.mr_picker_dialog;
+			global::PanCardView.Droid.Resource.Layout.mr_picker_route_item = global::ShaXam.Droid.Resource.Layout.mr_picker_route_item;
+			global::PanCardView.Droid.Resource.Layout.mr_playback_control = global::ShaXam.Droid.Resource.Layout.mr_playback_control;
+			global::PanCardView.Droid.Resource.Layout.mr_volume_control = global::ShaXam.Droid.Resource.Layout.mr_volume_control;
+			global::PanCardView.Droid.Resource.Layout.mtrl_layout_snackbar = global::ShaXam.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::PanCardView.Droid.Resource.Layout.mtrl_layout_snackbar_include = global::ShaXam.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::PanCardView.Droid.Resource.Layout.notification_action = global::ShaXam.Droid.Resource.Layout.notification_action;
+			global::PanCardView.Droid.Resource.Layout.notification_action_tombstone = global::ShaXam.Droid.Resource.Layout.notification_action_tombstone;
+			global::PanCardView.Droid.Resource.Layout.notification_media_action = global::ShaXam.Droid.Resource.Layout.notification_media_action;
+			global::PanCardView.Droid.Resource.Layout.notification_media_cancel_action = global::ShaXam.Droid.Resource.Layout.notification_media_cancel_action;
+			global::PanCardView.Droid.Resource.Layout.notification_template_big_media = global::ShaXam.Droid.Resource.Layout.notification_template_big_media;
+			global::PanCardView.Droid.Resource.Layout.notification_template_big_media_custom = global::ShaXam.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::PanCardView.Droid.Resource.Layout.notification_template_big_media_narrow = global::ShaXam.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::PanCardView.Droid.Resource.Layout.notification_template_big_media_narrow_custom = global::ShaXam.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::PanCardView.Droid.Resource.Layout.notification_template_custom_big = global::ShaXam.Droid.Resource.Layout.notification_template_custom_big;
+			global::PanCardView.Droid.Resource.Layout.notification_template_icon_group = global::ShaXam.Droid.Resource.Layout.notification_template_icon_group;
+			global::PanCardView.Droid.Resource.Layout.notification_template_lines_media = global::ShaXam.Droid.Resource.Layout.notification_template_lines_media;
+			global::PanCardView.Droid.Resource.Layout.notification_template_media = global::ShaXam.Droid.Resource.Layout.notification_template_media;
+			global::PanCardView.Droid.Resource.Layout.notification_template_media_custom = global::ShaXam.Droid.Resource.Layout.notification_template_media_custom;
+			global::PanCardView.Droid.Resource.Layout.notification_template_part_chronometer = global::ShaXam.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::PanCardView.Droid.Resource.Layout.notification_template_part_time = global::ShaXam.Droid.Resource.Layout.notification_template_part_time;
+			global::PanCardView.Droid.Resource.Layout.RootLayout = global::ShaXam.Droid.Resource.Layout.RootLayout;
+			global::PanCardView.Droid.Resource.Layout.select_dialog_item_material = global::ShaXam.Droid.Resource.Layout.select_dialog_item_material;
+			global::PanCardView.Droid.Resource.Layout.select_dialog_multichoice_material = global::ShaXam.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::PanCardView.Droid.Resource.Layout.select_dialog_singlechoice_material = global::ShaXam.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::PanCardView.Droid.Resource.Layout.ShellContent = global::ShaXam.Droid.Resource.Layout.ShellContent;
+			global::PanCardView.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::ShaXam.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::PanCardView.Droid.Resource.String.abc_action_bar_home_description = global::ShaXam.Droid.Resource.String.abc_action_bar_home_description;
+			global::PanCardView.Droid.Resource.String.abc_action_bar_up_description = global::ShaXam.Droid.Resource.String.abc_action_bar_up_description;
+			global::PanCardView.Droid.Resource.String.abc_action_menu_overflow_description = global::ShaXam.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::PanCardView.Droid.Resource.String.abc_action_mode_done = global::ShaXam.Droid.Resource.String.abc_action_mode_done;
+			global::PanCardView.Droid.Resource.String.abc_activitychooserview_choose_application = global::ShaXam.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::PanCardView.Droid.Resource.String.abc_activity_chooser_view_see_all = global::ShaXam.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::PanCardView.Droid.Resource.String.abc_capital_off = global::ShaXam.Droid.Resource.String.abc_capital_off;
+			global::PanCardView.Droid.Resource.String.abc_capital_on = global::ShaXam.Droid.Resource.String.abc_capital_on;
+			global::PanCardView.Droid.Resource.String.abc_font_family_body_1_material = global::ShaXam.Droid.Resource.String.abc_font_family_body_1_material;
+			global::PanCardView.Droid.Resource.String.abc_font_family_body_2_material = global::ShaXam.Droid.Resource.String.abc_font_family_body_2_material;
+			global::PanCardView.Droid.Resource.String.abc_font_family_button_material = global::ShaXam.Droid.Resource.String.abc_font_family_button_material;
+			global::PanCardView.Droid.Resource.String.abc_font_family_caption_material = global::ShaXam.Droid.Resource.String.abc_font_family_caption_material;
+			global::PanCardView.Droid.Resource.String.abc_font_family_display_1_material = global::ShaXam.Droid.Resource.String.abc_font_family_display_1_material;
+			global::PanCardView.Droid.Resource.String.abc_font_family_display_2_material = global::ShaXam.Droid.Resource.String.abc_font_family_display_2_material;
+			global::PanCardView.Droid.Resource.String.abc_font_family_display_3_material = global::ShaXam.Droid.Resource.String.abc_font_family_display_3_material;
+			global::PanCardView.Droid.Resource.String.abc_font_family_display_4_material = global::ShaXam.Droid.Resource.String.abc_font_family_display_4_material;
+			global::PanCardView.Droid.Resource.String.abc_font_family_headline_material = global::ShaXam.Droid.Resource.String.abc_font_family_headline_material;
+			global::PanCardView.Droid.Resource.String.abc_font_family_menu_material = global::ShaXam.Droid.Resource.String.abc_font_family_menu_material;
+			global::PanCardView.Droid.Resource.String.abc_font_family_subhead_material = global::ShaXam.Droid.Resource.String.abc_font_family_subhead_material;
+			global::PanCardView.Droid.Resource.String.abc_font_family_title_material = global::ShaXam.Droid.Resource.String.abc_font_family_title_material;
+			global::PanCardView.Droid.Resource.String.abc_menu_alt_shortcut_label = global::ShaXam.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::PanCardView.Droid.Resource.String.abc_menu_ctrl_shortcut_label = global::ShaXam.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::PanCardView.Droid.Resource.String.abc_menu_delete_shortcut_label = global::ShaXam.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::PanCardView.Droid.Resource.String.abc_menu_enter_shortcut_label = global::ShaXam.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::PanCardView.Droid.Resource.String.abc_menu_function_shortcut_label = global::ShaXam.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::PanCardView.Droid.Resource.String.abc_menu_meta_shortcut_label = global::ShaXam.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::PanCardView.Droid.Resource.String.abc_menu_shift_shortcut_label = global::ShaXam.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::PanCardView.Droid.Resource.String.abc_menu_space_shortcut_label = global::ShaXam.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::PanCardView.Droid.Resource.String.abc_menu_sym_shortcut_label = global::ShaXam.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::PanCardView.Droid.Resource.String.abc_prepend_shortcut_label = global::ShaXam.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::PanCardView.Droid.Resource.String.abc_searchview_description_clear = global::ShaXam.Droid.Resource.String.abc_searchview_description_clear;
+			global::PanCardView.Droid.Resource.String.abc_searchview_description_query = global::ShaXam.Droid.Resource.String.abc_searchview_description_query;
+			global::PanCardView.Droid.Resource.String.abc_searchview_description_search = global::ShaXam.Droid.Resource.String.abc_searchview_description_search;
+			global::PanCardView.Droid.Resource.String.abc_searchview_description_submit = global::ShaXam.Droid.Resource.String.abc_searchview_description_submit;
+			global::PanCardView.Droid.Resource.String.abc_searchview_description_voice = global::ShaXam.Droid.Resource.String.abc_searchview_description_voice;
+			global::PanCardView.Droid.Resource.String.abc_search_hint = global::ShaXam.Droid.Resource.String.abc_search_hint;
+			global::PanCardView.Droid.Resource.String.abc_shareactionprovider_share_with = global::ShaXam.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::PanCardView.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::ShaXam.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::PanCardView.Droid.Resource.String.abc_toolbar_collapse_description = global::ShaXam.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::PanCardView.Droid.Resource.String.appbar_scrolling_view_behavior = global::ShaXam.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::PanCardView.Droid.Resource.String.bottom_sheet_behavior = global::ShaXam.Droid.Resource.String.bottom_sheet_behavior;
+			global::PanCardView.Droid.Resource.String.character_counter_content_description = global::ShaXam.Droid.Resource.String.character_counter_content_description;
+			global::PanCardView.Droid.Resource.String.character_counter_pattern = global::ShaXam.Droid.Resource.String.character_counter_pattern;
+			global::PanCardView.Droid.Resource.String.fab_transformation_scrim_behavior = global::ShaXam.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::PanCardView.Droid.Resource.String.fab_transformation_sheet_behavior = global::ShaXam.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::PanCardView.Droid.Resource.String.hide_bottom_view_on_scroll_behavior = global::ShaXam.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::PanCardView.Droid.Resource.String.library_name = global::ShaXam.Droid.Resource.String.library_name;
+			global::PanCardView.Droid.Resource.String.mr_button_content_description = global::ShaXam.Droid.Resource.String.mr_button_content_description;
+			global::PanCardView.Droid.Resource.String.mr_cast_button_connected = global::ShaXam.Droid.Resource.String.mr_cast_button_connected;
+			global::PanCardView.Droid.Resource.String.mr_cast_button_connecting = global::ShaXam.Droid.Resource.String.mr_cast_button_connecting;
+			global::PanCardView.Droid.Resource.String.mr_cast_button_disconnected = global::ShaXam.Droid.Resource.String.mr_cast_button_disconnected;
+			global::PanCardView.Droid.Resource.String.mr_cast_dialog_title_view_placeholder = global::ShaXam.Droid.Resource.String.mr_cast_dialog_title_view_placeholder;
+			global::PanCardView.Droid.Resource.String.mr_chooser_searching = global::ShaXam.Droid.Resource.String.mr_chooser_searching;
+			global::PanCardView.Droid.Resource.String.mr_chooser_title = global::ShaXam.Droid.Resource.String.mr_chooser_title;
+			global::PanCardView.Droid.Resource.String.mr_controller_album_art = global::ShaXam.Droid.Resource.String.mr_controller_album_art;
+			global::PanCardView.Droid.Resource.String.mr_controller_casting_screen = global::ShaXam.Droid.Resource.String.mr_controller_casting_screen;
+			global::PanCardView.Droid.Resource.String.mr_controller_close_description = global::ShaXam.Droid.Resource.String.mr_controller_close_description;
+			global::PanCardView.Droid.Resource.String.mr_controller_collapse_group = global::ShaXam.Droid.Resource.String.mr_controller_collapse_group;
+			global::PanCardView.Droid.Resource.String.mr_controller_disconnect = global::ShaXam.Droid.Resource.String.mr_controller_disconnect;
+			global::PanCardView.Droid.Resource.String.mr_controller_expand_group = global::ShaXam.Droid.Resource.String.mr_controller_expand_group;
+			global::PanCardView.Droid.Resource.String.mr_controller_no_info_available = global::ShaXam.Droid.Resource.String.mr_controller_no_info_available;
+			global::PanCardView.Droid.Resource.String.mr_controller_no_media_selected = global::ShaXam.Droid.Resource.String.mr_controller_no_media_selected;
+			global::PanCardView.Droid.Resource.String.mr_controller_pause = global::ShaXam.Droid.Resource.String.mr_controller_pause;
+			global::PanCardView.Droid.Resource.String.mr_controller_play = global::ShaXam.Droid.Resource.String.mr_controller_play;
+			global::PanCardView.Droid.Resource.String.mr_controller_stop = global::ShaXam.Droid.Resource.String.mr_controller_stop;
+			global::PanCardView.Droid.Resource.String.mr_controller_stop_casting = global::ShaXam.Droid.Resource.String.mr_controller_stop_casting;
+			global::PanCardView.Droid.Resource.String.mr_controller_volume_slider = global::ShaXam.Droid.Resource.String.mr_controller_volume_slider;
+			global::PanCardView.Droid.Resource.String.mr_dialog_device_header = global::ShaXam.Droid.Resource.String.mr_dialog_device_header;
+			global::PanCardView.Droid.Resource.String.mr_dialog_route_header = global::ShaXam.Droid.Resource.String.mr_dialog_route_header;
+			global::PanCardView.Droid.Resource.String.mr_system_route_name = global::ShaXam.Droid.Resource.String.mr_system_route_name;
+			global::PanCardView.Droid.Resource.String.mr_user_route_category_name = global::ShaXam.Droid.Resource.String.mr_user_route_category_name;
+			global::PanCardView.Droid.Resource.String.mtrl_chip_close_icon_content_description = global::ShaXam.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::PanCardView.Droid.Resource.String.password_toggle_content_description = global::ShaXam.Droid.Resource.String.password_toggle_content_description;
+			global::PanCardView.Droid.Resource.String.path_password_eye = global::ShaXam.Droid.Resource.String.path_password_eye;
+			global::PanCardView.Droid.Resource.String.path_password_eye_mask_strike_through = global::ShaXam.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::PanCardView.Droid.Resource.String.path_password_eye_mask_visible = global::ShaXam.Droid.Resource.String.path_password_eye_mask_visible;
+			global::PanCardView.Droid.Resource.String.path_password_strike_through = global::ShaXam.Droid.Resource.String.path_password_strike_through;
+			global::PanCardView.Droid.Resource.String.search_menu_title = global::ShaXam.Droid.Resource.String.search_menu_title;
+			global::PanCardView.Droid.Resource.String.status_bar_notification_info_overflow = global::ShaXam.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::PanCardView.Droid.Resource.Style.AlertDialog_AppCompat = global::ShaXam.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::PanCardView.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::ShaXam.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.Animation_AppCompat_Dialog = global::ShaXam.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::PanCardView.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::ShaXam.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::PanCardView.Droid.Resource.Style.Animation_AppCompat_Tooltip = global::ShaXam.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::PanCardView.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::ShaXam.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::PanCardView.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::ShaXam.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::ShaXam.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::ShaXam.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::ShaXam.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::PanCardView.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip = global::ShaXam.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::PanCardView.Droid.Resource.Style.Base_CardView = global::ShaXam.Droid.Resource.Style.Base_CardView;
+			global::PanCardView.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::ShaXam.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::ShaXam.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::PanCardView.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::ShaXam.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::PanCardView.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::ShaXam.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::ShaXam.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::PanCardView.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::ShaXam.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::PanCardView.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::ShaXam.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::PanCardView.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::ShaXam.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::ShaXam.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::PanCardView.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::ShaXam.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::ShaXam.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::ShaXam.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_AppCompat = global::ShaXam.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::ShaXam.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::ShaXam.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::ShaXam.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::ShaXam.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::ShaXam.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::ShaXam.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::ShaXam.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::ShaXam.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::ShaXam.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::ShaXam.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::ShaXam.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::ShaXam.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::ShaXam.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents = global::ShaXam.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::ShaXam.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::ShaXam.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::ShaXam.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::ShaXam.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::ShaXam.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::ShaXam.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::ShaXam.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light = global::ShaXam.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::ShaXam.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::ShaXam.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::ShaXam.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::ShaXam.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::ShaXam.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::ShaXam.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::ShaXam.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::ShaXam.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::PanCardView.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::ShaXam.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::ShaXam.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::PanCardView.Droid.Resource.Style.Base_V14_Theme_MaterialComponents = global::ShaXam.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::PanCardView.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::ShaXam.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::PanCardView.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::ShaXam.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::ShaXam.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::PanCardView.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::ShaXam.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::PanCardView.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::ShaXam.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::PanCardView.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::ShaXam.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::ShaXam.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::ShaXam.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::ShaXam.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::ShaXam.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::ShaXam.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::ShaXam.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::ShaXam.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::ShaXam.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::ShaXam.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.Base_V26_Theme_AppCompat = global::ShaXam.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light = global::ShaXam.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::ShaXam.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::PanCardView.Droid.Resource.Style.Base_V28_Theme_AppCompat = global::ShaXam.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light = global::ShaXam.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::ShaXam.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::ShaXam.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::ShaXam.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::ShaXam.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::ShaXam.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::ShaXam.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::PanCardView.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::ShaXam.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::PanCardView.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::ShaXam.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::ShaXam.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::ShaXam.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip = global::ShaXam.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::ShaXam.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::ShaXam.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::PanCardView.Droid.Resource.Style.CardView = global::ShaXam.Droid.Resource.Style.CardView;
+			global::PanCardView.Droid.Resource.Style.CardView_Dark = global::ShaXam.Droid.Resource.Style.CardView_Dark;
+			global::PanCardView.Droid.Resource.Style.CardView_Light = global::ShaXam.Droid.Resource.Style.CardView_Light;
+			global::PanCardView.Droid.Resource.Style.collectionViewStyle = global::ShaXam.Droid.Resource.Style.collectionViewStyle;
+			global::PanCardView.Droid.Resource.Style.Platform_AppCompat = global::ShaXam.Droid.Resource.Style.Platform_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Platform_AppCompat_Light = global::ShaXam.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.Platform_MaterialComponents = global::ShaXam.Droid.Resource.Style.Platform_MaterialComponents;
+			global::PanCardView.Droid.Resource.Style.Platform_MaterialComponents_Dialog = global::ShaXam.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::PanCardView.Droid.Resource.Style.Platform_MaterialComponents_Light = global::ShaXam.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::PanCardView.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::ShaXam.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::PanCardView.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::ShaXam.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::ShaXam.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::PanCardView.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::ShaXam.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.Platform_V21_AppCompat = global::ShaXam.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Platform_V21_AppCompat_Light = global::ShaXam.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.Platform_V25_AppCompat = global::ShaXam.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Platform_V25_AppCompat_Light = global::ShaXam.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::ShaXam.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::PanCardView.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::ShaXam.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::ShaXam.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::ShaXam.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::ShaXam.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::ShaXam.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::ShaXam.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::ShaXam.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::ShaXam.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::ShaXam.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::ShaXam.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::ShaXam.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::ShaXam.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::ShaXam.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::ShaXam.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::ShaXam.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::PanCardView.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::ShaXam.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::PanCardView.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::ShaXam.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::ShaXam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Compat_Notification = global::ShaXam.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Compat_Notification_Info = global::ShaXam.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::ShaXam.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::ShaXam.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::ShaXam.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Compat_Notification_Media = global::ShaXam.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Compat_Notification_Time = global::ShaXam.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::ShaXam.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Compat_Notification_Title = global::ShaXam.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::ShaXam.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::ShaXam.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Design_Counter = global::ShaXam.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::ShaXam.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Design_Error = global::ShaXam.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Design_HelperText = global::ShaXam.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Design_Hint = global::ShaXam.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::ShaXam.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Design_Tab = global::ShaXam.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::ShaXam.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::ShaXam.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Button = global::ShaXam.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption = global::ShaXam.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip = global::ShaXam.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::ShaXam.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::ShaXam.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::ShaXam.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::ShaXam.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::ShaXam.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::ShaXam.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline = global::ShaXam.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::ShaXam.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::ShaXam.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab = global::ShaXam.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::ShaXam.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::ShaXam.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MediaRouter_Title = global::ShaXam.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::ShaXam.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::ShaXam.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::ShaXam.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_AppCompat = global::ShaXam.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::ShaXam.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::ShaXam.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::ShaXam.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::ShaXam.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::ShaXam.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::ShaXam.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents = global::ShaXam.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::ShaXam.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::ShaXam.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::ShaXam.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::ShaXam.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::ShaXam.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::ShaXam.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::ShaXam.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::ShaXam.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::ShaXam.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::ShaXam.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::ShaXam.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::ShaXam.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light = global::ShaXam.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat = global::ShaXam.Droid.Resource.Style.Theme_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::ShaXam.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_DayNight = global::ShaXam.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::ShaXam.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::ShaXam.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::ShaXam.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::ShaXam.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::ShaXam.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::ShaXam.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_Dialog = global::ShaXam.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::ShaXam.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::ShaXam.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::ShaXam.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_Light = global::ShaXam.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::ShaXam.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::ShaXam.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::ShaXam.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::ShaXam.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::ShaXam.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::ShaXam.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::PanCardView.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::ShaXam.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::PanCardView.Droid.Resource.Style.Theme_Design = global::ShaXam.Droid.Resource.Style.Theme_Design;
+			global::PanCardView.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::ShaXam.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::PanCardView.Droid.Resource.Style.Theme_Design_Light = global::ShaXam.Droid.Resource.Style.Theme_Design_Light;
+			global::PanCardView.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::ShaXam.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::PanCardView.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::ShaXam.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::PanCardView.Droid.Resource.Style.Theme_Design_NoActionBar = global::ShaXam.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents = global::ShaXam.Droid.Resource.Style.Theme_MaterialComponents;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::ShaXam.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Bridge = global::ShaXam.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu = global::ShaXam.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Dialog = global::ShaXam.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::ShaXam.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::ShaXam.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::ShaXam.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Light = global::ShaXam.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::ShaXam.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::ShaXam.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::ShaXam.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::ShaXam.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::ShaXam.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::ShaXam.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::ShaXam.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::ShaXam.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::ShaXam.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::ShaXam.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar = global::ShaXam.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::ShaXam.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::PanCardView.Droid.Resource.Style.Theme_MediaRouter = global::ShaXam.Droid.Resource.Style.Theme_MediaRouter;
+			global::PanCardView.Droid.Resource.Style.Theme_MediaRouter_Light = global::ShaXam.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::PanCardView.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel = global::ShaXam.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::PanCardView.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::ShaXam.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Button = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_EditText = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ListMenuView = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ListView = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_SearchView = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Spinner = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::ShaXam.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::PanCardView.Droid.Resource.Style.Widget_Compat_NotificationActionContainer = global::ShaXam.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::PanCardView.Droid.Resource.Style.Widget_Compat_NotificationActionText = global::ShaXam.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::PanCardView.Droid.Resource.Style.Widget_Design_AppBarLayout = global::ShaXam.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::PanCardView.Droid.Resource.Style.Widget_Design_BottomNavigationView = global::ShaXam.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::PanCardView.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::ShaXam.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::PanCardView.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::ShaXam.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::PanCardView.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::ShaXam.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::PanCardView.Droid.Resource.Style.Widget_Design_NavigationView = global::ShaXam.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::PanCardView.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::ShaXam.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::PanCardView.Droid.Resource.Style.Widget_Design_Snackbar = global::ShaXam.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::PanCardView.Droid.Resource.Style.Widget_Design_TabLayout = global::ShaXam.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::PanCardView.Droid.Resource.Style.Widget_Design_TextInputLayout = global::ShaXam.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Button = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_CardView = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_NavigationView = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Snackbar = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_TabLayout = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Toolbar = global::ShaXam.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::PanCardView.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::ShaXam.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::PanCardView.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::ShaXam.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::PanCardView.Droid.Resource.Style.Widget_Support_CoordinatorLayout = global::ShaXam.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar = global::ShaXam.Droid.Resource.Styleable.ActionBar;
+			global::PanCardView.Droid.Resource.Styleable.ActionBarLayout = global::ShaXam.Droid.Resource.Styleable.ActionBarLayout;
+			global::PanCardView.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::ShaXam.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_background = global::ShaXam.Droid.Resource.Styleable.ActionBar_background;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::ShaXam.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::ShaXam.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::ShaXam.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::ShaXam.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::ShaXam.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::ShaXam.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::ShaXam.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::ShaXam.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::ShaXam.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_displayOptions = global::ShaXam.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_divider = global::ShaXam.Droid.Resource.Styleable.ActionBar_divider;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_elevation = global::ShaXam.Droid.Resource.Styleable.ActionBar_elevation;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_height = global::ShaXam.Droid.Resource.Styleable.ActionBar_height;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::ShaXam.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::ShaXam.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_homeLayout = global::ShaXam.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_icon = global::ShaXam.Droid.Resource.Styleable.ActionBar_icon;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::ShaXam.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_itemPadding = global::ShaXam.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_logo = global::ShaXam.Droid.Resource.Styleable.ActionBar_logo;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_navigationMode = global::ShaXam.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_popupTheme = global::ShaXam.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::ShaXam.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::ShaXam.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_subtitle = global::ShaXam.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::ShaXam.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_title = global::ShaXam.Droid.Resource.Styleable.ActionBar_title;
+			global::PanCardView.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::ShaXam.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::PanCardView.Droid.Resource.Styleable.ActionMenuItemView = global::ShaXam.Droid.Resource.Styleable.ActionMenuItemView;
+			global::PanCardView.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::ShaXam.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::PanCardView.Droid.Resource.Styleable.ActionMenuView = global::ShaXam.Droid.Resource.Styleable.ActionMenuView;
+			global::PanCardView.Droid.Resource.Styleable.ActionMode = global::ShaXam.Droid.Resource.Styleable.ActionMode;
+			global::PanCardView.Droid.Resource.Styleable.ActionMode_background = global::ShaXam.Droid.Resource.Styleable.ActionMode_background;
+			global::PanCardView.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::ShaXam.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::PanCardView.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::ShaXam.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::PanCardView.Droid.Resource.Styleable.ActionMode_height = global::ShaXam.Droid.Resource.Styleable.ActionMode_height;
+			global::PanCardView.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::ShaXam.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::PanCardView.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::ShaXam.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::PanCardView.Droid.Resource.Styleable.ActivityChooserView = global::ShaXam.Droid.Resource.Styleable.ActivityChooserView;
+			global::PanCardView.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::ShaXam.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::PanCardView.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::ShaXam.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::PanCardView.Droid.Resource.Styleable.AlertDialog = global::ShaXam.Droid.Resource.Styleable.AlertDialog;
+			global::PanCardView.Droid.Resource.Styleable.AlertDialog_android_layout = global::ShaXam.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::PanCardView.Droid.Resource.Styleable.AlertDialog_buttonIconDimen = global::ShaXam.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::PanCardView.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::ShaXam.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::PanCardView.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::ShaXam.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::PanCardView.Droid.Resource.Styleable.AlertDialog_listLayout = global::ShaXam.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::PanCardView.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::ShaXam.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::PanCardView.Droid.Resource.Styleable.AlertDialog_showTitle = global::ShaXam.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::PanCardView.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::ShaXam.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableCompat = global::ShaXam.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::ShaXam.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::ShaXam.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::ShaXam.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::ShaXam.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::ShaXam.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::ShaXam.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableItem = global::ShaXam.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::ShaXam.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::ShaXam.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableTransition = global::ShaXam.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::ShaXam.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::ShaXam.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::ShaXam.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::ShaXam.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::PanCardView.Droid.Resource.Styleable.AppBarLayout = global::ShaXam.Droid.Resource.Styleable.AppBarLayout;
+			global::PanCardView.Droid.Resource.Styleable.AppBarLayoutStates = global::ShaXam.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::PanCardView.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::ShaXam.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::PanCardView.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::ShaXam.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::PanCardView.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable = global::ShaXam.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::PanCardView.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted = global::ShaXam.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::PanCardView.Droid.Resource.Styleable.AppBarLayout_android_background = global::ShaXam.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::PanCardView.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::ShaXam.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::PanCardView.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::ShaXam.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::PanCardView.Droid.Resource.Styleable.AppBarLayout_elevation = global::ShaXam.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::PanCardView.Droid.Resource.Styleable.AppBarLayout_expanded = global::ShaXam.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::PanCardView.Droid.Resource.Styleable.AppBarLayout_Layout = global::ShaXam.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::PanCardView.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::ShaXam.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::PanCardView.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::ShaXam.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::PanCardView.Droid.Resource.Styleable.AppBarLayout_liftOnScroll = global::ShaXam.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatImageView = global::ShaXam.Droid.Resource.Styleable.AppCompatImageView;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatImageView_android_src = global::ShaXam.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::ShaXam.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatImageView_tint = global::ShaXam.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatImageView_tintMode = global::ShaXam.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatSeekBar = global::ShaXam.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb = global::ShaXam.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatSeekBar_tickMark = global::ShaXam.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::ShaXam.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::ShaXam.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextHelper = global::ShaXam.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::ShaXam.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::ShaXam.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::ShaXam.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::ShaXam.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::ShaXam.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::ShaXam.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::ShaXam.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextView = global::ShaXam.Droid.Resource.Styleable.AppCompatTextView;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::ShaXam.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::ShaXam.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::ShaXam.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::ShaXam.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::ShaXam.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::ShaXam.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::ShaXam.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextView_fontFamily = global::ShaXam.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::ShaXam.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextView_lineHeight = global::ShaXam.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::ShaXam.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_colorError = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::ShaXam.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::PanCardView.Droid.Resource.Styleable.BottomAppBar = global::ShaXam.Droid.Resource.Styleable.BottomAppBar;
+			global::PanCardView.Droid.Resource.Styleable.BottomAppBar_backgroundTint = global::ShaXam.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::PanCardView.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::ShaXam.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::PanCardView.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin = global::ShaXam.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::PanCardView.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::ShaXam.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::PanCardView.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::ShaXam.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::PanCardView.Droid.Resource.Styleable.BottomAppBar_hideOnScroll = global::ShaXam.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::PanCardView.Droid.Resource.Styleable.BottomNavigationView = global::ShaXam.Droid.Resource.Styleable.BottomNavigationView;
+			global::PanCardView.Droid.Resource.Styleable.BottomNavigationView_elevation = global::ShaXam.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::PanCardView.Droid.Resource.Styleable.BottomNavigationView_itemBackground = global::ShaXam.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::PanCardView.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::ShaXam.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::PanCardView.Droid.Resource.Styleable.BottomNavigationView_itemIconSize = global::ShaXam.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
+			global::PanCardView.Droid.Resource.Styleable.BottomNavigationView_itemIconTint = global::ShaXam.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::PanCardView.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::ShaXam.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::PanCardView.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::ShaXam.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
+			global::PanCardView.Droid.Resource.Styleable.BottomNavigationView_itemTextColor = global::ShaXam.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::PanCardView.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::ShaXam.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
+			global::PanCardView.Droid.Resource.Styleable.BottomNavigationView_menu = global::ShaXam.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::PanCardView.Droid.Resource.Styleable.BottomSheetBehavior_Layout = global::ShaXam.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::PanCardView.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::ShaXam.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::PanCardView.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::ShaXam.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::PanCardView.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::ShaXam.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::PanCardView.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::ShaXam.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::PanCardView.Droid.Resource.Styleable.ButtonBarLayout = global::ShaXam.Droid.Resource.Styleable.ButtonBarLayout;
+			global::PanCardView.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::ShaXam.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::PanCardView.Droid.Resource.Styleable.CardView = global::ShaXam.Droid.Resource.Styleable.CardView;
+			global::PanCardView.Droid.Resource.Styleable.CardView_android_minHeight = global::ShaXam.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::PanCardView.Droid.Resource.Styleable.CardView_android_minWidth = global::ShaXam.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::PanCardView.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::ShaXam.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::PanCardView.Droid.Resource.Styleable.CardView_cardCornerRadius = global::ShaXam.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::PanCardView.Droid.Resource.Styleable.CardView_cardElevation = global::ShaXam.Droid.Resource.Styleable.CardView_cardElevation;
+			global::PanCardView.Droid.Resource.Styleable.CardView_cardMaxElevation = global::ShaXam.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::PanCardView.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::ShaXam.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::PanCardView.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::ShaXam.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::PanCardView.Droid.Resource.Styleable.CardView_contentPadding = global::ShaXam.Droid.Resource.Styleable.CardView_contentPadding;
+			global::PanCardView.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::ShaXam.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::PanCardView.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::ShaXam.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::PanCardView.Droid.Resource.Styleable.CardView_contentPaddingRight = global::ShaXam.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::PanCardView.Droid.Resource.Styleable.CardView_contentPaddingTop = global::ShaXam.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::PanCardView.Droid.Resource.Styleable.Chip = global::ShaXam.Droid.Resource.Styleable.Chip;
+			global::PanCardView.Droid.Resource.Styleable.ChipGroup = global::ShaXam.Droid.Resource.Styleable.ChipGroup;
+			global::PanCardView.Droid.Resource.Styleable.ChipGroup_checkedChip = global::ShaXam.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::PanCardView.Droid.Resource.Styleable.ChipGroup_chipSpacing = global::ShaXam.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::PanCardView.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::ShaXam.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::PanCardView.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical = global::ShaXam.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::PanCardView.Droid.Resource.Styleable.ChipGroup_singleLine = global::ShaXam.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::PanCardView.Droid.Resource.Styleable.ChipGroup_singleSelection = global::ShaXam.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::PanCardView.Droid.Resource.Styleable.Chip_android_checkable = global::ShaXam.Droid.Resource.Styleable.Chip_android_checkable;
+			global::PanCardView.Droid.Resource.Styleable.Chip_android_ellipsize = global::ShaXam.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::PanCardView.Droid.Resource.Styleable.Chip_android_maxWidth = global::ShaXam.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::PanCardView.Droid.Resource.Styleable.Chip_android_text = global::ShaXam.Droid.Resource.Styleable.Chip_android_text;
+			global::PanCardView.Droid.Resource.Styleable.Chip_android_textAppearance = global::ShaXam.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::PanCardView.Droid.Resource.Styleable.Chip_checkedIcon = global::ShaXam.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::PanCardView.Droid.Resource.Styleable.Chip_checkedIconEnabled = global::ShaXam.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::PanCardView.Droid.Resource.Styleable.Chip_checkedIconVisible = global::ShaXam.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipBackgroundColor = global::ShaXam.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipCornerRadius = global::ShaXam.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipEndPadding = global::ShaXam.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipIcon = global::ShaXam.Droid.Resource.Styleable.Chip_chipIcon;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipIconEnabled = global::ShaXam.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipIconSize = global::ShaXam.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipIconTint = global::ShaXam.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipIconVisible = global::ShaXam.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipMinHeight = global::ShaXam.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipStartPadding = global::ShaXam.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipStrokeColor = global::ShaXam.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipStrokeWidth = global::ShaXam.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::PanCardView.Droid.Resource.Styleable.Chip_closeIcon = global::ShaXam.Droid.Resource.Styleable.Chip_closeIcon;
+			global::PanCardView.Droid.Resource.Styleable.Chip_closeIconEnabled = global::ShaXam.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::PanCardView.Droid.Resource.Styleable.Chip_closeIconEndPadding = global::ShaXam.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::PanCardView.Droid.Resource.Styleable.Chip_closeIconSize = global::ShaXam.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::PanCardView.Droid.Resource.Styleable.Chip_closeIconStartPadding = global::ShaXam.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::PanCardView.Droid.Resource.Styleable.Chip_closeIconTint = global::ShaXam.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::PanCardView.Droid.Resource.Styleable.Chip_closeIconVisible = global::ShaXam.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::PanCardView.Droid.Resource.Styleable.Chip_hideMotionSpec = global::ShaXam.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::PanCardView.Droid.Resource.Styleable.Chip_iconEndPadding = global::ShaXam.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::PanCardView.Droid.Resource.Styleable.Chip_iconStartPadding = global::ShaXam.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::PanCardView.Droid.Resource.Styleable.Chip_rippleColor = global::ShaXam.Droid.Resource.Styleable.Chip_rippleColor;
+			global::PanCardView.Droid.Resource.Styleable.Chip_showMotionSpec = global::ShaXam.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::PanCardView.Droid.Resource.Styleable.Chip_textEndPadding = global::ShaXam.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::PanCardView.Droid.Resource.Styleable.Chip_textStartPadding = global::ShaXam.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout = global::ShaXam.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::ShaXam.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::ShaXam.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::ShaXam.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::ShaXam.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::ShaXam.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::ShaXam.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::ShaXam.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::ShaXam.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::ShaXam.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::ShaXam.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout = global::ShaXam.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::ShaXam.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::ShaXam.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::ShaXam.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::ShaXam.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::ShaXam.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::ShaXam.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::ShaXam.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::ShaXam.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::PanCardView.Droid.Resource.Styleable.ColorStateListItem = global::ShaXam.Droid.Resource.Styleable.ColorStateListItem;
+			global::PanCardView.Droid.Resource.Styleable.ColorStateListItem_alpha = global::ShaXam.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::PanCardView.Droid.Resource.Styleable.ColorStateListItem_android_alpha = global::ShaXam.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::PanCardView.Droid.Resource.Styleable.ColorStateListItem_android_color = global::ShaXam.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::PanCardView.Droid.Resource.Styleable.CompoundButton = global::ShaXam.Droid.Resource.Styleable.CompoundButton;
+			global::PanCardView.Droid.Resource.Styleable.CompoundButton_android_button = global::ShaXam.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::PanCardView.Droid.Resource.Styleable.CompoundButton_buttonTint = global::ShaXam.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::PanCardView.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::ShaXam.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::PanCardView.Droid.Resource.Styleable.CoordinatorLayout = global::ShaXam.Droid.Resource.Styleable.CoordinatorLayout;
+			global::PanCardView.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::ShaXam.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::PanCardView.Droid.Resource.Styleable.CoordinatorLayout_Layout = global::ShaXam.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::PanCardView.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::ShaXam.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::PanCardView.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::ShaXam.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::PanCardView.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::ShaXam.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::PanCardView.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::ShaXam.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::PanCardView.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::ShaXam.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::PanCardView.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::ShaXam.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::PanCardView.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::ShaXam.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::PanCardView.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::ShaXam.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::PanCardView.Droid.Resource.Styleable.DesignTheme = global::ShaXam.Droid.Resource.Styleable.DesignTheme;
+			global::PanCardView.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::ShaXam.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::PanCardView.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::ShaXam.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::PanCardView.Droid.Resource.Styleable.DrawerArrowToggle = global::ShaXam.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::PanCardView.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::ShaXam.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::PanCardView.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::ShaXam.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::PanCardView.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::ShaXam.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::PanCardView.Droid.Resource.Styleable.DrawerArrowToggle_color = global::ShaXam.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::PanCardView.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::ShaXam.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::PanCardView.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::ShaXam.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::PanCardView.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::ShaXam.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::PanCardView.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::ShaXam.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton = global::ShaXam.Droid.Resource.Styleable.FloatingActionButton;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::ShaXam.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::ShaXam.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::ShaXam.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::ShaXam.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::ShaXam.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_elevation = global::ShaXam.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize = global::ShaXam.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::ShaXam.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::ShaXam.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::ShaXam.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_maxImageSize = global::ShaXam.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::ShaXam.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::ShaXam.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec = global::ShaXam.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::ShaXam.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::PanCardView.Droid.Resource.Styleable.FlowLayout = global::ShaXam.Droid.Resource.Styleable.FlowLayout;
+			global::PanCardView.Droid.Resource.Styleable.FlowLayout_itemSpacing = global::ShaXam.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::PanCardView.Droid.Resource.Styleable.FlowLayout_lineSpacing = global::ShaXam.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::PanCardView.Droid.Resource.Styleable.FontFamily = global::ShaXam.Droid.Resource.Styleable.FontFamily;
+			global::PanCardView.Droid.Resource.Styleable.FontFamilyFont = global::ShaXam.Droid.Resource.Styleable.FontFamilyFont;
+			global::PanCardView.Droid.Resource.Styleable.FontFamilyFont_android_font = global::ShaXam.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::PanCardView.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle = global::ShaXam.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::PanCardView.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::ShaXam.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::PanCardView.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight = global::ShaXam.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::PanCardView.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::ShaXam.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::PanCardView.Droid.Resource.Styleable.FontFamilyFont_font = global::ShaXam.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::PanCardView.Droid.Resource.Styleable.FontFamilyFont_fontStyle = global::ShaXam.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::PanCardView.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::ShaXam.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::PanCardView.Droid.Resource.Styleable.FontFamilyFont_fontWeight = global::ShaXam.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::PanCardView.Droid.Resource.Styleable.FontFamilyFont_ttcIndex = global::ShaXam.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::PanCardView.Droid.Resource.Styleable.FontFamily_fontProviderAuthority = global::ShaXam.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::PanCardView.Droid.Resource.Styleable.FontFamily_fontProviderCerts = global::ShaXam.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::PanCardView.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::ShaXam.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::PanCardView.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::ShaXam.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::PanCardView.Droid.Resource.Styleable.FontFamily_fontProviderPackage = global::ShaXam.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::PanCardView.Droid.Resource.Styleable.FontFamily_fontProviderQuery = global::ShaXam.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::PanCardView.Droid.Resource.Styleable.ForegroundLinearLayout = global::ShaXam.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::PanCardView.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::ShaXam.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::PanCardView.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::ShaXam.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::PanCardView.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::ShaXam.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor = global::ShaXam.Droid.Resource.Styleable.GradientColor;
+			global::PanCardView.Droid.Resource.Styleable.GradientColorItem = global::ShaXam.Droid.Resource.Styleable.GradientColorItem;
+			global::PanCardView.Droid.Resource.Styleable.GradientColorItem_android_color = global::ShaXam.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::PanCardView.Droid.Resource.Styleable.GradientColorItem_android_offset = global::ShaXam.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_centerColor = global::ShaXam.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_centerX = global::ShaXam.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_centerY = global::ShaXam.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_endColor = global::ShaXam.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_endX = global::ShaXam.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_endY = global::ShaXam.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_gradientRadius = global::ShaXam.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_startColor = global::ShaXam.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_startX = global::ShaXam.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_startY = global::ShaXam.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_tileMode = global::ShaXam.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_type = global::ShaXam.Droid.Resource.Styleable.GradientColor_android_type;
+			global::PanCardView.Droid.Resource.Styleable.LinearLayoutCompat = global::ShaXam.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::PanCardView.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::ShaXam.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::PanCardView.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::ShaXam.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::PanCardView.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::ShaXam.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::PanCardView.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::ShaXam.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::PanCardView.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::ShaXam.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::PanCardView.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::ShaXam.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::PanCardView.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::ShaXam.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::PanCardView.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::ShaXam.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::PanCardView.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::ShaXam.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::PanCardView.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::ShaXam.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::PanCardView.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::ShaXam.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::PanCardView.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::ShaXam.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::PanCardView.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::ShaXam.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::PanCardView.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::ShaXam.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::PanCardView.Droid.Resource.Styleable.ListPopupWindow = global::ShaXam.Droid.Resource.Styleable.ListPopupWindow;
+			global::PanCardView.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::ShaXam.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::PanCardView.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::ShaXam.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton = global::ShaXam.Droid.Resource.Styleable.MaterialButton;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_android_insetBottom = global::ShaXam.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_android_insetLeft = global::ShaXam.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_android_insetRight = global::ShaXam.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_android_insetTop = global::ShaXam.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_backgroundTint = global::ShaXam.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_backgroundTintMode = global::ShaXam.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_cornerRadius = global::ShaXam.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_icon = global::ShaXam.Droid.Resource.Styleable.MaterialButton_icon;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_iconGravity = global::ShaXam.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_iconPadding = global::ShaXam.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_iconSize = global::ShaXam.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_iconTint = global::ShaXam.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_iconTintMode = global::ShaXam.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_rippleColor = global::ShaXam.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_strokeColor = global::ShaXam.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_strokeWidth = global::ShaXam.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::PanCardView.Droid.Resource.Styleable.MaterialCardView = global::ShaXam.Droid.Resource.Styleable.MaterialCardView;
+			global::PanCardView.Droid.Resource.Styleable.MaterialCardView_strokeColor = global::ShaXam.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::PanCardView.Droid.Resource.Styleable.MaterialCardView_strokeWidth = global::ShaXam.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme = global::ShaXam.Droid.Resource.Styleable.MaterialComponentsTheme;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::ShaXam.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::ShaXam.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::ShaXam.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::ShaXam.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::ShaXam.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::ShaXam.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::ShaXam.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::ShaXam.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::ShaXam.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::ShaXam.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::ShaXam.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::ShaXam.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::ShaXam.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::ShaXam.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::ShaXam.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::ShaXam.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::ShaXam.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::ShaXam.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::ShaXam.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::ShaXam.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::ShaXam.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::ShaXam.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::ShaXam.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::ShaXam.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::ShaXam.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::ShaXam.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::ShaXam.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::ShaXam.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::ShaXam.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::ShaXam.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::ShaXam.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::ShaXam.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
+			global::PanCardView.Droid.Resource.Styleable.MediaRouteButton = global::ShaXam.Droid.Resource.Styleable.MediaRouteButton;
+			global::PanCardView.Droid.Resource.Styleable.MediaRouteButton_android_minHeight = global::ShaXam.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::PanCardView.Droid.Resource.Styleable.MediaRouteButton_android_minWidth = global::ShaXam.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::PanCardView.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::ShaXam.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::PanCardView.Droid.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint = global::ShaXam.Droid.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint;
+			global::PanCardView.Droid.Resource.Styleable.MenuGroup = global::ShaXam.Droid.Resource.Styleable.MenuGroup;
+			global::PanCardView.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::ShaXam.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::PanCardView.Droid.Resource.Styleable.MenuGroup_android_enabled = global::ShaXam.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::PanCardView.Droid.Resource.Styleable.MenuGroup_android_id = global::ShaXam.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::PanCardView.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::ShaXam.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::PanCardView.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::ShaXam.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::PanCardView.Droid.Resource.Styleable.MenuGroup_android_visible = global::ShaXam.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem = global::ShaXam.Droid.Resource.Styleable.MenuItem;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_actionLayout = global::ShaXam.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::ShaXam.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_actionViewClass = global::ShaXam.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_alphabeticModifiers = global::ShaXam.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::ShaXam.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_android_checkable = global::ShaXam.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_android_checked = global::ShaXam.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_android_enabled = global::ShaXam.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_android_icon = global::ShaXam.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_android_id = global::ShaXam.Droid.Resource.Styleable.MenuItem_android_id;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::ShaXam.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::ShaXam.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_android_onClick = global::ShaXam.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::ShaXam.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_android_title = global::ShaXam.Droid.Resource.Styleable.MenuItem_android_title;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::ShaXam.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_android_visible = global::ShaXam.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_contentDescription = global::ShaXam.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_iconTint = global::ShaXam.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_iconTintMode = global::ShaXam.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_numericModifiers = global::ShaXam.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_showAsAction = global::ShaXam.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::PanCardView.Droid.Resource.Styleable.MenuItem_tooltipText = global::ShaXam.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::PanCardView.Droid.Resource.Styleable.MenuView = global::ShaXam.Droid.Resource.Styleable.MenuView;
+			global::PanCardView.Droid.Resource.Styleable.MenuView_android_headerBackground = global::ShaXam.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::PanCardView.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::ShaXam.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::PanCardView.Droid.Resource.Styleable.MenuView_android_itemBackground = global::ShaXam.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::PanCardView.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::ShaXam.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::PanCardView.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::ShaXam.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::PanCardView.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::ShaXam.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::PanCardView.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::ShaXam.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::PanCardView.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::ShaXam.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::PanCardView.Droid.Resource.Styleable.MenuView_subMenuArrow = global::ShaXam.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::PanCardView.Droid.Resource.Styleable.NavigationView = global::ShaXam.Droid.Resource.Styleable.NavigationView;
+			global::PanCardView.Droid.Resource.Styleable.NavigationView_android_background = global::ShaXam.Droid.Resource.Styleable.NavigationView_android_background;
+			global::PanCardView.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::ShaXam.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::PanCardView.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::ShaXam.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::PanCardView.Droid.Resource.Styleable.NavigationView_elevation = global::ShaXam.Droid.Resource.Styleable.NavigationView_elevation;
+			global::PanCardView.Droid.Resource.Styleable.NavigationView_headerLayout = global::ShaXam.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::PanCardView.Droid.Resource.Styleable.NavigationView_itemBackground = global::ShaXam.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::PanCardView.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding = global::ShaXam.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::PanCardView.Droid.Resource.Styleable.NavigationView_itemIconPadding = global::ShaXam.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::PanCardView.Droid.Resource.Styleable.NavigationView_itemIconTint = global::ShaXam.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::PanCardView.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::ShaXam.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::PanCardView.Droid.Resource.Styleable.NavigationView_itemTextColor = global::ShaXam.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::PanCardView.Droid.Resource.Styleable.NavigationView_menu = global::ShaXam.Droid.Resource.Styleable.NavigationView_menu;
+			global::PanCardView.Droid.Resource.Styleable.PopupWindow = global::ShaXam.Droid.Resource.Styleable.PopupWindow;
+			global::PanCardView.Droid.Resource.Styleable.PopupWindowBackgroundState = global::ShaXam.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::PanCardView.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::ShaXam.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::PanCardView.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::ShaXam.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::PanCardView.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::ShaXam.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::PanCardView.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::ShaXam.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::PanCardView.Droid.Resource.Styleable.RecycleListView = global::ShaXam.Droid.Resource.Styleable.RecycleListView;
+			global::PanCardView.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::ShaXam.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::PanCardView.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::ShaXam.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::PanCardView.Droid.Resource.Styleable.RecyclerView = global::ShaXam.Droid.Resource.Styleable.RecyclerView;
+			global::PanCardView.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability = global::ShaXam.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::PanCardView.Droid.Resource.Styleable.RecyclerView_android_orientation = global::ShaXam.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::PanCardView.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled = global::ShaXam.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::PanCardView.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::ShaXam.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::PanCardView.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::ShaXam.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::PanCardView.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::ShaXam.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::PanCardView.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::ShaXam.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::PanCardView.Droid.Resource.Styleable.RecyclerView_layoutManager = global::ShaXam.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::PanCardView.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::ShaXam.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::PanCardView.Droid.Resource.Styleable.RecyclerView_spanCount = global::ShaXam.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::PanCardView.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::ShaXam.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::PanCardView.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::ShaXam.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::PanCardView.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::ShaXam.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::PanCardView.Droid.Resource.Styleable.ScrollingViewBehavior_Layout = global::ShaXam.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::PanCardView.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::ShaXam.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::PanCardView.Droid.Resource.Styleable.SearchView = global::ShaXam.Droid.Resource.Styleable.SearchView;
+			global::PanCardView.Droid.Resource.Styleable.SearchView_android_focusable = global::ShaXam.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::PanCardView.Droid.Resource.Styleable.SearchView_android_imeOptions = global::ShaXam.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::PanCardView.Droid.Resource.Styleable.SearchView_android_inputType = global::ShaXam.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::PanCardView.Droid.Resource.Styleable.SearchView_android_maxWidth = global::ShaXam.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::PanCardView.Droid.Resource.Styleable.SearchView_closeIcon = global::ShaXam.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::PanCardView.Droid.Resource.Styleable.SearchView_commitIcon = global::ShaXam.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::PanCardView.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::ShaXam.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::PanCardView.Droid.Resource.Styleable.SearchView_goIcon = global::ShaXam.Droid.Resource.Styleable.SearchView_goIcon;
+			global::PanCardView.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::ShaXam.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::PanCardView.Droid.Resource.Styleable.SearchView_layout = global::ShaXam.Droid.Resource.Styleable.SearchView_layout;
+			global::PanCardView.Droid.Resource.Styleable.SearchView_queryBackground = global::ShaXam.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::PanCardView.Droid.Resource.Styleable.SearchView_queryHint = global::ShaXam.Droid.Resource.Styleable.SearchView_queryHint;
+			global::PanCardView.Droid.Resource.Styleable.SearchView_searchHintIcon = global::ShaXam.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::PanCardView.Droid.Resource.Styleable.SearchView_searchIcon = global::ShaXam.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::PanCardView.Droid.Resource.Styleable.SearchView_submitBackground = global::ShaXam.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::PanCardView.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::ShaXam.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::PanCardView.Droid.Resource.Styleable.SearchView_voiceIcon = global::ShaXam.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::PanCardView.Droid.Resource.Styleable.Snackbar = global::ShaXam.Droid.Resource.Styleable.Snackbar;
+			global::PanCardView.Droid.Resource.Styleable.SnackbarLayout = global::ShaXam.Droid.Resource.Styleable.SnackbarLayout;
+			global::PanCardView.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::ShaXam.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::PanCardView.Droid.Resource.Styleable.SnackbarLayout_elevation = global::ShaXam.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::PanCardView.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::ShaXam.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::PanCardView.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle = global::ShaXam.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::PanCardView.Droid.Resource.Styleable.Snackbar_snackbarStyle = global::ShaXam.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::PanCardView.Droid.Resource.Styleable.Spinner = global::ShaXam.Droid.Resource.Styleable.Spinner;
+			global::PanCardView.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::ShaXam.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::PanCardView.Droid.Resource.Styleable.Spinner_android_entries = global::ShaXam.Droid.Resource.Styleable.Spinner_android_entries;
+			global::PanCardView.Droid.Resource.Styleable.Spinner_android_popupBackground = global::ShaXam.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::PanCardView.Droid.Resource.Styleable.Spinner_android_prompt = global::ShaXam.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::PanCardView.Droid.Resource.Styleable.Spinner_popupTheme = global::ShaXam.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::PanCardView.Droid.Resource.Styleable.StateListDrawable = global::ShaXam.Droid.Resource.Styleable.StateListDrawable;
+			global::PanCardView.Droid.Resource.Styleable.StateListDrawableItem = global::ShaXam.Droid.Resource.Styleable.StateListDrawableItem;
+			global::PanCardView.Droid.Resource.Styleable.StateListDrawableItem_android_drawable = global::ShaXam.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::PanCardView.Droid.Resource.Styleable.StateListDrawable_android_constantSize = global::ShaXam.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::PanCardView.Droid.Resource.Styleable.StateListDrawable_android_dither = global::ShaXam.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::PanCardView.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::ShaXam.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::PanCardView.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::ShaXam.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::PanCardView.Droid.Resource.Styleable.StateListDrawable_android_variablePadding = global::ShaXam.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::PanCardView.Droid.Resource.Styleable.StateListDrawable_android_visible = global::ShaXam.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::PanCardView.Droid.Resource.Styleable.SwitchCompat = global::ShaXam.Droid.Resource.Styleable.SwitchCompat;
+			global::PanCardView.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::ShaXam.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::PanCardView.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::ShaXam.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::PanCardView.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::ShaXam.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::PanCardView.Droid.Resource.Styleable.SwitchCompat_showText = global::ShaXam.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::PanCardView.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::ShaXam.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::PanCardView.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::ShaXam.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::PanCardView.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::ShaXam.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::PanCardView.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::ShaXam.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::PanCardView.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::ShaXam.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::PanCardView.Droid.Resource.Styleable.SwitchCompat_thumbTint = global::ShaXam.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::PanCardView.Droid.Resource.Styleable.SwitchCompat_thumbTintMode = global::ShaXam.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::PanCardView.Droid.Resource.Styleable.SwitchCompat_track = global::ShaXam.Droid.Resource.Styleable.SwitchCompat_track;
+			global::PanCardView.Droid.Resource.Styleable.SwitchCompat_trackTint = global::ShaXam.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::PanCardView.Droid.Resource.Styleable.SwitchCompat_trackTintMode = global::ShaXam.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::PanCardView.Droid.Resource.Styleable.TabItem = global::ShaXam.Droid.Resource.Styleable.TabItem;
+			global::PanCardView.Droid.Resource.Styleable.TabItem_android_icon = global::ShaXam.Droid.Resource.Styleable.TabItem_android_icon;
+			global::PanCardView.Droid.Resource.Styleable.TabItem_android_layout = global::ShaXam.Droid.Resource.Styleable.TabItem_android_layout;
+			global::PanCardView.Droid.Resource.Styleable.TabItem_android_text = global::ShaXam.Droid.Resource.Styleable.TabItem_android_text;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout = global::ShaXam.Droid.Resource.Styleable.TabLayout;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabBackground = global::ShaXam.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabContentStart = global::ShaXam.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabGravity = global::ShaXam.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabIconTint = global::ShaXam.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabIconTintMode = global::ShaXam.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabIndicator = global::ShaXam.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::ShaXam.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::ShaXam.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::ShaXam.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity = global::ShaXam.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::ShaXam.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabInlineLabel = global::ShaXam.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::ShaXam.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::ShaXam.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabMode = global::ShaXam.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabPadding = global::ShaXam.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::ShaXam.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::ShaXam.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::ShaXam.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::ShaXam.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabRippleColor = global::ShaXam.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::ShaXam.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::ShaXam.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabTextColor = global::ShaXam.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple = global::ShaXam.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::PanCardView.Droid.Resource.Styleable.TextAppearance = global::ShaXam.Droid.Resource.Styleable.TextAppearance;
+			global::PanCardView.Droid.Resource.Styleable.TextAppearance_android_fontFamily = global::ShaXam.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::PanCardView.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::ShaXam.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::PanCardView.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::ShaXam.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::PanCardView.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::ShaXam.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::PanCardView.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::ShaXam.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::PanCardView.Droid.Resource.Styleable.TextAppearance_android_textColor = global::ShaXam.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::PanCardView.Droid.Resource.Styleable.TextAppearance_android_textColorHint = global::ShaXam.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::PanCardView.Droid.Resource.Styleable.TextAppearance_android_textColorLink = global::ShaXam.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::PanCardView.Droid.Resource.Styleable.TextAppearance_android_textSize = global::ShaXam.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::PanCardView.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::ShaXam.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::PanCardView.Droid.Resource.Styleable.TextAppearance_android_typeface = global::ShaXam.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::PanCardView.Droid.Resource.Styleable.TextAppearance_fontFamily = global::ShaXam.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::PanCardView.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::ShaXam.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout = global::ShaXam.Droid.Resource.Styleable.TextInputLayout;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_android_hint = global::ShaXam.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::ShaXam.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::ShaXam.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::ShaXam.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::ShaXam.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::ShaXam.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::ShaXam.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::ShaXam.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::ShaXam.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor = global::ShaXam.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::ShaXam.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::ShaXam.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::ShaXam.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::ShaXam.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::ShaXam.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::ShaXam.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::ShaXam.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_helperText = global::ShaXam.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled = global::ShaXam.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::ShaXam.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::ShaXam.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::ShaXam.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::ShaXam.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::ShaXam.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::ShaXam.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::ShaXam.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint = global::ShaXam.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::ShaXam.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::PanCardView.Droid.Resource.Styleable.ThemeEnforcement = global::ShaXam.Droid.Resource.Styleable.ThemeEnforcement;
+			global::PanCardView.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::ShaXam.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::PanCardView.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::ShaXam.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::PanCardView.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::ShaXam.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar = global::ShaXam.Droid.Resource.Styleable.Toolbar;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_android_gravity = global::ShaXam.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_android_minHeight = global::ShaXam.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_buttonGravity = global::ShaXam.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::ShaXam.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_collapseIcon = global::ShaXam.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::ShaXam.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::ShaXam.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::ShaXam.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::ShaXam.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::ShaXam.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::ShaXam.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_logo = global::ShaXam.Droid.Resource.Styleable.Toolbar_logo;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_logoDescription = global::ShaXam.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::ShaXam.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::ShaXam.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_navigationIcon = global::ShaXam.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_popupTheme = global::ShaXam.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_subtitle = global::ShaXam.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::ShaXam.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::ShaXam.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_title = global::ShaXam.Droid.Resource.Styleable.Toolbar_title;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_titleMargin = global::ShaXam.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::ShaXam.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::ShaXam.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_titleMargins = global::ShaXam.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::ShaXam.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::ShaXam.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::ShaXam.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::PanCardView.Droid.Resource.Styleable.Toolbar_titleTextColor = global::ShaXam.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::PanCardView.Droid.Resource.Styleable.View = global::ShaXam.Droid.Resource.Styleable.View;
+			global::PanCardView.Droid.Resource.Styleable.ViewBackgroundHelper = global::ShaXam.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::PanCardView.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::ShaXam.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::PanCardView.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::ShaXam.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::PanCardView.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::ShaXam.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::PanCardView.Droid.Resource.Styleable.ViewStubCompat = global::ShaXam.Droid.Resource.Styleable.ViewStubCompat;
+			global::PanCardView.Droid.Resource.Styleable.ViewStubCompat_android_id = global::ShaXam.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::PanCardView.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::ShaXam.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::PanCardView.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::ShaXam.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::PanCardView.Droid.Resource.Styleable.View_android_focusable = global::ShaXam.Droid.Resource.Styleable.View_android_focusable;
+			global::PanCardView.Droid.Resource.Styleable.View_android_theme = global::ShaXam.Droid.Resource.Styleable.View_android_theme;
+			global::PanCardView.Droid.Resource.Styleable.View_paddingEnd = global::ShaXam.Droid.Resource.Styleable.View_paddingEnd;
+			global::PanCardView.Droid.Resource.Styleable.View_paddingStart = global::ShaXam.Droid.Resource.Styleable.View_paddingStart;
+			global::PanCardView.Droid.Resource.Styleable.View_theme = global::ShaXam.Droid.Resource.Styleable.View_theme;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_in = global::ShaXam.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_out = global::ShaXam.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::ShaXam.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -4149,6 +7049,7 @@ namespace ShaXam.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView = global::ShaXam.Droid.Resource.Style.CardView;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView_Dark = global::ShaXam.Droid.Resource.Style.CardView_Dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView_Light = global::ShaXam.Droid.Resource.Style.CardView_Light;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.NestedScrollBarStyle = global::ShaXam.Droid.Resource.Style.NestedScrollBarStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_AppCompat = global::ShaXam.Droid.Resource.Style.Platform_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_AppCompat_Light = global::ShaXam.Droid.Resource.Style.Platform_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_MaterialComponents = global::ShaXam.Droid.Resource.Style.Platform_MaterialComponents;
@@ -10276,6 +13177,9 @@ namespace ShaXam.Droid
 			// aapt resource value: 0x7f0b0046
 			public const int hide_bottom_view_on_scroll_behavior = 2131427398;
 			
+			// aapt resource value: 0x7f0b004e
+			public const int library_name = 2131427406;
+			
 			// aapt resource value: 0x7f0b0000
 			public const int mr_button_content_description = 2131427328;
 			
@@ -10385,1547 +13289,1550 @@ namespace ShaXam.Droid
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f080099
-			public const int AlertDialog_AppCompat = 2131230873;
-			
 			// aapt resource value: 0x7f08009a
-			public const int AlertDialog_AppCompat_Light = 2131230874;
+			public const int AlertDialog_AppCompat = 2131230874;
 			
 			// aapt resource value: 0x7f08009b
-			public const int Animation_AppCompat_Dialog = 2131230875;
+			public const int AlertDialog_AppCompat_Light = 2131230875;
 			
 			// aapt resource value: 0x7f08009c
-			public const int Animation_AppCompat_DropDownUp = 2131230876;
+			public const int Animation_AppCompat_Dialog = 2131230876;
 			
 			// aapt resource value: 0x7f08009d
-			public const int Animation_AppCompat_Tooltip = 2131230877;
-			
-			// aapt resource value: 0x7f08016e
-			public const int Animation_Design_BottomSheetDialog = 2131231086;
-			
-			// aapt resource value: 0x7f080202
-			public const int AppCompatDialogStyle = 2131231234;
+			public const int Animation_AppCompat_DropDownUp = 2131230877;
 			
 			// aapt resource value: 0x7f08009e
-			public const int Base_AlertDialog_AppCompat = 2131230878;
-			
-			// aapt resource value: 0x7f08009f
-			public const int Base_AlertDialog_AppCompat_Light = 2131230879;
-			
-			// aapt resource value: 0x7f0800a0
-			public const int Base_Animation_AppCompat_Dialog = 2131230880;
-			
-			// aapt resource value: 0x7f0800a1
-			public const int Base_Animation_AppCompat_DropDownUp = 2131230881;
-			
-			// aapt resource value: 0x7f0800a2
-			public const int Base_Animation_AppCompat_Tooltip = 2131230882;
-			
-			// aapt resource value: 0x7f08000d
-			public const int Base_CardView = 2131230733;
-			
-			// aapt resource value: 0x7f0800a3
-			public const int Base_DialogWindowTitle_AppCompat = 2131230883;
-			
-			// aapt resource value: 0x7f0800a4
-			public const int Base_DialogWindowTitleBackground_AppCompat = 2131230884;
-			
-			// aapt resource value: 0x7f08002d
-			public const int Base_TextAppearance_AppCompat = 2131230765;
-			
-			// aapt resource value: 0x7f08002e
-			public const int Base_TextAppearance_AppCompat_Body1 = 2131230766;
-			
-			// aapt resource value: 0x7f08002f
-			public const int Base_TextAppearance_AppCompat_Body2 = 2131230767;
-			
-			// aapt resource value: 0x7f080030
-			public const int Base_TextAppearance_AppCompat_Button = 2131230768;
-			
-			// aapt resource value: 0x7f080031
-			public const int Base_TextAppearance_AppCompat_Caption = 2131230769;
-			
-			// aapt resource value: 0x7f080032
-			public const int Base_TextAppearance_AppCompat_Display1 = 2131230770;
-			
-			// aapt resource value: 0x7f080033
-			public const int Base_TextAppearance_AppCompat_Display2 = 2131230771;
-			
-			// aapt resource value: 0x7f080034
-			public const int Base_TextAppearance_AppCompat_Display3 = 2131230772;
-			
-			// aapt resource value: 0x7f080035
-			public const int Base_TextAppearance_AppCompat_Display4 = 2131230773;
-			
-			// aapt resource value: 0x7f080036
-			public const int Base_TextAppearance_AppCompat_Headline = 2131230774;
-			
-			// aapt resource value: 0x7f080037
-			public const int Base_TextAppearance_AppCompat_Inverse = 2131230775;
-			
-			// aapt resource value: 0x7f080038
-			public const int Base_TextAppearance_AppCompat_Large = 2131230776;
-			
-			// aapt resource value: 0x7f080039
-			public const int Base_TextAppearance_AppCompat_Large_Inverse = 2131230777;
-			
-			// aapt resource value: 0x7f08003a
-			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131230778;
-			
-			// aapt resource value: 0x7f08003b
-			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131230779;
-			
-			// aapt resource value: 0x7f08003c
-			public const int Base_TextAppearance_AppCompat_Medium = 2131230780;
-			
-			// aapt resource value: 0x7f08003d
-			public const int Base_TextAppearance_AppCompat_Medium_Inverse = 2131230781;
-			
-			// aapt resource value: 0x7f08003e
-			public const int Base_TextAppearance_AppCompat_Menu = 2131230782;
-			
-			// aapt resource value: 0x7f0800a5
-			public const int Base_TextAppearance_AppCompat_SearchResult = 2131230885;
-			
-			// aapt resource value: 0x7f08003f
-			public const int Base_TextAppearance_AppCompat_SearchResult_Subtitle = 2131230783;
-			
-			// aapt resource value: 0x7f080040
-			public const int Base_TextAppearance_AppCompat_SearchResult_Title = 2131230784;
-			
-			// aapt resource value: 0x7f080041
-			public const int Base_TextAppearance_AppCompat_Small = 2131230785;
-			
-			// aapt resource value: 0x7f080042
-			public const int Base_TextAppearance_AppCompat_Small_Inverse = 2131230786;
-			
-			// aapt resource value: 0x7f080043
-			public const int Base_TextAppearance_AppCompat_Subhead = 2131230787;
-			
-			// aapt resource value: 0x7f0800a6
-			public const int Base_TextAppearance_AppCompat_Subhead_Inverse = 2131230886;
-			
-			// aapt resource value: 0x7f080044
-			public const int Base_TextAppearance_AppCompat_Title = 2131230788;
-			
-			// aapt resource value: 0x7f0800a7
-			public const int Base_TextAppearance_AppCompat_Title_Inverse = 2131230887;
-			
-			// aapt resource value: 0x7f0800a8
-			public const int Base_TextAppearance_AppCompat_Tooltip = 2131230888;
-			
-			// aapt resource value: 0x7f080088
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131230856;
-			
-			// aapt resource value: 0x7f080045
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131230789;
-			
-			// aapt resource value: 0x7f080046
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131230790;
-			
-			// aapt resource value: 0x7f080047
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title = 2131230791;
-			
-			// aapt resource value: 0x7f080048
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131230792;
-			
-			// aapt resource value: 0x7f080049
-			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131230793;
-			
-			// aapt resource value: 0x7f08004a
-			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Title = 2131230794;
-			
-			// aapt resource value: 0x7f08004b
-			public const int Base_TextAppearance_AppCompat_Widget_Button = 2131230795;
-			
-			// aapt resource value: 0x7f08008f
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131230863;
-			
-			// aapt resource value: 0x7f080090
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Colored = 2131230864;
-			
-			// aapt resource value: 0x7f080089
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Inverse = 2131230857;
-			
-			// aapt resource value: 0x7f0800a9
-			public const int Base_TextAppearance_AppCompat_Widget_DropDownItem = 2131230889;
-			
-			// aapt resource value: 0x7f08004c
-			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131230796;
-			
-			// aapt resource value: 0x7f08004d
-			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131230797;
-			
-			// aapt resource value: 0x7f08004e
-			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131230798;
-			
-			// aapt resource value: 0x7f08004f
-			public const int Base_TextAppearance_AppCompat_Widget_Switch = 2131230799;
-			
-			// aapt resource value: 0x7f080050
-			public const int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131230800;
-			
-			// aapt resource value: 0x7f0800aa
-			public const int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131230890;
-			
-			// aapt resource value: 0x7f080051
-			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131230801;
-			
-			// aapt resource value: 0x7f080052
-			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Title = 2131230802;
-			
-			// aapt resource value: 0x7f080053
-			public const int Base_Theme_AppCompat = 2131230803;
-			
-			// aapt resource value: 0x7f0800ab
-			public const int Base_Theme_AppCompat_CompactMenu = 2131230891;
-			
-			// aapt resource value: 0x7f080054
-			public const int Base_Theme_AppCompat_Dialog = 2131230804;
-			
-			// aapt resource value: 0x7f0800ac
-			public const int Base_Theme_AppCompat_Dialog_Alert = 2131230892;
-			
-			// aapt resource value: 0x7f0800ad
-			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131230893;
-			
-			// aapt resource value: 0x7f0800ae
-			public const int Base_Theme_AppCompat_Dialog_MinWidth = 2131230894;
-			
-			// aapt resource value: 0x7f080011
-			public const int Base_Theme_AppCompat_DialogWhenLarge = 2131230737;
-			
-			// aapt resource value: 0x7f080055
-			public const int Base_Theme_AppCompat_Light = 2131230805;
-			
-			// aapt resource value: 0x7f0800af
-			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131230895;
-			
-			// aapt resource value: 0x7f080056
-			public const int Base_Theme_AppCompat_Light_Dialog = 2131230806;
-			
-			// aapt resource value: 0x7f0800b0
-			public const int Base_Theme_AppCompat_Light_Dialog_Alert = 2131230896;
-			
-			// aapt resource value: 0x7f0800b1
-			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131230897;
-			
-			// aapt resource value: 0x7f0800b2
-			public const int Base_Theme_AppCompat_Light_Dialog_MinWidth = 2131230898;
-			
-			// aapt resource value: 0x7f080012
-			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131230738;
+			public const int Animation_AppCompat_Tooltip = 2131230878;
 			
 			// aapt resource value: 0x7f08016f
-			public const int Base_Theme_MaterialComponents = 2131231087;
+			public const int Animation_Design_BottomSheetDialog = 2131231087;
 			
-			// aapt resource value: 0x7f080170
-			public const int Base_Theme_MaterialComponents_Bridge = 2131231088;
+			// aapt resource value: 0x7f080203
+			public const int AppCompatDialogStyle = 2131231235;
 			
-			// aapt resource value: 0x7f080171
-			public const int Base_Theme_MaterialComponents_CompactMenu = 2131231089;
+			// aapt resource value: 0x7f08009f
+			public const int Base_AlertDialog_AppCompat = 2131230879;
 			
-			// aapt resource value: 0x7f080172
-			public const int Base_Theme_MaterialComponents_Dialog = 2131231090;
+			// aapt resource value: 0x7f0800a0
+			public const int Base_AlertDialog_AppCompat_Light = 2131230880;
 			
-			// aapt resource value: 0x7f080173
-			public const int Base_Theme_MaterialComponents_Dialog_Alert = 2131231091;
+			// aapt resource value: 0x7f0800a1
+			public const int Base_Animation_AppCompat_Dialog = 2131230881;
 			
-			// aapt resource value: 0x7f080174
-			public const int Base_Theme_MaterialComponents_Dialog_FixedSize = 2131231092;
+			// aapt resource value: 0x7f0800a2
+			public const int Base_Animation_AppCompat_DropDownUp = 2131230882;
 			
-			// aapt resource value: 0x7f080175
-			public const int Base_Theme_MaterialComponents_Dialog_MinWidth = 2131231093;
-			
-			// aapt resource value: 0x7f080168
-			public const int Base_Theme_MaterialComponents_DialogWhenLarge = 2131231080;
-			
-			// aapt resource value: 0x7f080176
-			public const int Base_Theme_MaterialComponents_Light = 2131231094;
-			
-			// aapt resource value: 0x7f080177
-			public const int Base_Theme_MaterialComponents_Light_Bridge = 2131231095;
-			
-			// aapt resource value: 0x7f080178
-			public const int Base_Theme_MaterialComponents_Light_DarkActionBar = 2131231096;
-			
-			// aapt resource value: 0x7f080179
-			public const int Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131231097;
-			
-			// aapt resource value: 0x7f08017a
-			public const int Base_Theme_MaterialComponents_Light_Dialog = 2131231098;
-			
-			// aapt resource value: 0x7f08017b
-			public const int Base_Theme_MaterialComponents_Light_Dialog_Alert = 2131231099;
-			
-			// aapt resource value: 0x7f08017c
-			public const int Base_Theme_MaterialComponents_Light_Dialog_FixedSize = 2131231100;
-			
-			// aapt resource value: 0x7f08017d
-			public const int Base_Theme_MaterialComponents_Light_Dialog_MinWidth = 2131231101;
-			
-			// aapt resource value: 0x7f080169
-			public const int Base_Theme_MaterialComponents_Light_DialogWhenLarge = 2131231081;
-			
-			// aapt resource value: 0x7f0800b3
-			public const int Base_ThemeOverlay_AppCompat = 2131230899;
-			
-			// aapt resource value: 0x7f0800b4
-			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131230900;
-			
-			// aapt resource value: 0x7f0800b5
-			public const int Base_ThemeOverlay_AppCompat_Dark = 2131230901;
-			
-			// aapt resource value: 0x7f0800b6
-			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131230902;
-			
-			// aapt resource value: 0x7f080057
-			public const int Base_ThemeOverlay_AppCompat_Dialog = 2131230807;
-			
-			// aapt resource value: 0x7f0800b7
-			public const int Base_ThemeOverlay_AppCompat_Dialog_Alert = 2131230903;
-			
-			// aapt resource value: 0x7f0800b8
-			public const int Base_ThemeOverlay_AppCompat_Light = 2131230904;
-			
-			// aapt resource value: 0x7f08017e
-			public const int Base_ThemeOverlay_MaterialComponents_Dialog = 2131231102;
-			
-			// aapt resource value: 0x7f08017f
-			public const int Base_ThemeOverlay_MaterialComponents_Dialog_Alert = 2131231103;
-			
-			// aapt resource value: 0x7f080180
-			public const int Base_V14_Theme_MaterialComponents = 2131231104;
-			
-			// aapt resource value: 0x7f080181
-			public const int Base_V14_Theme_MaterialComponents_Bridge = 2131231105;
-			
-			// aapt resource value: 0x7f080182
-			public const int Base_V14_Theme_MaterialComponents_Dialog = 2131231106;
-			
-			// aapt resource value: 0x7f080183
-			public const int Base_V14_Theme_MaterialComponents_Light = 2131231107;
-			
-			// aapt resource value: 0x7f080184
-			public const int Base_V14_Theme_MaterialComponents_Light_Bridge = 2131231108;
-			
-			// aapt resource value: 0x7f080185
-			public const int Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131231109;
-			
-			// aapt resource value: 0x7f080186
-			public const int Base_V14_Theme_MaterialComponents_Light_Dialog = 2131231110;
-			
-			// aapt resource value: 0x7f080187
-			public const int Base_V14_ThemeOverlay_MaterialComponents_Dialog = 2131231111;
-			
-			// aapt resource value: 0x7f080188
-			public const int Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = 2131231112;
-			
-			// aapt resource value: 0x7f080058
-			public const int Base_V21_Theme_AppCompat = 2131230808;
-			
-			// aapt resource value: 0x7f080059
-			public const int Base_V21_Theme_AppCompat_Dialog = 2131230809;
-			
-			// aapt resource value: 0x7f08005a
-			public const int Base_V21_Theme_AppCompat_Light = 2131230810;
-			
-			// aapt resource value: 0x7f08005b
-			public const int Base_V21_Theme_AppCompat_Light_Dialog = 2131230811;
-			
-			// aapt resource value: 0x7f08005c
-			public const int Base_V21_ThemeOverlay_AppCompat_Dialog = 2131230812;
-			
-			// aapt resource value: 0x7f080086
-			public const int Base_V22_Theme_AppCompat = 2131230854;
-			
-			// aapt resource value: 0x7f080087
-			public const int Base_V22_Theme_AppCompat_Light = 2131230855;
-			
-			// aapt resource value: 0x7f08008a
-			public const int Base_V23_Theme_AppCompat = 2131230858;
-			
-			// aapt resource value: 0x7f08008b
-			public const int Base_V23_Theme_AppCompat_Light = 2131230859;
-			
-			// aapt resource value: 0x7f080093
-			public const int Base_V26_Theme_AppCompat = 2131230867;
-			
-			// aapt resource value: 0x7f080094
-			public const int Base_V26_Theme_AppCompat_Light = 2131230868;
-			
-			// aapt resource value: 0x7f080095
-			public const int Base_V26_Widget_AppCompat_Toolbar = 2131230869;
-			
-			// aapt resource value: 0x7f080097
-			public const int Base_V28_Theme_AppCompat = 2131230871;
-			
-			// aapt resource value: 0x7f080098
-			public const int Base_V28_Theme_AppCompat_Light = 2131230872;
-			
-			// aapt resource value: 0x7f0800b9
-			public const int Base_V7_Theme_AppCompat = 2131230905;
-			
-			// aapt resource value: 0x7f0800ba
-			public const int Base_V7_Theme_AppCompat_Dialog = 2131230906;
-			
-			// aapt resource value: 0x7f0800bb
-			public const int Base_V7_Theme_AppCompat_Light = 2131230907;
-			
-			// aapt resource value: 0x7f0800bc
-			public const int Base_V7_Theme_AppCompat_Light_Dialog = 2131230908;
-			
-			// aapt resource value: 0x7f0800bd
-			public const int Base_V7_ThemeOverlay_AppCompat_Dialog = 2131230909;
-			
-			// aapt resource value: 0x7f0800be
-			public const int Base_V7_Widget_AppCompat_AutoCompleteTextView = 2131230910;
-			
-			// aapt resource value: 0x7f0800bf
-			public const int Base_V7_Widget_AppCompat_EditText = 2131230911;
-			
-			// aapt resource value: 0x7f0800c0
-			public const int Base_V7_Widget_AppCompat_Toolbar = 2131230912;
-			
-			// aapt resource value: 0x7f0800c1
-			public const int Base_Widget_AppCompat_ActionBar = 2131230913;
-			
-			// aapt resource value: 0x7f0800c2
-			public const int Base_Widget_AppCompat_ActionBar_Solid = 2131230914;
-			
-			// aapt resource value: 0x7f0800c3
-			public const int Base_Widget_AppCompat_ActionBar_TabBar = 2131230915;
-			
-			// aapt resource value: 0x7f08005d
-			public const int Base_Widget_AppCompat_ActionBar_TabText = 2131230813;
-			
-			// aapt resource value: 0x7f08005e
-			public const int Base_Widget_AppCompat_ActionBar_TabView = 2131230814;
-			
-			// aapt resource value: 0x7f08005f
-			public const int Base_Widget_AppCompat_ActionButton = 2131230815;
-			
-			// aapt resource value: 0x7f080060
-			public const int Base_Widget_AppCompat_ActionButton_CloseMode = 2131230816;
-			
-			// aapt resource value: 0x7f080061
-			public const int Base_Widget_AppCompat_ActionButton_Overflow = 2131230817;
-			
-			// aapt resource value: 0x7f0800c4
-			public const int Base_Widget_AppCompat_ActionMode = 2131230916;
-			
-			// aapt resource value: 0x7f0800c5
-			public const int Base_Widget_AppCompat_ActivityChooserView = 2131230917;
-			
-			// aapt resource value: 0x7f080062
-			public const int Base_Widget_AppCompat_AutoCompleteTextView = 2131230818;
-			
-			// aapt resource value: 0x7f080063
-			public const int Base_Widget_AppCompat_Button = 2131230819;
-			
-			// aapt resource value: 0x7f080064
-			public const int Base_Widget_AppCompat_Button_Borderless = 2131230820;
-			
-			// aapt resource value: 0x7f080065
-			public const int Base_Widget_AppCompat_Button_Borderless_Colored = 2131230821;
-			
-			// aapt resource value: 0x7f0800c6
-			public const int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131230918;
-			
-			// aapt resource value: 0x7f08008c
-			public const int Base_Widget_AppCompat_Button_Colored = 2131230860;
-			
-			// aapt resource value: 0x7f080066
-			public const int Base_Widget_AppCompat_Button_Small = 2131230822;
-			
-			// aapt resource value: 0x7f080067
-			public const int Base_Widget_AppCompat_ButtonBar = 2131230823;
-			
-			// aapt resource value: 0x7f0800c7
-			public const int Base_Widget_AppCompat_ButtonBar_AlertDialog = 2131230919;
-			
-			// aapt resource value: 0x7f080068
-			public const int Base_Widget_AppCompat_CompoundButton_CheckBox = 2131230824;
-			
-			// aapt resource value: 0x7f080069
-			public const int Base_Widget_AppCompat_CompoundButton_RadioButton = 2131230825;
-			
-			// aapt resource value: 0x7f0800c8
-			public const int Base_Widget_AppCompat_CompoundButton_Switch = 2131230920;
-			
-			// aapt resource value: 0x7f080010
-			public const int Base_Widget_AppCompat_DrawerArrowToggle = 2131230736;
-			
-			// aapt resource value: 0x7f0800c9
-			public const int Base_Widget_AppCompat_DrawerArrowToggle_Common = 2131230921;
-			
-			// aapt resource value: 0x7f08006a
-			public const int Base_Widget_AppCompat_DropDownItem_Spinner = 2131230826;
-			
-			// aapt resource value: 0x7f08006b
-			public const int Base_Widget_AppCompat_EditText = 2131230827;
-			
-			// aapt resource value: 0x7f08006c
-			public const int Base_Widget_AppCompat_ImageButton = 2131230828;
-			
-			// aapt resource value: 0x7f0800ca
-			public const int Base_Widget_AppCompat_Light_ActionBar = 2131230922;
-			
-			// aapt resource value: 0x7f0800cb
-			public const int Base_Widget_AppCompat_Light_ActionBar_Solid = 2131230923;
-			
-			// aapt resource value: 0x7f0800cc
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabBar = 2131230924;
-			
-			// aapt resource value: 0x7f08006d
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabText = 2131230829;
-			
-			// aapt resource value: 0x7f08006e
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131230830;
-			
-			// aapt resource value: 0x7f08006f
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabView = 2131230831;
-			
-			// aapt resource value: 0x7f080070
-			public const int Base_Widget_AppCompat_Light_PopupMenu = 2131230832;
-			
-			// aapt resource value: 0x7f080071
-			public const int Base_Widget_AppCompat_Light_PopupMenu_Overflow = 2131230833;
-			
-			// aapt resource value: 0x7f0800cd
-			public const int Base_Widget_AppCompat_ListMenuView = 2131230925;
-			
-			// aapt resource value: 0x7f080072
-			public const int Base_Widget_AppCompat_ListPopupWindow = 2131230834;
-			
-			// aapt resource value: 0x7f080073
-			public const int Base_Widget_AppCompat_ListView = 2131230835;
-			
-			// aapt resource value: 0x7f080074
-			public const int Base_Widget_AppCompat_ListView_DropDown = 2131230836;
-			
-			// aapt resource value: 0x7f080075
-			public const int Base_Widget_AppCompat_ListView_Menu = 2131230837;
-			
-			// aapt resource value: 0x7f080076
-			public const int Base_Widget_AppCompat_PopupMenu = 2131230838;
-			
-			// aapt resource value: 0x7f080077
-			public const int Base_Widget_AppCompat_PopupMenu_Overflow = 2131230839;
-			
-			// aapt resource value: 0x7f0800ce
-			public const int Base_Widget_AppCompat_PopupWindow = 2131230926;
-			
-			// aapt resource value: 0x7f080078
-			public const int Base_Widget_AppCompat_ProgressBar = 2131230840;
-			
-			// aapt resource value: 0x7f080079
-			public const int Base_Widget_AppCompat_ProgressBar_Horizontal = 2131230841;
-			
-			// aapt resource value: 0x7f08007a
-			public const int Base_Widget_AppCompat_RatingBar = 2131230842;
-			
-			// aapt resource value: 0x7f08008d
-			public const int Base_Widget_AppCompat_RatingBar_Indicator = 2131230861;
-			
-			// aapt resource value: 0x7f08008e
-			public const int Base_Widget_AppCompat_RatingBar_Small = 2131230862;
-			
-			// aapt resource value: 0x7f0800cf
-			public const int Base_Widget_AppCompat_SearchView = 2131230927;
-			
-			// aapt resource value: 0x7f0800d0
-			public const int Base_Widget_AppCompat_SearchView_ActionBar = 2131230928;
-			
-			// aapt resource value: 0x7f08007b
-			public const int Base_Widget_AppCompat_SeekBar = 2131230843;
-			
-			// aapt resource value: 0x7f0800d1
-			public const int Base_Widget_AppCompat_SeekBar_Discrete = 2131230929;
-			
-			// aapt resource value: 0x7f08007c
-			public const int Base_Widget_AppCompat_Spinner = 2131230844;
-			
-			// aapt resource value: 0x7f080013
-			public const int Base_Widget_AppCompat_Spinner_Underlined = 2131230739;
-			
-			// aapt resource value: 0x7f08007d
-			public const int Base_Widget_AppCompat_TextView_SpinnerItem = 2131230845;
-			
-			// aapt resource value: 0x7f080096
-			public const int Base_Widget_AppCompat_Toolbar = 2131230870;
-			
-			// aapt resource value: 0x7f08007e
-			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131230846;
-			
-			// aapt resource value: 0x7f080189
-			public const int Base_Widget_Design_TabLayout = 2131231113;
-			
-			// aapt resource value: 0x7f08018a
-			public const int Base_Widget_MaterialComponents_Chip = 2131231114;
-			
-			// aapt resource value: 0x7f08018b
-			public const int Base_Widget_MaterialComponents_TextInputEditText = 2131231115;
-			
-			// aapt resource value: 0x7f08018c
-			public const int Base_Widget_MaterialComponents_TextInputLayout = 2131231116;
-			
-			// aapt resource value: 0x7f08000c
-			public const int CardView = 2131230732;
+			// aapt resource value: 0x7f0800a3
+			public const int Base_Animation_AppCompat_Tooltip = 2131230883;
 			
 			// aapt resource value: 0x7f08000e
-			public const int CardView_Dark = 2131230734;
+			public const int Base_CardView = 2131230734;
 			
-			// aapt resource value: 0x7f08000f
-			public const int CardView_Light = 2131230735;
+			// aapt resource value: 0x7f0800a4
+			public const int Base_DialogWindowTitle_AppCompat = 2131230884;
 			
-			// aapt resource value: 0x7f080200
-			public const int MainTheme = 2131231232;
+			// aapt resource value: 0x7f0800a5
+			public const int Base_DialogWindowTitleBackground_AppCompat = 2131230885;
 			
-			// aapt resource value: 0x7f080201
-			public const int MainTheme_Base = 2131231233;
+			// aapt resource value: 0x7f08002e
+			public const int Base_TextAppearance_AppCompat = 2131230766;
 			
-			// aapt resource value: 0x7f08007f
-			public const int Platform_AppCompat = 2131230847;
+			// aapt resource value: 0x7f08002f
+			public const int Base_TextAppearance_AppCompat_Body1 = 2131230767;
 			
-			// aapt resource value: 0x7f080080
-			public const int Platform_AppCompat_Light = 2131230848;
+			// aapt resource value: 0x7f080030
+			public const int Base_TextAppearance_AppCompat_Body2 = 2131230768;
 			
-			// aapt resource value: 0x7f08018d
-			public const int Platform_MaterialComponents = 2131231117;
+			// aapt resource value: 0x7f080031
+			public const int Base_TextAppearance_AppCompat_Button = 2131230769;
 			
-			// aapt resource value: 0x7f08018e
-			public const int Platform_MaterialComponents_Dialog = 2131231118;
+			// aapt resource value: 0x7f080032
+			public const int Base_TextAppearance_AppCompat_Caption = 2131230770;
 			
-			// aapt resource value: 0x7f08018f
-			public const int Platform_MaterialComponents_Light = 2131231119;
+			// aapt resource value: 0x7f080033
+			public const int Base_TextAppearance_AppCompat_Display1 = 2131230771;
 			
-			// aapt resource value: 0x7f080190
-			public const int Platform_MaterialComponents_Light_Dialog = 2131231120;
+			// aapt resource value: 0x7f080034
+			public const int Base_TextAppearance_AppCompat_Display2 = 2131230772;
 			
-			// aapt resource value: 0x7f080081
-			public const int Platform_ThemeOverlay_AppCompat = 2131230849;
+			// aapt resource value: 0x7f080035
+			public const int Base_TextAppearance_AppCompat_Display3 = 2131230773;
 			
-			// aapt resource value: 0x7f080082
-			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131230850;
+			// aapt resource value: 0x7f080036
+			public const int Base_TextAppearance_AppCompat_Display4 = 2131230774;
 			
-			// aapt resource value: 0x7f080083
-			public const int Platform_ThemeOverlay_AppCompat_Light = 2131230851;
+			// aapt resource value: 0x7f080037
+			public const int Base_TextAppearance_AppCompat_Headline = 2131230775;
 			
-			// aapt resource value: 0x7f080084
-			public const int Platform_V21_AppCompat = 2131230852;
+			// aapt resource value: 0x7f080038
+			public const int Base_TextAppearance_AppCompat_Inverse = 2131230776;
 			
-			// aapt resource value: 0x7f080085
-			public const int Platform_V21_AppCompat_Light = 2131230853;
+			// aapt resource value: 0x7f080039
+			public const int Base_TextAppearance_AppCompat_Large = 2131230777;
+			
+			// aapt resource value: 0x7f08003a
+			public const int Base_TextAppearance_AppCompat_Large_Inverse = 2131230778;
+			
+			// aapt resource value: 0x7f08003b
+			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131230779;
+			
+			// aapt resource value: 0x7f08003c
+			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131230780;
+			
+			// aapt resource value: 0x7f08003d
+			public const int Base_TextAppearance_AppCompat_Medium = 2131230781;
+			
+			// aapt resource value: 0x7f08003e
+			public const int Base_TextAppearance_AppCompat_Medium_Inverse = 2131230782;
+			
+			// aapt resource value: 0x7f08003f
+			public const int Base_TextAppearance_AppCompat_Menu = 2131230783;
+			
+			// aapt resource value: 0x7f0800a6
+			public const int Base_TextAppearance_AppCompat_SearchResult = 2131230886;
+			
+			// aapt resource value: 0x7f080040
+			public const int Base_TextAppearance_AppCompat_SearchResult_Subtitle = 2131230784;
+			
+			// aapt resource value: 0x7f080041
+			public const int Base_TextAppearance_AppCompat_SearchResult_Title = 2131230785;
+			
+			// aapt resource value: 0x7f080042
+			public const int Base_TextAppearance_AppCompat_Small = 2131230786;
+			
+			// aapt resource value: 0x7f080043
+			public const int Base_TextAppearance_AppCompat_Small_Inverse = 2131230787;
+			
+			// aapt resource value: 0x7f080044
+			public const int Base_TextAppearance_AppCompat_Subhead = 2131230788;
+			
+			// aapt resource value: 0x7f0800a7
+			public const int Base_TextAppearance_AppCompat_Subhead_Inverse = 2131230887;
+			
+			// aapt resource value: 0x7f080045
+			public const int Base_TextAppearance_AppCompat_Title = 2131230789;
+			
+			// aapt resource value: 0x7f0800a8
+			public const int Base_TextAppearance_AppCompat_Title_Inverse = 2131230888;
+			
+			// aapt resource value: 0x7f0800a9
+			public const int Base_TextAppearance_AppCompat_Tooltip = 2131230889;
+			
+			// aapt resource value: 0x7f080089
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131230857;
+			
+			// aapt resource value: 0x7f080046
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131230790;
+			
+			// aapt resource value: 0x7f080047
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131230791;
+			
+			// aapt resource value: 0x7f080048
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title = 2131230792;
+			
+			// aapt resource value: 0x7f080049
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131230793;
+			
+			// aapt resource value: 0x7f08004a
+			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131230794;
+			
+			// aapt resource value: 0x7f08004b
+			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Title = 2131230795;
+			
+			// aapt resource value: 0x7f08004c
+			public const int Base_TextAppearance_AppCompat_Widget_Button = 2131230796;
+			
+			// aapt resource value: 0x7f080090
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131230864;
 			
 			// aapt resource value: 0x7f080091
-			public const int Platform_V25_AppCompat = 2131230865;
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Colored = 2131230865;
 			
-			// aapt resource value: 0x7f080092
-			public const int Platform_V25_AppCompat_Light = 2131230866;
+			// aapt resource value: 0x7f08008a
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Inverse = 2131230858;
 			
-			// aapt resource value: 0x7f0800d2
-			public const int Platform_Widget_AppCompat_Spinner = 2131230930;
+			// aapt resource value: 0x7f0800aa
+			public const int Base_TextAppearance_AppCompat_Widget_DropDownItem = 2131230890;
 			
-			// aapt resource value: 0x7f08001c
-			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131230748;
+			// aapt resource value: 0x7f08004d
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131230797;
 			
-			// aapt resource value: 0x7f08001d
-			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131230749;
+			// aapt resource value: 0x7f08004e
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131230798;
 			
-			// aapt resource value: 0x7f08001e
-			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131230750;
+			// aapt resource value: 0x7f08004f
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131230799;
 			
-			// aapt resource value: 0x7f08001f
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131230751;
+			// aapt resource value: 0x7f080050
+			public const int Base_TextAppearance_AppCompat_Widget_Switch = 2131230800;
 			
-			// aapt resource value: 0x7f080020
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131230752;
+			// aapt resource value: 0x7f080051
+			public const int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131230801;
 			
-			// aapt resource value: 0x7f080021
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = 2131230753;
+			// aapt resource value: 0x7f0800ab
+			public const int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131230891;
 			
-			// aapt resource value: 0x7f080022
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = 2131230754;
+			// aapt resource value: 0x7f080052
+			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131230802;
 			
-			// aapt resource value: 0x7f080023
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131230755;
+			// aapt resource value: 0x7f080053
+			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Title = 2131230803;
 			
-			// aapt resource value: 0x7f080024
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131230756;
+			// aapt resource value: 0x7f080054
+			public const int Base_Theme_AppCompat = 2131230804;
 			
-			// aapt resource value: 0x7f080025
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131230757;
+			// aapt resource value: 0x7f0800ac
+			public const int Base_Theme_AppCompat_CompactMenu = 2131230892;
 			
-			// aapt resource value: 0x7f080026
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131230758;
+			// aapt resource value: 0x7f080055
+			public const int Base_Theme_AppCompat_Dialog = 2131230805;
 			
-			// aapt resource value: 0x7f080027
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131230759;
+			// aapt resource value: 0x7f0800ad
+			public const int Base_Theme_AppCompat_Dialog_Alert = 2131230893;
 			
-			// aapt resource value: 0x7f080028
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131230760;
+			// aapt resource value: 0x7f0800ae
+			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131230894;
 			
-			// aapt resource value: 0x7f080029
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131230761;
+			// aapt resource value: 0x7f0800af
+			public const int Base_Theme_AppCompat_Dialog_MinWidth = 2131230895;
 			
-			// aapt resource value: 0x7f08002a
-			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131230762;
+			// aapt resource value: 0x7f080012
+			public const int Base_Theme_AppCompat_DialogWhenLarge = 2131230738;
 			
-			// aapt resource value: 0x7f08002b
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131230763;
+			// aapt resource value: 0x7f080056
+			public const int Base_Theme_AppCompat_Light = 2131230806;
 			
-			// aapt resource value: 0x7f08002c
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131230764;
+			// aapt resource value: 0x7f0800b0
+			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131230896;
 			
-			// aapt resource value: 0x7f0800d3
-			public const int TextAppearance_AppCompat = 2131230931;
+			// aapt resource value: 0x7f080057
+			public const int Base_Theme_AppCompat_Light_Dialog = 2131230807;
 			
-			// aapt resource value: 0x7f0800d4
-			public const int TextAppearance_AppCompat_Body1 = 2131230932;
+			// aapt resource value: 0x7f0800b1
+			public const int Base_Theme_AppCompat_Light_Dialog_Alert = 2131230897;
 			
-			// aapt resource value: 0x7f0800d5
-			public const int TextAppearance_AppCompat_Body2 = 2131230933;
+			// aapt resource value: 0x7f0800b2
+			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131230898;
 			
-			// aapt resource value: 0x7f0800d6
-			public const int TextAppearance_AppCompat_Button = 2131230934;
+			// aapt resource value: 0x7f0800b3
+			public const int Base_Theme_AppCompat_Light_Dialog_MinWidth = 2131230899;
 			
-			// aapt resource value: 0x7f0800d7
-			public const int TextAppearance_AppCompat_Caption = 2131230935;
+			// aapt resource value: 0x7f080013
+			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131230739;
 			
-			// aapt resource value: 0x7f0800d8
-			public const int TextAppearance_AppCompat_Display1 = 2131230936;
+			// aapt resource value: 0x7f080170
+			public const int Base_Theme_MaterialComponents = 2131231088;
 			
-			// aapt resource value: 0x7f0800d9
-			public const int TextAppearance_AppCompat_Display2 = 2131230937;
+			// aapt resource value: 0x7f080171
+			public const int Base_Theme_MaterialComponents_Bridge = 2131231089;
 			
-			// aapt resource value: 0x7f0800da
-			public const int TextAppearance_AppCompat_Display3 = 2131230938;
+			// aapt resource value: 0x7f080172
+			public const int Base_Theme_MaterialComponents_CompactMenu = 2131231090;
 			
-			// aapt resource value: 0x7f0800db
-			public const int TextAppearance_AppCompat_Display4 = 2131230939;
+			// aapt resource value: 0x7f080173
+			public const int Base_Theme_MaterialComponents_Dialog = 2131231091;
 			
-			// aapt resource value: 0x7f0800dc
-			public const int TextAppearance_AppCompat_Headline = 2131230940;
+			// aapt resource value: 0x7f080174
+			public const int Base_Theme_MaterialComponents_Dialog_Alert = 2131231092;
 			
-			// aapt resource value: 0x7f0800dd
-			public const int TextAppearance_AppCompat_Inverse = 2131230941;
+			// aapt resource value: 0x7f080175
+			public const int Base_Theme_MaterialComponents_Dialog_FixedSize = 2131231093;
 			
-			// aapt resource value: 0x7f0800de
-			public const int TextAppearance_AppCompat_Large = 2131230942;
+			// aapt resource value: 0x7f080176
+			public const int Base_Theme_MaterialComponents_Dialog_MinWidth = 2131231094;
 			
-			// aapt resource value: 0x7f0800df
-			public const int TextAppearance_AppCompat_Large_Inverse = 2131230943;
+			// aapt resource value: 0x7f080169
+			public const int Base_Theme_MaterialComponents_DialogWhenLarge = 2131231081;
 			
-			// aapt resource value: 0x7f0800e0
-			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131230944;
+			// aapt resource value: 0x7f080177
+			public const int Base_Theme_MaterialComponents_Light = 2131231095;
 			
-			// aapt resource value: 0x7f0800e1
-			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131230945;
+			// aapt resource value: 0x7f080178
+			public const int Base_Theme_MaterialComponents_Light_Bridge = 2131231096;
 			
-			// aapt resource value: 0x7f0800e2
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131230946;
+			// aapt resource value: 0x7f080179
+			public const int Base_Theme_MaterialComponents_Light_DarkActionBar = 2131231097;
 			
-			// aapt resource value: 0x7f0800e3
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131230947;
+			// aapt resource value: 0x7f08017a
+			public const int Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131231098;
 			
-			// aapt resource value: 0x7f0800e4
-			public const int TextAppearance_AppCompat_Medium = 2131230948;
+			// aapt resource value: 0x7f08017b
+			public const int Base_Theme_MaterialComponents_Light_Dialog = 2131231099;
 			
-			// aapt resource value: 0x7f0800e5
-			public const int TextAppearance_AppCompat_Medium_Inverse = 2131230949;
+			// aapt resource value: 0x7f08017c
+			public const int Base_Theme_MaterialComponents_Light_Dialog_Alert = 2131231100;
 			
-			// aapt resource value: 0x7f0800e6
-			public const int TextAppearance_AppCompat_Menu = 2131230950;
+			// aapt resource value: 0x7f08017d
+			public const int Base_Theme_MaterialComponents_Light_Dialog_FixedSize = 2131231101;
 			
-			// aapt resource value: 0x7f0800e7
-			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131230951;
-			
-			// aapt resource value: 0x7f0800e8
-			public const int TextAppearance_AppCompat_SearchResult_Title = 2131230952;
-			
-			// aapt resource value: 0x7f0800e9
-			public const int TextAppearance_AppCompat_Small = 2131230953;
-			
-			// aapt resource value: 0x7f0800ea
-			public const int TextAppearance_AppCompat_Small_Inverse = 2131230954;
-			
-			// aapt resource value: 0x7f0800eb
-			public const int TextAppearance_AppCompat_Subhead = 2131230955;
-			
-			// aapt resource value: 0x7f0800ec
-			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131230956;
-			
-			// aapt resource value: 0x7f0800ed
-			public const int TextAppearance_AppCompat_Title = 2131230957;
-			
-			// aapt resource value: 0x7f0800ee
-			public const int TextAppearance_AppCompat_Title_Inverse = 2131230958;
-			
-			// aapt resource value: 0x7f08001b
-			public const int TextAppearance_AppCompat_Tooltip = 2131230747;
-			
-			// aapt resource value: 0x7f0800ef
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131230959;
-			
-			// aapt resource value: 0x7f0800f0
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131230960;
-			
-			// aapt resource value: 0x7f0800f1
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131230961;
-			
-			// aapt resource value: 0x7f0800f2
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131230962;
-			
-			// aapt resource value: 0x7f0800f3
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131230963;
-			
-			// aapt resource value: 0x7f0800f4
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131230964;
-			
-			// aapt resource value: 0x7f0800f5
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131230965;
-			
-			// aapt resource value: 0x7f0800f6
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131230966;
-			
-			// aapt resource value: 0x7f0800f7
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131230967;
-			
-			// aapt resource value: 0x7f0800f8
-			public const int TextAppearance_AppCompat_Widget_Button = 2131230968;
-			
-			// aapt resource value: 0x7f0800f9
-			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131230969;
-			
-			// aapt resource value: 0x7f0800fa
-			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131230970;
-			
-			// aapt resource value: 0x7f0800fb
-			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131230971;
-			
-			// aapt resource value: 0x7f0800fc
-			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131230972;
-			
-			// aapt resource value: 0x7f0800fd
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131230973;
-			
-			// aapt resource value: 0x7f0800fe
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131230974;
-			
-			// aapt resource value: 0x7f0800ff
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131230975;
-			
-			// aapt resource value: 0x7f080100
-			public const int TextAppearance_AppCompat_Widget_Switch = 2131230976;
-			
-			// aapt resource value: 0x7f080101
-			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131230977;
-			
-			// aapt resource value: 0x7f0801f9
-			public const int TextAppearance_Compat_Notification = 2131231225;
-			
-			// aapt resource value: 0x7f0801fa
-			public const int TextAppearance_Compat_Notification_Info = 2131231226;
-			
-			// aapt resource value: 0x7f080162
-			public const int TextAppearance_Compat_Notification_Info_Media = 2131231074;
-			
-			// aapt resource value: 0x7f0801ff
-			public const int TextAppearance_Compat_Notification_Line2 = 2131231231;
-			
-			// aapt resource value: 0x7f080166
-			public const int TextAppearance_Compat_Notification_Line2_Media = 2131231078;
-			
-			// aapt resource value: 0x7f080163
-			public const int TextAppearance_Compat_Notification_Media = 2131231075;
-			
-			// aapt resource value: 0x7f0801fb
-			public const int TextAppearance_Compat_Notification_Time = 2131231227;
-			
-			// aapt resource value: 0x7f080164
-			public const int TextAppearance_Compat_Notification_Time_Media = 2131231076;
-			
-			// aapt resource value: 0x7f0801fc
-			public const int TextAppearance_Compat_Notification_Title = 2131231228;
-			
-			// aapt resource value: 0x7f080165
-			public const int TextAppearance_Compat_Notification_Title_Media = 2131231077;
-			
-			// aapt resource value: 0x7f080191
-			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131231121;
-			
-			// aapt resource value: 0x7f080192
-			public const int TextAppearance_Design_Counter = 2131231122;
-			
-			// aapt resource value: 0x7f080193
-			public const int TextAppearance_Design_Counter_Overflow = 2131231123;
-			
-			// aapt resource value: 0x7f080194
-			public const int TextAppearance_Design_Error = 2131231124;
-			
-			// aapt resource value: 0x7f080195
-			public const int TextAppearance_Design_HelperText = 2131231125;
-			
-			// aapt resource value: 0x7f080196
-			public const int TextAppearance_Design_Hint = 2131231126;
-			
-			// aapt resource value: 0x7f080197
-			public const int TextAppearance_Design_Snackbar_Message = 2131231127;
-			
-			// aapt resource value: 0x7f080198
-			public const int TextAppearance_Design_Tab = 2131231128;
-			
-			// aapt resource value: 0x7f080199
-			public const int TextAppearance_MaterialComponents_Body1 = 2131231129;
-			
-			// aapt resource value: 0x7f08019a
-			public const int TextAppearance_MaterialComponents_Body2 = 2131231130;
+			// aapt resource value: 0x7f08017e
+			public const int Base_Theme_MaterialComponents_Light_Dialog_MinWidth = 2131231102;
 			
 			// aapt resource value: 0x7f08016a
-			public const int TextAppearance_MaterialComponents_Button = 2131231082;
+			public const int Base_Theme_MaterialComponents_Light_DialogWhenLarge = 2131231082;
 			
-			// aapt resource value: 0x7f08019b
-			public const int TextAppearance_MaterialComponents_Caption = 2131231131;
+			// aapt resource value: 0x7f0800b4
+			public const int Base_ThemeOverlay_AppCompat = 2131230900;
 			
-			// aapt resource value: 0x7f08019c
-			public const int TextAppearance_MaterialComponents_Chip = 2131231132;
+			// aapt resource value: 0x7f0800b5
+			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131230901;
 			
-			// aapt resource value: 0x7f08019d
-			public const int TextAppearance_MaterialComponents_Headline1 = 2131231133;
+			// aapt resource value: 0x7f0800b6
+			public const int Base_ThemeOverlay_AppCompat_Dark = 2131230902;
 			
-			// aapt resource value: 0x7f08019e
-			public const int TextAppearance_MaterialComponents_Headline2 = 2131231134;
+			// aapt resource value: 0x7f0800b7
+			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131230903;
 			
-			// aapt resource value: 0x7f08019f
-			public const int TextAppearance_MaterialComponents_Headline3 = 2131231135;
+			// aapt resource value: 0x7f080058
+			public const int Base_ThemeOverlay_AppCompat_Dialog = 2131230808;
 			
-			// aapt resource value: 0x7f0801a0
-			public const int TextAppearance_MaterialComponents_Headline4 = 2131231136;
+			// aapt resource value: 0x7f0800b8
+			public const int Base_ThemeOverlay_AppCompat_Dialog_Alert = 2131230904;
 			
-			// aapt resource value: 0x7f0801a1
-			public const int TextAppearance_MaterialComponents_Headline5 = 2131231137;
+			// aapt resource value: 0x7f0800b9
+			public const int Base_ThemeOverlay_AppCompat_Light = 2131230905;
 			
-			// aapt resource value: 0x7f08016b
-			public const int TextAppearance_MaterialComponents_Headline6 = 2131231083;
+			// aapt resource value: 0x7f08017f
+			public const int Base_ThemeOverlay_MaterialComponents_Dialog = 2131231103;
 			
-			// aapt resource value: 0x7f08016c
-			public const int TextAppearance_MaterialComponents_Overline = 2131231084;
+			// aapt resource value: 0x7f080180
+			public const int Base_ThemeOverlay_MaterialComponents_Dialog_Alert = 2131231104;
 			
-			// aapt resource value: 0x7f0801a2
-			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131231138;
+			// aapt resource value: 0x7f080181
+			public const int Base_V14_Theme_MaterialComponents = 2131231105;
 			
-			// aapt resource value: 0x7f08016d
-			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131231085;
+			// aapt resource value: 0x7f080182
+			public const int Base_V14_Theme_MaterialComponents_Bridge = 2131231106;
 			
-			// aapt resource value: 0x7f0801a3
-			public const int TextAppearance_MaterialComponents_Tab = 2131231139;
+			// aapt resource value: 0x7f080183
+			public const int Base_V14_Theme_MaterialComponents_Dialog = 2131231107;
 			
-			// aapt resource value: 0x7f080001
-			public const int TextAppearance_MediaRouter_PrimaryText = 2131230721;
+			// aapt resource value: 0x7f080184
+			public const int Base_V14_Theme_MaterialComponents_Light = 2131231108;
 			
-			// aapt resource value: 0x7f080002
-			public const int TextAppearance_MediaRouter_SecondaryText = 2131230722;
+			// aapt resource value: 0x7f080185
+			public const int Base_V14_Theme_MaterialComponents_Light_Bridge = 2131231109;
 			
-			// aapt resource value: 0x7f080003
-			public const int TextAppearance_MediaRouter_Title = 2131230723;
+			// aapt resource value: 0x7f080186
+			public const int Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131231110;
 			
-			// aapt resource value: 0x7f080102
-			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131230978;
+			// aapt resource value: 0x7f080187
+			public const int Base_V14_Theme_MaterialComponents_Light_Dialog = 2131231111;
 			
-			// aapt resource value: 0x7f080103
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131230979;
+			// aapt resource value: 0x7f080188
+			public const int Base_V14_ThemeOverlay_MaterialComponents_Dialog = 2131231112;
 			
-			// aapt resource value: 0x7f080104
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131230980;
+			// aapt resource value: 0x7f080189
+			public const int Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = 2131231113;
 			
-			// aapt resource value: 0x7f080105
-			public const int Theme_AppCompat = 2131230981;
+			// aapt resource value: 0x7f080059
+			public const int Base_V21_Theme_AppCompat = 2131230809;
 			
-			// aapt resource value: 0x7f080106
-			public const int Theme_AppCompat_CompactMenu = 2131230982;
+			// aapt resource value: 0x7f08005a
+			public const int Base_V21_Theme_AppCompat_Dialog = 2131230810;
+			
+			// aapt resource value: 0x7f08005b
+			public const int Base_V21_Theme_AppCompat_Light = 2131230811;
+			
+			// aapt resource value: 0x7f08005c
+			public const int Base_V21_Theme_AppCompat_Light_Dialog = 2131230812;
+			
+			// aapt resource value: 0x7f08005d
+			public const int Base_V21_ThemeOverlay_AppCompat_Dialog = 2131230813;
+			
+			// aapt resource value: 0x7f080087
+			public const int Base_V22_Theme_AppCompat = 2131230855;
+			
+			// aapt resource value: 0x7f080088
+			public const int Base_V22_Theme_AppCompat_Light = 2131230856;
+			
+			// aapt resource value: 0x7f08008b
+			public const int Base_V23_Theme_AppCompat = 2131230859;
+			
+			// aapt resource value: 0x7f08008c
+			public const int Base_V23_Theme_AppCompat_Light = 2131230860;
+			
+			// aapt resource value: 0x7f080094
+			public const int Base_V26_Theme_AppCompat = 2131230868;
+			
+			// aapt resource value: 0x7f080095
+			public const int Base_V26_Theme_AppCompat_Light = 2131230869;
+			
+			// aapt resource value: 0x7f080096
+			public const int Base_V26_Widget_AppCompat_Toolbar = 2131230870;
+			
+			// aapt resource value: 0x7f080098
+			public const int Base_V28_Theme_AppCompat = 2131230872;
+			
+			// aapt resource value: 0x7f080099
+			public const int Base_V28_Theme_AppCompat_Light = 2131230873;
+			
+			// aapt resource value: 0x7f0800ba
+			public const int Base_V7_Theme_AppCompat = 2131230906;
+			
+			// aapt resource value: 0x7f0800bb
+			public const int Base_V7_Theme_AppCompat_Dialog = 2131230907;
+			
+			// aapt resource value: 0x7f0800bc
+			public const int Base_V7_Theme_AppCompat_Light = 2131230908;
+			
+			// aapt resource value: 0x7f0800bd
+			public const int Base_V7_Theme_AppCompat_Light_Dialog = 2131230909;
+			
+			// aapt resource value: 0x7f0800be
+			public const int Base_V7_ThemeOverlay_AppCompat_Dialog = 2131230910;
+			
+			// aapt resource value: 0x7f0800bf
+			public const int Base_V7_Widget_AppCompat_AutoCompleteTextView = 2131230911;
+			
+			// aapt resource value: 0x7f0800c0
+			public const int Base_V7_Widget_AppCompat_EditText = 2131230912;
+			
+			// aapt resource value: 0x7f0800c1
+			public const int Base_V7_Widget_AppCompat_Toolbar = 2131230913;
+			
+			// aapt resource value: 0x7f0800c2
+			public const int Base_Widget_AppCompat_ActionBar = 2131230914;
+			
+			// aapt resource value: 0x7f0800c3
+			public const int Base_Widget_AppCompat_ActionBar_Solid = 2131230915;
+			
+			// aapt resource value: 0x7f0800c4
+			public const int Base_Widget_AppCompat_ActionBar_TabBar = 2131230916;
+			
+			// aapt resource value: 0x7f08005e
+			public const int Base_Widget_AppCompat_ActionBar_TabText = 2131230814;
+			
+			// aapt resource value: 0x7f08005f
+			public const int Base_Widget_AppCompat_ActionBar_TabView = 2131230815;
+			
+			// aapt resource value: 0x7f080060
+			public const int Base_Widget_AppCompat_ActionButton = 2131230816;
+			
+			// aapt resource value: 0x7f080061
+			public const int Base_Widget_AppCompat_ActionButton_CloseMode = 2131230817;
+			
+			// aapt resource value: 0x7f080062
+			public const int Base_Widget_AppCompat_ActionButton_Overflow = 2131230818;
+			
+			// aapt resource value: 0x7f0800c5
+			public const int Base_Widget_AppCompat_ActionMode = 2131230917;
+			
+			// aapt resource value: 0x7f0800c6
+			public const int Base_Widget_AppCompat_ActivityChooserView = 2131230918;
+			
+			// aapt resource value: 0x7f080063
+			public const int Base_Widget_AppCompat_AutoCompleteTextView = 2131230819;
+			
+			// aapt resource value: 0x7f080064
+			public const int Base_Widget_AppCompat_Button = 2131230820;
+			
+			// aapt resource value: 0x7f080065
+			public const int Base_Widget_AppCompat_Button_Borderless = 2131230821;
+			
+			// aapt resource value: 0x7f080066
+			public const int Base_Widget_AppCompat_Button_Borderless_Colored = 2131230822;
+			
+			// aapt resource value: 0x7f0800c7
+			public const int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131230919;
+			
+			// aapt resource value: 0x7f08008d
+			public const int Base_Widget_AppCompat_Button_Colored = 2131230861;
+			
+			// aapt resource value: 0x7f080067
+			public const int Base_Widget_AppCompat_Button_Small = 2131230823;
+			
+			// aapt resource value: 0x7f080068
+			public const int Base_Widget_AppCompat_ButtonBar = 2131230824;
+			
+			// aapt resource value: 0x7f0800c8
+			public const int Base_Widget_AppCompat_ButtonBar_AlertDialog = 2131230920;
+			
+			// aapt resource value: 0x7f080069
+			public const int Base_Widget_AppCompat_CompoundButton_CheckBox = 2131230825;
+			
+			// aapt resource value: 0x7f08006a
+			public const int Base_Widget_AppCompat_CompoundButton_RadioButton = 2131230826;
+			
+			// aapt resource value: 0x7f0800c9
+			public const int Base_Widget_AppCompat_CompoundButton_Switch = 2131230921;
+			
+			// aapt resource value: 0x7f080011
+			public const int Base_Widget_AppCompat_DrawerArrowToggle = 2131230737;
+			
+			// aapt resource value: 0x7f0800ca
+			public const int Base_Widget_AppCompat_DrawerArrowToggle_Common = 2131230922;
+			
+			// aapt resource value: 0x7f08006b
+			public const int Base_Widget_AppCompat_DropDownItem_Spinner = 2131230827;
+			
+			// aapt resource value: 0x7f08006c
+			public const int Base_Widget_AppCompat_EditText = 2131230828;
+			
+			// aapt resource value: 0x7f08006d
+			public const int Base_Widget_AppCompat_ImageButton = 2131230829;
+			
+			// aapt resource value: 0x7f0800cb
+			public const int Base_Widget_AppCompat_Light_ActionBar = 2131230923;
+			
+			// aapt resource value: 0x7f0800cc
+			public const int Base_Widget_AppCompat_Light_ActionBar_Solid = 2131230924;
+			
+			// aapt resource value: 0x7f0800cd
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabBar = 2131230925;
+			
+			// aapt resource value: 0x7f08006e
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabText = 2131230830;
+			
+			// aapt resource value: 0x7f08006f
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131230831;
+			
+			// aapt resource value: 0x7f080070
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabView = 2131230832;
+			
+			// aapt resource value: 0x7f080071
+			public const int Base_Widget_AppCompat_Light_PopupMenu = 2131230833;
+			
+			// aapt resource value: 0x7f080072
+			public const int Base_Widget_AppCompat_Light_PopupMenu_Overflow = 2131230834;
+			
+			// aapt resource value: 0x7f0800ce
+			public const int Base_Widget_AppCompat_ListMenuView = 2131230926;
+			
+			// aapt resource value: 0x7f080073
+			public const int Base_Widget_AppCompat_ListPopupWindow = 2131230835;
+			
+			// aapt resource value: 0x7f080074
+			public const int Base_Widget_AppCompat_ListView = 2131230836;
+			
+			// aapt resource value: 0x7f080075
+			public const int Base_Widget_AppCompat_ListView_DropDown = 2131230837;
+			
+			// aapt resource value: 0x7f080076
+			public const int Base_Widget_AppCompat_ListView_Menu = 2131230838;
+			
+			// aapt resource value: 0x7f080077
+			public const int Base_Widget_AppCompat_PopupMenu = 2131230839;
+			
+			// aapt resource value: 0x7f080078
+			public const int Base_Widget_AppCompat_PopupMenu_Overflow = 2131230840;
+			
+			// aapt resource value: 0x7f0800cf
+			public const int Base_Widget_AppCompat_PopupWindow = 2131230927;
+			
+			// aapt resource value: 0x7f080079
+			public const int Base_Widget_AppCompat_ProgressBar = 2131230841;
+			
+			// aapt resource value: 0x7f08007a
+			public const int Base_Widget_AppCompat_ProgressBar_Horizontal = 2131230842;
+			
+			// aapt resource value: 0x7f08007b
+			public const int Base_Widget_AppCompat_RatingBar = 2131230843;
+			
+			// aapt resource value: 0x7f08008e
+			public const int Base_Widget_AppCompat_RatingBar_Indicator = 2131230862;
+			
+			// aapt resource value: 0x7f08008f
+			public const int Base_Widget_AppCompat_RatingBar_Small = 2131230863;
+			
+			// aapt resource value: 0x7f0800d0
+			public const int Base_Widget_AppCompat_SearchView = 2131230928;
+			
+			// aapt resource value: 0x7f0800d1
+			public const int Base_Widget_AppCompat_SearchView_ActionBar = 2131230929;
+			
+			// aapt resource value: 0x7f08007c
+			public const int Base_Widget_AppCompat_SeekBar = 2131230844;
+			
+			// aapt resource value: 0x7f0800d2
+			public const int Base_Widget_AppCompat_SeekBar_Discrete = 2131230930;
+			
+			// aapt resource value: 0x7f08007d
+			public const int Base_Widget_AppCompat_Spinner = 2131230845;
 			
 			// aapt resource value: 0x7f080014
-			public const int Theme_AppCompat_DayNight = 2131230740;
+			public const int Base_Widget_AppCompat_Spinner_Underlined = 2131230740;
 			
-			// aapt resource value: 0x7f080015
-			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131230741;
+			// aapt resource value: 0x7f08007e
+			public const int Base_Widget_AppCompat_TextView_SpinnerItem = 2131230846;
 			
-			// aapt resource value: 0x7f080016
-			public const int Theme_AppCompat_DayNight_Dialog = 2131230742;
+			// aapt resource value: 0x7f080097
+			public const int Base_Widget_AppCompat_Toolbar = 2131230871;
 			
-			// aapt resource value: 0x7f080017
-			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131230743;
+			// aapt resource value: 0x7f08007f
+			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131230847;
 			
-			// aapt resource value: 0x7f080018
-			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131230744;
+			// aapt resource value: 0x7f08018a
+			public const int Base_Widget_Design_TabLayout = 2131231114;
 			
-			// aapt resource value: 0x7f080019
-			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131230745;
+			// aapt resource value: 0x7f08018b
+			public const int Base_Widget_MaterialComponents_Chip = 2131231115;
 			
-			// aapt resource value: 0x7f08001a
-			public const int Theme_AppCompat_DayNight_NoActionBar = 2131230746;
+			// aapt resource value: 0x7f08018c
+			public const int Base_Widget_MaterialComponents_TextInputEditText = 2131231116;
 			
-			// aapt resource value: 0x7f080107
-			public const int Theme_AppCompat_Dialog = 2131230983;
+			// aapt resource value: 0x7f08018d
+			public const int Base_Widget_MaterialComponents_TextInputLayout = 2131231117;
 			
-			// aapt resource value: 0x7f080108
-			public const int Theme_AppCompat_Dialog_Alert = 2131230984;
+			// aapt resource value: 0x7f08000d
+			public const int CardView = 2131230733;
 			
-			// aapt resource value: 0x7f080109
-			public const int Theme_AppCompat_Dialog_MinWidth = 2131230985;
+			// aapt resource value: 0x7f08000f
+			public const int CardView_Dark = 2131230735;
 			
-			// aapt resource value: 0x7f08010a
-			public const int Theme_AppCompat_DialogWhenLarge = 2131230986;
+			// aapt resource value: 0x7f080010
+			public const int CardView_Light = 2131230736;
 			
-			// aapt resource value: 0x7f08010b
-			public const int Theme_AppCompat_Light = 2131230987;
+			// aapt resource value: 0x7f080201
+			public const int MainTheme = 2131231233;
 			
-			// aapt resource value: 0x7f08010c
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131230988;
+			// aapt resource value: 0x7f080202
+			public const int MainTheme_Base = 2131231234;
 			
-			// aapt resource value: 0x7f08010d
-			public const int Theme_AppCompat_Light_Dialog = 2131230989;
+			// aapt resource value: 0x7f080001
+			public const int NestedScrollBarStyle = 2131230721;
 			
-			// aapt resource value: 0x7f08010e
-			public const int Theme_AppCompat_Light_Dialog_Alert = 2131230990;
+			// aapt resource value: 0x7f080080
+			public const int Platform_AppCompat = 2131230848;
 			
-			// aapt resource value: 0x7f08010f
-			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131230991;
+			// aapt resource value: 0x7f080081
+			public const int Platform_AppCompat_Light = 2131230849;
 			
-			// aapt resource value: 0x7f080110
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131230992;
+			// aapt resource value: 0x7f08018e
+			public const int Platform_MaterialComponents = 2131231118;
 			
-			// aapt resource value: 0x7f080111
-			public const int Theme_AppCompat_Light_NoActionBar = 2131230993;
+			// aapt resource value: 0x7f08018f
+			public const int Platform_MaterialComponents_Dialog = 2131231119;
 			
-			// aapt resource value: 0x7f080112
-			public const int Theme_AppCompat_NoActionBar = 2131230994;
+			// aapt resource value: 0x7f080190
+			public const int Platform_MaterialComponents_Light = 2131231120;
 			
-			// aapt resource value: 0x7f0801a4
-			public const int Theme_Design = 2131231140;
+			// aapt resource value: 0x7f080191
+			public const int Platform_MaterialComponents_Light_Dialog = 2131231121;
 			
-			// aapt resource value: 0x7f0801a5
-			public const int Theme_Design_BottomSheetDialog = 2131231141;
+			// aapt resource value: 0x7f080082
+			public const int Platform_ThemeOverlay_AppCompat = 2131230850;
 			
-			// aapt resource value: 0x7f0801a6
-			public const int Theme_Design_Light = 2131231142;
+			// aapt resource value: 0x7f080083
+			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131230851;
 			
-			// aapt resource value: 0x7f0801a7
-			public const int Theme_Design_Light_BottomSheetDialog = 2131231143;
+			// aapt resource value: 0x7f080084
+			public const int Platform_ThemeOverlay_AppCompat_Light = 2131230852;
 			
-			// aapt resource value: 0x7f0801a8
-			public const int Theme_Design_Light_NoActionBar = 2131231144;
+			// aapt resource value: 0x7f080085
+			public const int Platform_V21_AppCompat = 2131230853;
 			
-			// aapt resource value: 0x7f0801a9
-			public const int Theme_Design_NoActionBar = 2131231145;
+			// aapt resource value: 0x7f080086
+			public const int Platform_V21_AppCompat_Light = 2131230854;
 			
-			// aapt resource value: 0x7f0801aa
-			public const int Theme_MaterialComponents = 2131231146;
+			// aapt resource value: 0x7f080092
+			public const int Platform_V25_AppCompat = 2131230866;
 			
-			// aapt resource value: 0x7f0801ab
-			public const int Theme_MaterialComponents_BottomSheetDialog = 2131231147;
+			// aapt resource value: 0x7f080093
+			public const int Platform_V25_AppCompat_Light = 2131230867;
 			
-			// aapt resource value: 0x7f0801ac
-			public const int Theme_MaterialComponents_Bridge = 2131231148;
+			// aapt resource value: 0x7f0800d3
+			public const int Platform_Widget_AppCompat_Spinner = 2131230931;
 			
-			// aapt resource value: 0x7f0801ad
-			public const int Theme_MaterialComponents_CompactMenu = 2131231149;
+			// aapt resource value: 0x7f08001d
+			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131230749;
 			
-			// aapt resource value: 0x7f0801ae
-			public const int Theme_MaterialComponents_Dialog = 2131231150;
+			// aapt resource value: 0x7f08001e
+			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131230750;
 			
-			// aapt resource value: 0x7f0801af
-			public const int Theme_MaterialComponents_Dialog_Alert = 2131231151;
+			// aapt resource value: 0x7f08001f
+			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131230751;
 			
-			// aapt resource value: 0x7f0801b0
-			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131231152;
+			// aapt resource value: 0x7f080020
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131230752;
 			
-			// aapt resource value: 0x7f0801b1
-			public const int Theme_MaterialComponents_DialogWhenLarge = 2131231153;
+			// aapt resource value: 0x7f080021
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131230753;
 			
-			// aapt resource value: 0x7f0801b2
-			public const int Theme_MaterialComponents_Light = 2131231154;
+			// aapt resource value: 0x7f080022
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = 2131230754;
 			
-			// aapt resource value: 0x7f0801b3
-			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131231155;
+			// aapt resource value: 0x7f080023
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = 2131230755;
 			
-			// aapt resource value: 0x7f0801b4
-			public const int Theme_MaterialComponents_Light_Bridge = 2131231156;
+			// aapt resource value: 0x7f080024
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131230756;
 			
-			// aapt resource value: 0x7f0801b5
-			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131231157;
+			// aapt resource value: 0x7f080025
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131230757;
 			
-			// aapt resource value: 0x7f0801b6
-			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131231158;
+			// aapt resource value: 0x7f080026
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131230758;
 			
-			// aapt resource value: 0x7f0801b7
-			public const int Theme_MaterialComponents_Light_Dialog = 2131231159;
+			// aapt resource value: 0x7f080027
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131230759;
 			
-			// aapt resource value: 0x7f0801b8
-			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131231160;
+			// aapt resource value: 0x7f080028
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131230760;
 			
-			// aapt resource value: 0x7f0801b9
-			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131231161;
+			// aapt resource value: 0x7f080029
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131230761;
 			
-			// aapt resource value: 0x7f0801ba
-			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131231162;
+			// aapt resource value: 0x7f08002a
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131230762;
 			
-			// aapt resource value: 0x7f0801bb
-			public const int Theme_MaterialComponents_Light_NoActionBar = 2131231163;
+			// aapt resource value: 0x7f08002b
+			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131230763;
 			
-			// aapt resource value: 0x7f0801bc
-			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131231164;
+			// aapt resource value: 0x7f08002c
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131230764;
 			
-			// aapt resource value: 0x7f0801bd
-			public const int Theme_MaterialComponents_NoActionBar = 2131231165;
+			// aapt resource value: 0x7f08002d
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131230765;
 			
-			// aapt resource value: 0x7f0801be
-			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131231166;
+			// aapt resource value: 0x7f0800d4
+			public const int TextAppearance_AppCompat = 2131230932;
 			
-			// aapt resource value: 0x7f080004
-			public const int Theme_MediaRouter = 2131230724;
+			// aapt resource value: 0x7f0800d5
+			public const int TextAppearance_AppCompat_Body1 = 2131230933;
 			
-			// aapt resource value: 0x7f080005
-			public const int Theme_MediaRouter_Light = 2131230725;
+			// aapt resource value: 0x7f0800d6
+			public const int TextAppearance_AppCompat_Body2 = 2131230934;
 			
-			// aapt resource value: 0x7f080006
-			public const int Theme_MediaRouter_Light_DarkControlPanel = 2131230726;
+			// aapt resource value: 0x7f0800d7
+			public const int TextAppearance_AppCompat_Button = 2131230935;
 			
-			// aapt resource value: 0x7f080007
-			public const int Theme_MediaRouter_LightControlPanel = 2131230727;
+			// aapt resource value: 0x7f0800d8
+			public const int TextAppearance_AppCompat_Caption = 2131230936;
 			
-			// aapt resource value: 0x7f080113
-			public const int ThemeOverlay_AppCompat = 2131230995;
+			// aapt resource value: 0x7f0800d9
+			public const int TextAppearance_AppCompat_Display1 = 2131230937;
 			
-			// aapt resource value: 0x7f080114
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131230996;
+			// aapt resource value: 0x7f0800da
+			public const int TextAppearance_AppCompat_Display2 = 2131230938;
 			
-			// aapt resource value: 0x7f080115
-			public const int ThemeOverlay_AppCompat_Dark = 2131230997;
+			// aapt resource value: 0x7f0800db
+			public const int TextAppearance_AppCompat_Display3 = 2131230939;
 			
-			// aapt resource value: 0x7f080116
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131230998;
+			// aapt resource value: 0x7f0800dc
+			public const int TextAppearance_AppCompat_Display4 = 2131230940;
 			
-			// aapt resource value: 0x7f080117
-			public const int ThemeOverlay_AppCompat_Dialog = 2131230999;
+			// aapt resource value: 0x7f0800dd
+			public const int TextAppearance_AppCompat_Headline = 2131230941;
 			
-			// aapt resource value: 0x7f080118
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131231000;
+			// aapt resource value: 0x7f0800de
+			public const int TextAppearance_AppCompat_Inverse = 2131230942;
 			
-			// aapt resource value: 0x7f080119
-			public const int ThemeOverlay_AppCompat_Light = 2131231001;
+			// aapt resource value: 0x7f0800df
+			public const int TextAppearance_AppCompat_Large = 2131230943;
 			
-			// aapt resource value: 0x7f0801bf
-			public const int ThemeOverlay_MaterialComponents = 2131231167;
+			// aapt resource value: 0x7f0800e0
+			public const int TextAppearance_AppCompat_Large_Inverse = 2131230944;
 			
-			// aapt resource value: 0x7f0801c0
-			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131231168;
+			// aapt resource value: 0x7f0800e1
+			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131230945;
 			
-			// aapt resource value: 0x7f0801c1
-			public const int ThemeOverlay_MaterialComponents_Dark = 2131231169;
+			// aapt resource value: 0x7f0800e2
+			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131230946;
 			
-			// aapt resource value: 0x7f0801c2
-			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131231170;
+			// aapt resource value: 0x7f0800e3
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131230947;
 			
-			// aapt resource value: 0x7f0801c3
-			public const int ThemeOverlay_MaterialComponents_Dialog = 2131231171;
+			// aapt resource value: 0x7f0800e4
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131230948;
 			
-			// aapt resource value: 0x7f0801c4
-			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131231172;
+			// aapt resource value: 0x7f0800e5
+			public const int TextAppearance_AppCompat_Medium = 2131230949;
 			
-			// aapt resource value: 0x7f0801c5
-			public const int ThemeOverlay_MaterialComponents_Light = 2131231173;
+			// aapt resource value: 0x7f0800e6
+			public const int TextAppearance_AppCompat_Medium_Inverse = 2131230950;
 			
-			// aapt resource value: 0x7f0801c6
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131231174;
+			// aapt resource value: 0x7f0800e7
+			public const int TextAppearance_AppCompat_Menu = 2131230951;
 			
-			// aapt resource value: 0x7f0801c7
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131231175;
+			// aapt resource value: 0x7f0800e8
+			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131230952;
 			
-			// aapt resource value: 0x7f0801c8
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131231176;
+			// aapt resource value: 0x7f0800e9
+			public const int TextAppearance_AppCompat_SearchResult_Title = 2131230953;
 			
-			// aapt resource value: 0x7f0801c9
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131231177;
+			// aapt resource value: 0x7f0800ea
+			public const int TextAppearance_AppCompat_Small = 2131230954;
 			
-			// aapt resource value: 0x7f0801ca
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131231178;
+			// aapt resource value: 0x7f0800eb
+			public const int TextAppearance_AppCompat_Small_Inverse = 2131230955;
 			
-			// aapt resource value: 0x7f080008
-			public const int ThemeOverlay_MediaRouter_Dark = 2131230728;
+			// aapt resource value: 0x7f0800ec
+			public const int TextAppearance_AppCompat_Subhead = 2131230956;
 			
-			// aapt resource value: 0x7f080009
-			public const int ThemeOverlay_MediaRouter_Light = 2131230729;
+			// aapt resource value: 0x7f0800ed
+			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131230957;
 			
-			// aapt resource value: 0x7f08011a
-			public const int Widget_AppCompat_ActionBar = 2131231002;
+			// aapt resource value: 0x7f0800ee
+			public const int TextAppearance_AppCompat_Title = 2131230958;
 			
-			// aapt resource value: 0x7f08011b
-			public const int Widget_AppCompat_ActionBar_Solid = 2131231003;
+			// aapt resource value: 0x7f0800ef
+			public const int TextAppearance_AppCompat_Title_Inverse = 2131230959;
 			
-			// aapt resource value: 0x7f08011c
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131231004;
+			// aapt resource value: 0x7f08001c
+			public const int TextAppearance_AppCompat_Tooltip = 2131230748;
 			
-			// aapt resource value: 0x7f08011d
-			public const int Widget_AppCompat_ActionBar_TabText = 2131231005;
+			// aapt resource value: 0x7f0800f0
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131230960;
 			
-			// aapt resource value: 0x7f08011e
-			public const int Widget_AppCompat_ActionBar_TabView = 2131231006;
+			// aapt resource value: 0x7f0800f1
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131230961;
 			
-			// aapt resource value: 0x7f08011f
-			public const int Widget_AppCompat_ActionButton = 2131231007;
+			// aapt resource value: 0x7f0800f2
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131230962;
 			
-			// aapt resource value: 0x7f080120
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131231008;
+			// aapt resource value: 0x7f0800f3
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131230963;
 			
-			// aapt resource value: 0x7f080121
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131231009;
+			// aapt resource value: 0x7f0800f4
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131230964;
 			
-			// aapt resource value: 0x7f080122
-			public const int Widget_AppCompat_ActionMode = 2131231010;
+			// aapt resource value: 0x7f0800f5
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131230965;
 			
-			// aapt resource value: 0x7f080123
-			public const int Widget_AppCompat_ActivityChooserView = 2131231011;
+			// aapt resource value: 0x7f0800f6
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131230966;
 			
-			// aapt resource value: 0x7f080124
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131231012;
+			// aapt resource value: 0x7f0800f7
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131230967;
 			
-			// aapt resource value: 0x7f080125
-			public const int Widget_AppCompat_Button = 2131231013;
+			// aapt resource value: 0x7f0800f8
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131230968;
 			
-			// aapt resource value: 0x7f080126
-			public const int Widget_AppCompat_Button_Borderless = 2131231014;
+			// aapt resource value: 0x7f0800f9
+			public const int TextAppearance_AppCompat_Widget_Button = 2131230969;
 			
-			// aapt resource value: 0x7f080127
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131231015;
+			// aapt resource value: 0x7f0800fa
+			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131230970;
 			
-			// aapt resource value: 0x7f080128
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131231016;
+			// aapt resource value: 0x7f0800fb
+			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131230971;
 			
-			// aapt resource value: 0x7f080129
-			public const int Widget_AppCompat_Button_Colored = 2131231017;
+			// aapt resource value: 0x7f0800fc
+			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131230972;
 			
-			// aapt resource value: 0x7f08012a
-			public const int Widget_AppCompat_Button_Small = 2131231018;
+			// aapt resource value: 0x7f0800fd
+			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131230973;
 			
-			// aapt resource value: 0x7f08012b
-			public const int Widget_AppCompat_ButtonBar = 2131231019;
+			// aapt resource value: 0x7f0800fe
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131230974;
 			
-			// aapt resource value: 0x7f08012c
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131231020;
+			// aapt resource value: 0x7f0800ff
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131230975;
 			
-			// aapt resource value: 0x7f08012d
-			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131231021;
+			// aapt resource value: 0x7f080100
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131230976;
 			
-			// aapt resource value: 0x7f08012e
-			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131231022;
+			// aapt resource value: 0x7f080101
+			public const int TextAppearance_AppCompat_Widget_Switch = 2131230977;
 			
-			// aapt resource value: 0x7f08012f
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131231023;
+			// aapt resource value: 0x7f080102
+			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131230978;
 			
-			// aapt resource value: 0x7f080130
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131231024;
+			// aapt resource value: 0x7f0801fa
+			public const int TextAppearance_Compat_Notification = 2131231226;
 			
-			// aapt resource value: 0x7f080131
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131231025;
+			// aapt resource value: 0x7f0801fb
+			public const int TextAppearance_Compat_Notification_Info = 2131231227;
 			
-			// aapt resource value: 0x7f080132
-			public const int Widget_AppCompat_EditText = 2131231026;
+			// aapt resource value: 0x7f080163
+			public const int TextAppearance_Compat_Notification_Info_Media = 2131231075;
 			
-			// aapt resource value: 0x7f080133
-			public const int Widget_AppCompat_ImageButton = 2131231027;
-			
-			// aapt resource value: 0x7f080134
-			public const int Widget_AppCompat_Light_ActionBar = 2131231028;
-			
-			// aapt resource value: 0x7f080135
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131231029;
-			
-			// aapt resource value: 0x7f080136
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131231030;
-			
-			// aapt resource value: 0x7f080137
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131231031;
-			
-			// aapt resource value: 0x7f080138
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131231032;
-			
-			// aapt resource value: 0x7f080139
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131231033;
-			
-			// aapt resource value: 0x7f08013a
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131231034;
-			
-			// aapt resource value: 0x7f08013b
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131231035;
-			
-			// aapt resource value: 0x7f08013c
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131231036;
-			
-			// aapt resource value: 0x7f08013d
-			public const int Widget_AppCompat_Light_ActionButton = 2131231037;
-			
-			// aapt resource value: 0x7f08013e
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131231038;
-			
-			// aapt resource value: 0x7f08013f
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131231039;
-			
-			// aapt resource value: 0x7f080140
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131231040;
-			
-			// aapt resource value: 0x7f080141
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131231041;
-			
-			// aapt resource value: 0x7f080142
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131231042;
-			
-			// aapt resource value: 0x7f080143
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131231043;
-			
-			// aapt resource value: 0x7f080144
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131231044;
-			
-			// aapt resource value: 0x7f080145
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131231045;
-			
-			// aapt resource value: 0x7f080146
-			public const int Widget_AppCompat_Light_PopupMenu = 2131231046;
-			
-			// aapt resource value: 0x7f080147
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131231047;
-			
-			// aapt resource value: 0x7f080148
-			public const int Widget_AppCompat_Light_SearchView = 2131231048;
-			
-			// aapt resource value: 0x7f080149
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131231049;
-			
-			// aapt resource value: 0x7f08014a
-			public const int Widget_AppCompat_ListMenuView = 2131231050;
-			
-			// aapt resource value: 0x7f08014b
-			public const int Widget_AppCompat_ListPopupWindow = 2131231051;
-			
-			// aapt resource value: 0x7f08014c
-			public const int Widget_AppCompat_ListView = 2131231052;
-			
-			// aapt resource value: 0x7f08014d
-			public const int Widget_AppCompat_ListView_DropDown = 2131231053;
-			
-			// aapt resource value: 0x7f08014e
-			public const int Widget_AppCompat_ListView_Menu = 2131231054;
-			
-			// aapt resource value: 0x7f08014f
-			public const int Widget_AppCompat_PopupMenu = 2131231055;
-			
-			// aapt resource value: 0x7f080150
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131231056;
-			
-			// aapt resource value: 0x7f080151
-			public const int Widget_AppCompat_PopupWindow = 2131231057;
-			
-			// aapt resource value: 0x7f080152
-			public const int Widget_AppCompat_ProgressBar = 2131231058;
-			
-			// aapt resource value: 0x7f080153
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131231059;
-			
-			// aapt resource value: 0x7f080154
-			public const int Widget_AppCompat_RatingBar = 2131231060;
-			
-			// aapt resource value: 0x7f080155
-			public const int Widget_AppCompat_RatingBar_Indicator = 2131231061;
-			
-			// aapt resource value: 0x7f080156
-			public const int Widget_AppCompat_RatingBar_Small = 2131231062;
-			
-			// aapt resource value: 0x7f080157
-			public const int Widget_AppCompat_SearchView = 2131231063;
-			
-			// aapt resource value: 0x7f080158
-			public const int Widget_AppCompat_SearchView_ActionBar = 2131231064;
-			
-			// aapt resource value: 0x7f080159
-			public const int Widget_AppCompat_SeekBar = 2131231065;
-			
-			// aapt resource value: 0x7f08015a
-			public const int Widget_AppCompat_SeekBar_Discrete = 2131231066;
-			
-			// aapt resource value: 0x7f08015b
-			public const int Widget_AppCompat_Spinner = 2131231067;
-			
-			// aapt resource value: 0x7f08015c
-			public const int Widget_AppCompat_Spinner_DropDown = 2131231068;
-			
-			// aapt resource value: 0x7f08015d
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131231069;
-			
-			// aapt resource value: 0x7f08015e
-			public const int Widget_AppCompat_Spinner_Underlined = 2131231070;
-			
-			// aapt resource value: 0x7f08015f
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131231071;
-			
-			// aapt resource value: 0x7f080160
-			public const int Widget_AppCompat_Toolbar = 2131231072;
-			
-			// aapt resource value: 0x7f080161
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131231073;
-			
-			// aapt resource value: 0x7f0801fd
-			public const int Widget_Compat_NotificationActionContainer = 2131231229;
-			
-			// aapt resource value: 0x7f0801fe
-			public const int Widget_Compat_NotificationActionText = 2131231230;
-			
-			// aapt resource value: 0x7f0801cb
-			public const int Widget_Design_AppBarLayout = 2131231179;
-			
-			// aapt resource value: 0x7f0801cc
-			public const int Widget_Design_BottomNavigationView = 2131231180;
-			
-			// aapt resource value: 0x7f0801cd
-			public const int Widget_Design_BottomSheet_Modal = 2131231181;
-			
-			// aapt resource value: 0x7f0801ce
-			public const int Widget_Design_CollapsingToolbar = 2131231182;
-			
-			// aapt resource value: 0x7f0801cf
-			public const int Widget_Design_FloatingActionButton = 2131231183;
-			
-			// aapt resource value: 0x7f0801d0
-			public const int Widget_Design_NavigationView = 2131231184;
-			
-			// aapt resource value: 0x7f0801d1
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131231185;
-			
-			// aapt resource value: 0x7f0801d2
-			public const int Widget_Design_Snackbar = 2131231186;
+			// aapt resource value: 0x7f080200
+			public const int TextAppearance_Compat_Notification_Line2 = 2131231232;
 			
 			// aapt resource value: 0x7f080167
-			public const int Widget_Design_TabLayout = 2131231079;
+			public const int TextAppearance_Compat_Notification_Line2_Media = 2131231079;
 			
-			// aapt resource value: 0x7f0801d3
-			public const int Widget_Design_TextInputLayout = 2131231187;
+			// aapt resource value: 0x7f080164
+			public const int TextAppearance_Compat_Notification_Media = 2131231076;
 			
-			// aapt resource value: 0x7f0801d4
-			public const int Widget_MaterialComponents_BottomAppBar = 2131231188;
+			// aapt resource value: 0x7f0801fc
+			public const int TextAppearance_Compat_Notification_Time = 2131231228;
 			
-			// aapt resource value: 0x7f0801d5
-			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131231189;
+			// aapt resource value: 0x7f080165
+			public const int TextAppearance_Compat_Notification_Time_Media = 2131231077;
 			
-			// aapt resource value: 0x7f0801d6
-			public const int Widget_MaterialComponents_BottomNavigationView = 2131231190;
+			// aapt resource value: 0x7f0801fd
+			public const int TextAppearance_Compat_Notification_Title = 2131231229;
 			
-			// aapt resource value: 0x7f0801d7
-			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131231191;
+			// aapt resource value: 0x7f080166
+			public const int TextAppearance_Compat_Notification_Title_Media = 2131231078;
 			
-			// aapt resource value: 0x7f0801d8
-			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131231192;
+			// aapt resource value: 0x7f080192
+			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131231122;
 			
-			// aapt resource value: 0x7f0801d9
-			public const int Widget_MaterialComponents_Button = 2131231193;
+			// aapt resource value: 0x7f080193
+			public const int TextAppearance_Design_Counter = 2131231123;
 			
-			// aapt resource value: 0x7f0801da
-			public const int Widget_MaterialComponents_Button_Icon = 2131231194;
+			// aapt resource value: 0x7f080194
+			public const int TextAppearance_Design_Counter_Overflow = 2131231124;
 			
-			// aapt resource value: 0x7f0801db
-			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131231195;
+			// aapt resource value: 0x7f080195
+			public const int TextAppearance_Design_Error = 2131231125;
 			
-			// aapt resource value: 0x7f0801dc
-			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131231196;
+			// aapt resource value: 0x7f080196
+			public const int TextAppearance_Design_HelperText = 2131231126;
 			
-			// aapt resource value: 0x7f0801dd
-			public const int Widget_MaterialComponents_Button_TextButton = 2131231197;
+			// aapt resource value: 0x7f080197
+			public const int TextAppearance_Design_Hint = 2131231127;
 			
-			// aapt resource value: 0x7f0801de
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131231198;
+			// aapt resource value: 0x7f080198
+			public const int TextAppearance_Design_Snackbar_Message = 2131231128;
 			
-			// aapt resource value: 0x7f0801df
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131231199;
+			// aapt resource value: 0x7f080199
+			public const int TextAppearance_Design_Tab = 2131231129;
 			
-			// aapt resource value: 0x7f0801e0
-			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131231200;
+			// aapt resource value: 0x7f08019a
+			public const int TextAppearance_MaterialComponents_Body1 = 2131231130;
 			
-			// aapt resource value: 0x7f0801e1
-			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131231201;
+			// aapt resource value: 0x7f08019b
+			public const int TextAppearance_MaterialComponents_Body2 = 2131231131;
 			
-			// aapt resource value: 0x7f0801e2
-			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131231202;
+			// aapt resource value: 0x7f08016b
+			public const int TextAppearance_MaterialComponents_Button = 2131231083;
 			
-			// aapt resource value: 0x7f0801e3
-			public const int Widget_MaterialComponents_CardView = 2131231203;
+			// aapt resource value: 0x7f08019c
+			public const int TextAppearance_MaterialComponents_Caption = 2131231132;
 			
-			// aapt resource value: 0x7f0801e4
-			public const int Widget_MaterialComponents_Chip_Action = 2131231204;
+			// aapt resource value: 0x7f08019d
+			public const int TextAppearance_MaterialComponents_Chip = 2131231133;
 			
-			// aapt resource value: 0x7f0801e5
-			public const int Widget_MaterialComponents_Chip_Choice = 2131231205;
+			// aapt resource value: 0x7f08019e
+			public const int TextAppearance_MaterialComponents_Headline1 = 2131231134;
 			
-			// aapt resource value: 0x7f0801e6
-			public const int Widget_MaterialComponents_Chip_Entry = 2131231206;
+			// aapt resource value: 0x7f08019f
+			public const int TextAppearance_MaterialComponents_Headline2 = 2131231135;
 			
-			// aapt resource value: 0x7f0801e7
-			public const int Widget_MaterialComponents_Chip_Filter = 2131231207;
+			// aapt resource value: 0x7f0801a0
+			public const int TextAppearance_MaterialComponents_Headline3 = 2131231136;
 			
-			// aapt resource value: 0x7f0801e8
-			public const int Widget_MaterialComponents_ChipGroup = 2131231208;
+			// aapt resource value: 0x7f0801a1
+			public const int TextAppearance_MaterialComponents_Headline4 = 2131231137;
 			
-			// aapt resource value: 0x7f0801e9
-			public const int Widget_MaterialComponents_FloatingActionButton = 2131231209;
+			// aapt resource value: 0x7f0801a2
+			public const int TextAppearance_MaterialComponents_Headline5 = 2131231138;
 			
-			// aapt resource value: 0x7f0801ea
-			public const int Widget_MaterialComponents_NavigationView = 2131231210;
+			// aapt resource value: 0x7f08016c
+			public const int TextAppearance_MaterialComponents_Headline6 = 2131231084;
 			
-			// aapt resource value: 0x7f0801eb
-			public const int Widget_MaterialComponents_Snackbar = 2131231211;
+			// aapt resource value: 0x7f08016d
+			public const int TextAppearance_MaterialComponents_Overline = 2131231085;
 			
-			// aapt resource value: 0x7f0801ec
-			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131231212;
+			// aapt resource value: 0x7f0801a3
+			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131231139;
 			
-			// aapt resource value: 0x7f0801ed
-			public const int Widget_MaterialComponents_TabLayout = 2131231213;
+			// aapt resource value: 0x7f08016e
+			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131231086;
 			
-			// aapt resource value: 0x7f0801ee
-			public const int Widget_MaterialComponents_TabLayout_Colored = 2131231214;
+			// aapt resource value: 0x7f0801a4
+			public const int TextAppearance_MaterialComponents_Tab = 2131231140;
 			
-			// aapt resource value: 0x7f0801ef
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131231215;
+			// aapt resource value: 0x7f080002
+			public const int TextAppearance_MediaRouter_PrimaryText = 2131230722;
 			
-			// aapt resource value: 0x7f0801f0
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131231216;
+			// aapt resource value: 0x7f080003
+			public const int TextAppearance_MediaRouter_SecondaryText = 2131230723;
 			
-			// aapt resource value: 0x7f0801f1
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131231217;
+			// aapt resource value: 0x7f080004
+			public const int TextAppearance_MediaRouter_Title = 2131230724;
 			
-			// aapt resource value: 0x7f0801f2
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131231218;
+			// aapt resource value: 0x7f080103
+			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131230979;
 			
-			// aapt resource value: 0x7f0801f3
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131231219;
+			// aapt resource value: 0x7f080104
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131230980;
 			
-			// aapt resource value: 0x7f0801f4
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131231220;
+			// aapt resource value: 0x7f080105
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131230981;
 			
-			// aapt resource value: 0x7f0801f5
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131231221;
+			// aapt resource value: 0x7f080106
+			public const int Theme_AppCompat = 2131230982;
 			
-			// aapt resource value: 0x7f0801f6
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131231222;
+			// aapt resource value: 0x7f080107
+			public const int Theme_AppCompat_CompactMenu = 2131230983;
 			
-			// aapt resource value: 0x7f0801f7
-			public const int Widget_MaterialComponents_Toolbar = 2131231223;
+			// aapt resource value: 0x7f080015
+			public const int Theme_AppCompat_DayNight = 2131230741;
+			
+			// aapt resource value: 0x7f080016
+			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131230742;
+			
+			// aapt resource value: 0x7f080017
+			public const int Theme_AppCompat_DayNight_Dialog = 2131230743;
+			
+			// aapt resource value: 0x7f080018
+			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131230744;
+			
+			// aapt resource value: 0x7f080019
+			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131230745;
+			
+			// aapt resource value: 0x7f08001a
+			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131230746;
+			
+			// aapt resource value: 0x7f08001b
+			public const int Theme_AppCompat_DayNight_NoActionBar = 2131230747;
+			
+			// aapt resource value: 0x7f080108
+			public const int Theme_AppCompat_Dialog = 2131230984;
+			
+			// aapt resource value: 0x7f080109
+			public const int Theme_AppCompat_Dialog_Alert = 2131230985;
+			
+			// aapt resource value: 0x7f08010a
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131230986;
+			
+			// aapt resource value: 0x7f08010b
+			public const int Theme_AppCompat_DialogWhenLarge = 2131230987;
+			
+			// aapt resource value: 0x7f08010c
+			public const int Theme_AppCompat_Light = 2131230988;
+			
+			// aapt resource value: 0x7f08010d
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131230989;
+			
+			// aapt resource value: 0x7f08010e
+			public const int Theme_AppCompat_Light_Dialog = 2131230990;
+			
+			// aapt resource value: 0x7f08010f
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131230991;
+			
+			// aapt resource value: 0x7f080110
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131230992;
+			
+			// aapt resource value: 0x7f080111
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131230993;
+			
+			// aapt resource value: 0x7f080112
+			public const int Theme_AppCompat_Light_NoActionBar = 2131230994;
+			
+			// aapt resource value: 0x7f080113
+			public const int Theme_AppCompat_NoActionBar = 2131230995;
+			
+			// aapt resource value: 0x7f0801a5
+			public const int Theme_Design = 2131231141;
+			
+			// aapt resource value: 0x7f0801a6
+			public const int Theme_Design_BottomSheetDialog = 2131231142;
+			
+			// aapt resource value: 0x7f0801a7
+			public const int Theme_Design_Light = 2131231143;
+			
+			// aapt resource value: 0x7f0801a8
+			public const int Theme_Design_Light_BottomSheetDialog = 2131231144;
+			
+			// aapt resource value: 0x7f0801a9
+			public const int Theme_Design_Light_NoActionBar = 2131231145;
+			
+			// aapt resource value: 0x7f0801aa
+			public const int Theme_Design_NoActionBar = 2131231146;
+			
+			// aapt resource value: 0x7f0801ab
+			public const int Theme_MaterialComponents = 2131231147;
+			
+			// aapt resource value: 0x7f0801ac
+			public const int Theme_MaterialComponents_BottomSheetDialog = 2131231148;
+			
+			// aapt resource value: 0x7f0801ad
+			public const int Theme_MaterialComponents_Bridge = 2131231149;
+			
+			// aapt resource value: 0x7f0801ae
+			public const int Theme_MaterialComponents_CompactMenu = 2131231150;
+			
+			// aapt resource value: 0x7f0801af
+			public const int Theme_MaterialComponents_Dialog = 2131231151;
+			
+			// aapt resource value: 0x7f0801b0
+			public const int Theme_MaterialComponents_Dialog_Alert = 2131231152;
+			
+			// aapt resource value: 0x7f0801b1
+			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131231153;
+			
+			// aapt resource value: 0x7f0801b2
+			public const int Theme_MaterialComponents_DialogWhenLarge = 2131231154;
+			
+			// aapt resource value: 0x7f0801b3
+			public const int Theme_MaterialComponents_Light = 2131231155;
+			
+			// aapt resource value: 0x7f0801b4
+			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131231156;
+			
+			// aapt resource value: 0x7f0801b5
+			public const int Theme_MaterialComponents_Light_Bridge = 2131231157;
+			
+			// aapt resource value: 0x7f0801b6
+			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131231158;
+			
+			// aapt resource value: 0x7f0801b7
+			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131231159;
+			
+			// aapt resource value: 0x7f0801b8
+			public const int Theme_MaterialComponents_Light_Dialog = 2131231160;
+			
+			// aapt resource value: 0x7f0801b9
+			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131231161;
+			
+			// aapt resource value: 0x7f0801ba
+			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131231162;
+			
+			// aapt resource value: 0x7f0801bb
+			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131231163;
+			
+			// aapt resource value: 0x7f0801bc
+			public const int Theme_MaterialComponents_Light_NoActionBar = 2131231164;
+			
+			// aapt resource value: 0x7f0801bd
+			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131231165;
+			
+			// aapt resource value: 0x7f0801be
+			public const int Theme_MaterialComponents_NoActionBar = 2131231166;
+			
+			// aapt resource value: 0x7f0801bf
+			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131231167;
+			
+			// aapt resource value: 0x7f080005
+			public const int Theme_MediaRouter = 2131230725;
+			
+			// aapt resource value: 0x7f080006
+			public const int Theme_MediaRouter_Light = 2131230726;
+			
+			// aapt resource value: 0x7f080007
+			public const int Theme_MediaRouter_Light_DarkControlPanel = 2131230727;
+			
+			// aapt resource value: 0x7f080008
+			public const int Theme_MediaRouter_LightControlPanel = 2131230728;
+			
+			// aapt resource value: 0x7f080114
+			public const int ThemeOverlay_AppCompat = 2131230996;
+			
+			// aapt resource value: 0x7f080115
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131230997;
+			
+			// aapt resource value: 0x7f080116
+			public const int ThemeOverlay_AppCompat_Dark = 2131230998;
+			
+			// aapt resource value: 0x7f080117
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131230999;
+			
+			// aapt resource value: 0x7f080118
+			public const int ThemeOverlay_AppCompat_Dialog = 2131231000;
+			
+			// aapt resource value: 0x7f080119
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131231001;
+			
+			// aapt resource value: 0x7f08011a
+			public const int ThemeOverlay_AppCompat_Light = 2131231002;
+			
+			// aapt resource value: 0x7f0801c0
+			public const int ThemeOverlay_MaterialComponents = 2131231168;
+			
+			// aapt resource value: 0x7f0801c1
+			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131231169;
+			
+			// aapt resource value: 0x7f0801c2
+			public const int ThemeOverlay_MaterialComponents_Dark = 2131231170;
+			
+			// aapt resource value: 0x7f0801c3
+			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131231171;
+			
+			// aapt resource value: 0x7f0801c4
+			public const int ThemeOverlay_MaterialComponents_Dialog = 2131231172;
+			
+			// aapt resource value: 0x7f0801c5
+			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131231173;
+			
+			// aapt resource value: 0x7f0801c6
+			public const int ThemeOverlay_MaterialComponents_Light = 2131231174;
+			
+			// aapt resource value: 0x7f0801c7
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131231175;
+			
+			// aapt resource value: 0x7f0801c8
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131231176;
+			
+			// aapt resource value: 0x7f0801c9
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131231177;
+			
+			// aapt resource value: 0x7f0801ca
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131231178;
+			
+			// aapt resource value: 0x7f0801cb
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131231179;
+			
+			// aapt resource value: 0x7f080009
+			public const int ThemeOverlay_MediaRouter_Dark = 2131230729;
 			
 			// aapt resource value: 0x7f08000a
-			public const int Widget_MediaRouter_Light_MediaRouteButton = 2131230730;
+			public const int ThemeOverlay_MediaRouter_Light = 2131230730;
 			
-			// aapt resource value: 0x7f08000b
-			public const int Widget_MediaRouter_MediaRouteButton = 2131230731;
+			// aapt resource value: 0x7f08011b
+			public const int Widget_AppCompat_ActionBar = 2131231003;
+			
+			// aapt resource value: 0x7f08011c
+			public const int Widget_AppCompat_ActionBar_Solid = 2131231004;
+			
+			// aapt resource value: 0x7f08011d
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131231005;
+			
+			// aapt resource value: 0x7f08011e
+			public const int Widget_AppCompat_ActionBar_TabText = 2131231006;
+			
+			// aapt resource value: 0x7f08011f
+			public const int Widget_AppCompat_ActionBar_TabView = 2131231007;
+			
+			// aapt resource value: 0x7f080120
+			public const int Widget_AppCompat_ActionButton = 2131231008;
+			
+			// aapt resource value: 0x7f080121
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131231009;
+			
+			// aapt resource value: 0x7f080122
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131231010;
+			
+			// aapt resource value: 0x7f080123
+			public const int Widget_AppCompat_ActionMode = 2131231011;
+			
+			// aapt resource value: 0x7f080124
+			public const int Widget_AppCompat_ActivityChooserView = 2131231012;
+			
+			// aapt resource value: 0x7f080125
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131231013;
+			
+			// aapt resource value: 0x7f080126
+			public const int Widget_AppCompat_Button = 2131231014;
+			
+			// aapt resource value: 0x7f080127
+			public const int Widget_AppCompat_Button_Borderless = 2131231015;
+			
+			// aapt resource value: 0x7f080128
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131231016;
+			
+			// aapt resource value: 0x7f080129
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131231017;
+			
+			// aapt resource value: 0x7f08012a
+			public const int Widget_AppCompat_Button_Colored = 2131231018;
+			
+			// aapt resource value: 0x7f08012b
+			public const int Widget_AppCompat_Button_Small = 2131231019;
+			
+			// aapt resource value: 0x7f08012c
+			public const int Widget_AppCompat_ButtonBar = 2131231020;
+			
+			// aapt resource value: 0x7f08012d
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131231021;
+			
+			// aapt resource value: 0x7f08012e
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131231022;
+			
+			// aapt resource value: 0x7f08012f
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131231023;
+			
+			// aapt resource value: 0x7f080130
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131231024;
+			
+			// aapt resource value: 0x7f080131
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131231025;
+			
+			// aapt resource value: 0x7f080132
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131231026;
+			
+			// aapt resource value: 0x7f080133
+			public const int Widget_AppCompat_EditText = 2131231027;
+			
+			// aapt resource value: 0x7f080134
+			public const int Widget_AppCompat_ImageButton = 2131231028;
+			
+			// aapt resource value: 0x7f080135
+			public const int Widget_AppCompat_Light_ActionBar = 2131231029;
+			
+			// aapt resource value: 0x7f080136
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131231030;
+			
+			// aapt resource value: 0x7f080137
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131231031;
+			
+			// aapt resource value: 0x7f080138
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131231032;
+			
+			// aapt resource value: 0x7f080139
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131231033;
+			
+			// aapt resource value: 0x7f08013a
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131231034;
+			
+			// aapt resource value: 0x7f08013b
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131231035;
+			
+			// aapt resource value: 0x7f08013c
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131231036;
+			
+			// aapt resource value: 0x7f08013d
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131231037;
+			
+			// aapt resource value: 0x7f08013e
+			public const int Widget_AppCompat_Light_ActionButton = 2131231038;
+			
+			// aapt resource value: 0x7f08013f
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131231039;
+			
+			// aapt resource value: 0x7f080140
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131231040;
+			
+			// aapt resource value: 0x7f080141
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131231041;
+			
+			// aapt resource value: 0x7f080142
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131231042;
+			
+			// aapt resource value: 0x7f080143
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131231043;
+			
+			// aapt resource value: 0x7f080144
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131231044;
+			
+			// aapt resource value: 0x7f080145
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131231045;
+			
+			// aapt resource value: 0x7f080146
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131231046;
+			
+			// aapt resource value: 0x7f080147
+			public const int Widget_AppCompat_Light_PopupMenu = 2131231047;
+			
+			// aapt resource value: 0x7f080148
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131231048;
+			
+			// aapt resource value: 0x7f080149
+			public const int Widget_AppCompat_Light_SearchView = 2131231049;
+			
+			// aapt resource value: 0x7f08014a
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131231050;
+			
+			// aapt resource value: 0x7f08014b
+			public const int Widget_AppCompat_ListMenuView = 2131231051;
+			
+			// aapt resource value: 0x7f08014c
+			public const int Widget_AppCompat_ListPopupWindow = 2131231052;
+			
+			// aapt resource value: 0x7f08014d
+			public const int Widget_AppCompat_ListView = 2131231053;
+			
+			// aapt resource value: 0x7f08014e
+			public const int Widget_AppCompat_ListView_DropDown = 2131231054;
+			
+			// aapt resource value: 0x7f08014f
+			public const int Widget_AppCompat_ListView_Menu = 2131231055;
+			
+			// aapt resource value: 0x7f080150
+			public const int Widget_AppCompat_PopupMenu = 2131231056;
+			
+			// aapt resource value: 0x7f080151
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131231057;
+			
+			// aapt resource value: 0x7f080152
+			public const int Widget_AppCompat_PopupWindow = 2131231058;
+			
+			// aapt resource value: 0x7f080153
+			public const int Widget_AppCompat_ProgressBar = 2131231059;
+			
+			// aapt resource value: 0x7f080154
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131231060;
+			
+			// aapt resource value: 0x7f080155
+			public const int Widget_AppCompat_RatingBar = 2131231061;
+			
+			// aapt resource value: 0x7f080156
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131231062;
+			
+			// aapt resource value: 0x7f080157
+			public const int Widget_AppCompat_RatingBar_Small = 2131231063;
+			
+			// aapt resource value: 0x7f080158
+			public const int Widget_AppCompat_SearchView = 2131231064;
+			
+			// aapt resource value: 0x7f080159
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131231065;
+			
+			// aapt resource value: 0x7f08015a
+			public const int Widget_AppCompat_SeekBar = 2131231066;
+			
+			// aapt resource value: 0x7f08015b
+			public const int Widget_AppCompat_SeekBar_Discrete = 2131231067;
+			
+			// aapt resource value: 0x7f08015c
+			public const int Widget_AppCompat_Spinner = 2131231068;
+			
+			// aapt resource value: 0x7f08015d
+			public const int Widget_AppCompat_Spinner_DropDown = 2131231069;
+			
+			// aapt resource value: 0x7f08015e
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131231070;
+			
+			// aapt resource value: 0x7f08015f
+			public const int Widget_AppCompat_Spinner_Underlined = 2131231071;
+			
+			// aapt resource value: 0x7f080160
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131231072;
+			
+			// aapt resource value: 0x7f080161
+			public const int Widget_AppCompat_Toolbar = 2131231073;
+			
+			// aapt resource value: 0x7f080162
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131231074;
+			
+			// aapt resource value: 0x7f0801fe
+			public const int Widget_Compat_NotificationActionContainer = 2131231230;
+			
+			// aapt resource value: 0x7f0801ff
+			public const int Widget_Compat_NotificationActionText = 2131231231;
+			
+			// aapt resource value: 0x7f0801cc
+			public const int Widget_Design_AppBarLayout = 2131231180;
+			
+			// aapt resource value: 0x7f0801cd
+			public const int Widget_Design_BottomNavigationView = 2131231181;
+			
+			// aapt resource value: 0x7f0801ce
+			public const int Widget_Design_BottomSheet_Modal = 2131231182;
+			
+			// aapt resource value: 0x7f0801cf
+			public const int Widget_Design_CollapsingToolbar = 2131231183;
+			
+			// aapt resource value: 0x7f0801d0
+			public const int Widget_Design_FloatingActionButton = 2131231184;
+			
+			// aapt resource value: 0x7f0801d1
+			public const int Widget_Design_NavigationView = 2131231185;
+			
+			// aapt resource value: 0x7f0801d2
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131231186;
+			
+			// aapt resource value: 0x7f0801d3
+			public const int Widget_Design_Snackbar = 2131231187;
+			
+			// aapt resource value: 0x7f080168
+			public const int Widget_Design_TabLayout = 2131231080;
+			
+			// aapt resource value: 0x7f0801d4
+			public const int Widget_Design_TextInputLayout = 2131231188;
+			
+			// aapt resource value: 0x7f0801d5
+			public const int Widget_MaterialComponents_BottomAppBar = 2131231189;
+			
+			// aapt resource value: 0x7f0801d6
+			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131231190;
+			
+			// aapt resource value: 0x7f0801d7
+			public const int Widget_MaterialComponents_BottomNavigationView = 2131231191;
+			
+			// aapt resource value: 0x7f0801d8
+			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131231192;
+			
+			// aapt resource value: 0x7f0801d9
+			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131231193;
+			
+			// aapt resource value: 0x7f0801da
+			public const int Widget_MaterialComponents_Button = 2131231194;
+			
+			// aapt resource value: 0x7f0801db
+			public const int Widget_MaterialComponents_Button_Icon = 2131231195;
+			
+			// aapt resource value: 0x7f0801dc
+			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131231196;
+			
+			// aapt resource value: 0x7f0801dd
+			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131231197;
+			
+			// aapt resource value: 0x7f0801de
+			public const int Widget_MaterialComponents_Button_TextButton = 2131231198;
+			
+			// aapt resource value: 0x7f0801df
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131231199;
+			
+			// aapt resource value: 0x7f0801e0
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131231200;
+			
+			// aapt resource value: 0x7f0801e1
+			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131231201;
+			
+			// aapt resource value: 0x7f0801e2
+			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131231202;
+			
+			// aapt resource value: 0x7f0801e3
+			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131231203;
+			
+			// aapt resource value: 0x7f0801e4
+			public const int Widget_MaterialComponents_CardView = 2131231204;
+			
+			// aapt resource value: 0x7f0801e5
+			public const int Widget_MaterialComponents_Chip_Action = 2131231205;
+			
+			// aapt resource value: 0x7f0801e6
+			public const int Widget_MaterialComponents_Chip_Choice = 2131231206;
+			
+			// aapt resource value: 0x7f0801e7
+			public const int Widget_MaterialComponents_Chip_Entry = 2131231207;
+			
+			// aapt resource value: 0x7f0801e8
+			public const int Widget_MaterialComponents_Chip_Filter = 2131231208;
+			
+			// aapt resource value: 0x7f0801e9
+			public const int Widget_MaterialComponents_ChipGroup = 2131231209;
+			
+			// aapt resource value: 0x7f0801ea
+			public const int Widget_MaterialComponents_FloatingActionButton = 2131231210;
+			
+			// aapt resource value: 0x7f0801eb
+			public const int Widget_MaterialComponents_NavigationView = 2131231211;
+			
+			// aapt resource value: 0x7f0801ec
+			public const int Widget_MaterialComponents_Snackbar = 2131231212;
+			
+			// aapt resource value: 0x7f0801ed
+			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131231213;
+			
+			// aapt resource value: 0x7f0801ee
+			public const int Widget_MaterialComponents_TabLayout = 2131231214;
+			
+			// aapt resource value: 0x7f0801ef
+			public const int Widget_MaterialComponents_TabLayout_Colored = 2131231215;
+			
+			// aapt resource value: 0x7f0801f0
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131231216;
+			
+			// aapt resource value: 0x7f0801f1
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131231217;
+			
+			// aapt resource value: 0x7f0801f2
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131231218;
+			
+			// aapt resource value: 0x7f0801f3
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131231219;
+			
+			// aapt resource value: 0x7f0801f4
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131231220;
+			
+			// aapt resource value: 0x7f0801f5
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131231221;
+			
+			// aapt resource value: 0x7f0801f6
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131231222;
+			
+			// aapt resource value: 0x7f0801f7
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131231223;
 			
 			// aapt resource value: 0x7f0801f8
-			public const int Widget_Support_CoordinatorLayout = 2131231224;
+			public const int Widget_MaterialComponents_Toolbar = 2131231224;
+			
+			// aapt resource value: 0x7f08000b
+			public const int Widget_MediaRouter_Light_MediaRouteButton = 2131230731;
+			
+			// aapt resource value: 0x7f08000c
+			public const int Widget_MediaRouter_MediaRouteButton = 2131230732;
+			
+			// aapt resource value: 0x7f0801f9
+			public const int Widget_Support_CoordinatorLayout = 2131231225;
 			
 			// aapt resource value: 0x7f080000
 			public const int collectionViewStyle = 2131230720;
