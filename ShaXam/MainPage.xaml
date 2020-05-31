@@ -21,7 +21,7 @@
                 <LinearItemsLayout 
                     Orientation="Horizontal" 
                     SnapPointsAlignment="Center" 
-                    SnapPointsType="Mandatory"/>
+                    SnapPointsType="MandatorySingle"/>
             </CarouselView.ItemsLayout>
         </CarouselView>
    

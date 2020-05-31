@@ -18,7 +18,7 @@ namespace ShaXam.Droid.DependencyServices
                 {
                     var currentWindow = GetCurrentWindow();
                     currentWindow.DecorView.SystemUiVisibility = 0;
-                    currentWindow.SetStatusBarColor(Android.Graphics.Color.ParseColor(hexColor);
+                    currentWindow.SetStatusBarColor(Android.Graphics.Color.ParseColor(hexColor));
                 });
             }
         }
