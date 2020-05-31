@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+
 namespace ShaXam.Models
 {
     public class Album
@@ -8,5 +10,12 @@ namespace ShaXam.Models
         public string singerName { get; set; }
 
         public string songTitle { get; set; }
+    }
+
+    public class Chart
+    {
+        public string chartName { get; set; }
+
+        public List<Album> chartAlbums { get; set; }
     }
 }

@@ -22,7 +22,7 @@ namespace ShaXam
             
             On<Xamarin.Forms.PlatformConfiguration.iOS>().SetUseSafeArea(true);
 
-            AvaiableViews = new List<Type>() { typeof(RecentView), typeof(ShaxamView), typeof(DiscoverView) };
+            AvaiableViews = new List<Type>() { typeof(RecentView), typeof(ShaxamView), typeof(ChartsView) };
 
             BindingContext = this;
 

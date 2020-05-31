@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:ffimage="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             BackgroundColor="White"
+             x:Class="ShaXam.Views.ChartsView">
+    
+    <ContentView.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            
+            <Grid Grid.Row="0">
+                <Label Text="Charts" FontSize="Default" TextColor="Black" VerticalOptions="Center" HorizontalOptions="Center" FontAttributes="Bold"/>
+            </Grid>
+            
+            <CollectionView Grid.Row="1" x:Name="ChartsList">
+                <CollectionView.Header>
+                    <Grid HeightRequest="240" BackgroundColor="#2196F3">
+                        <StackLayout VerticalOptions="Center" Spacing="15">
+                            <Button Margin="30,0,30,0" Text="COUNTRY &amp; CITY CHARTS" TextColor="Black" FontSize="Medium" BackgroundColor="White"/>
+                            <Label HorizontalTextAlignment="Center" Text="FROM AROUND THE WORLD" FontSize="Micro" TextColor="White"/>
+                        </StackLayout>
+                    </Grid>
+                </CollectionView.Header>
+                <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid HeightRequest="290">
+                        <CollectionView ItemsSource="{Binding chartAlbums}" Margin="10">
+                            <CollectionView.ItemsLayout>
+                                <GridItemsLayout Orientation="Vertical" 
+                                     HorizontalItemSpacing="5" 
+                                     Span="3"/>
+                            </CollectionView.ItemsLayout>
+                            <CollectionView.Header>
+                                <StackLayout>
+                                    <BoxView BackgroundColor="Silver" HeightRequest="8"/>
+                                    <Grid Margin="10,0,10,0">
+                                        <Label Text="{Binding chartName}" TextColor="Black" HorizontalOptions="Start" VerticalOptions="Center"/>
+                                        <Button BackgroundColor="Transparent" TextColor="#2196F3" HorizontalOptions="End" VerticalOptions="Center" Text="SEE ALL"/>
+                                    </Grid>
+                                </StackLayout>
+                            </CollectionView.Header>
+                            <CollectionView.ItemTemplate>
+                                <DataTemplate>
+                                    <StackLayout Spacing="5">
+                                        <ffimageloading:CachedImage LoadingPlaceholder="placeholder.png" 
+                                            HeightRequest="150"
+                                            DownsampleToViewSize="true" 
+                                            RetryCount="2"
+                                            RetryDelay="250"
+                                            Source="{Binding songImg}" 
+                                            Aspect="AspectFill"/>
+                                        <Label Text="{Binding songTitle}" FontSize="Default" FontAttributes="Bold" LineHeight="0.8" TextColor="Black" LineBreakMode="TailTruncation"/>
+                                        <Label Text="{Binding singerName}" FontSize="Small" TextColor="Gray" LineBreakMode="TailTruncation"/>     
+                                    </StackLayout>
+                                </DataTemplate>
+                            </CollectionView.ItemTemplate>
+                        </CollectionView>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+            </CollectionView>
+        </Grid>
+    </ContentView.Content>
+</ContentView>

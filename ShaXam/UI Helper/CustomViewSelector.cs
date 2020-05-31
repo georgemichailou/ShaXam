@@ -8,7 +8,7 @@ namespace ShaXam.UIHelper
     {
         private DataTemplate view1 = new DataTemplate(typeof(RecentView));
         private DataTemplate view2 = new DataTemplate(typeof(ShaxamView));
-        private DataTemplate view3 = new DataTemplate(typeof(DiscoverView));
+        private DataTemplate view3 = new DataTemplate(typeof(ChartsView));
 
         protected override DataTemplate OnSelectTemplate(object item, BindableObject container)
         {
@@ -19,7 +19,8 @@ namespace ShaXam.UIHelper
                 return view1;
             else if (currentView == typeof(ShaxamView))
                 return view2;
-            return view3;
+            else
+                return view3;
         }
     }
 }

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using Foundation;
 using Lottie.Forms.iOS.Renderers;
-using PanCardView.iOS;
 using UIKit;
 
 namespace ShaXam.iOS
@@ -28,9 +27,7 @@ namespace ShaXam.iOS
             global::Xamarin.Forms.Forms.SetFlags("CollectionView_Experimental");
 
             global::Xamarin.Forms.Forms.Init();
-
-            CardsViewRenderer.Preserve();
-
+            
             AnimationViewRenderer.Init();
 
             LoadApplication(new App());

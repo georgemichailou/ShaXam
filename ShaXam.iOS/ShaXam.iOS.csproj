@@ -132,16 +132,13 @@
       <Version>2.4.11.982</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms.PancakeView">
-      <Version>1.1.8</Version>
+      <Version>1.4.2</Version>
     </PackageReference>
     <PackageReference Include="Com.Airbnb.Xamarin.Forms.Lottie">
-      <Version>3.0.2</Version>
+      <Version>3.1.2</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms">
-      <Version>4.4.0.991210-pre2</Version>
-    </PackageReference>
-    <PackageReference Include="CardsView">
-      <Version>2.3.7</Version>
+      <Version>4.7.0.813-pre2</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

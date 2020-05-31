@@ -21,12 +21,12 @@
             
             <Grid Grid.Row="0">
                 <StackLayout x:Name="LibrarySL" Margin="22,22,0,0" HorizontalOptions="Start" VerticalOptions="Center">
-                    <Label FontSize="24" HorizontalOptions="Center" Text="&#xf51f;" TextColor="White" FontFamily="{StaticResource FontAwesomeSolid}" /> 
+                    <Label FontSize="24" HorizontalOptions="Center" Text="&#xf007;" TextColor="White" FontFamily="{StaticResource FontAwesomeSolid}" /> 
                     <Label FontAttributes="Bold" FontSize="Small" Text="Library" TextColor="White"/> 
                 </StackLayout>
-                <StackLayout x:Name="DiscoverSL" Margin="0,22,22,0" HorizontalOptions="End" VerticalOptions="Center">
-                    <Label FontSize="24" HorizontalOptions="Center" Text="&#xf02b;" TextColor="White" FontFamily="{StaticResource FontAwesomeSolid}" /> 
-                    <Label FontAttributes="Bold" FontSize="Small" Text="Discover" TextColor="White"/> 
+                <StackLayout x:Name="ChartsSL" Margin="0,22,22,0" HorizontalOptions="End" VerticalOptions="Center">
+                    <Label FontSize="24" HorizontalOptions="Center" Text="&#xf200;" TextColor="White" FontFamily="{StaticResource FontAwesomeSolid}" /> 
+                    <Label FontAttributes="Bold" FontSize="Small" Text="Charts" TextColor="White"/> 
                 </StackLayout>
             </Grid>
             
@@ -39,7 +39,7 @@
             
             <Grid Grid.Row="2">
                 <forms:AnimationView x:Name="AnimationView"
-                    Margin="40"
+                    Margin="60"
                     Animation="animation.json"
                     Loop="True"
                     AutoPlay="True"
@@ -49,13 +49,13 @@
             
             <Grid Grid.Row="3">
                 <Button
-                    Text="&#xf030;" 
-                    FontSize="32" 
+                    Text="&#xf002;" 
+                    FontSize="20" 
                     TextColor="#2196F3" 
                     FontFamily="{StaticResource FontAwesomeSolid}"
-                    WidthRequest="60"
-                    HeightRequest="60"
-                    CornerRadius="30"
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    CornerRadius="24"
                     VerticalOptions="Start"
                     HorizontalOptions="Center"
                     BackgroundColor="White"/>

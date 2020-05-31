@@ -17,12 +17,12 @@ namespace ShaXam.Views
             };
             LibrarySL.GestureRecognizers.Add(libraryTapGestureRecognizer);
 
-            TapGestureRecognizer discoverTapGestureRecognizer = new TapGestureRecognizer();
-            discoverTapGestureRecognizer.Tapped += (sender, e) =>
+            TapGestureRecognizer chartsTapGestureRecognizer = new TapGestureRecognizer();
+            chartsTapGestureRecognizer.Tapped += (sender, e) =>
             {
                 MessagingCenter.Send("2", "ChangeCarouselPosition");
             };
-            DiscoverSL.GestureRecognizers.Add(discoverTapGestureRecognizer);
+            ChartsSL.GestureRecognizers.Add(chartsTapGestureRecognizer);
 
         }
     }
