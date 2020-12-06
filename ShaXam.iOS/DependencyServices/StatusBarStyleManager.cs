@@ -51,7 +51,7 @@ namespace ShaXam.iOS.DependencyServices
                         statusBar.BackgroundColor = UIColor.White;
                     }
                 }
-                UIApplication.SharedApplication.SetStatusBarStyle(UIStatusBarStyle.Default, false);
+                UIApplication.SharedApplication.SetStatusBarStyle(UIStatusBarStyle.DarkContent, false);
                 GetCurrentViewController().SetNeedsStatusBarAppearanceUpdate();
             });
         }
